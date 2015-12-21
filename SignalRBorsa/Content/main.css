@@ -1,0 +1,2049 @@
+﻿.mpLine01{height:360px; overflow:hidden;}
+.mpLine02{height:60px; overflow:hidden;}
+.mpLine03{height:250px; overflow:hidden;}
+.mpLine04{height:421px; overflow:hidden;}
+.mpLine05{height:460px; overflow:hidden;}
+.mpLine06{height:425px; overflow:hidden;}
+.mpLine07{height:344px; overflow:hidden;}
+
+.hisseLine01{overflow:hidden;}
+.hisseLine02{height:420px; overflow:hidden;}
+.hisseLine03{height:272px; overflow:hidden;}
+.hisseLine04{height:281px; overflow:hidden;}
+.hisseLine05{height:331px; overflow:hidden;}
+
+.marBot10{margin-bottom:10px!important;}
+.marBot{margin-bottom:30px!important;}
+.marBot25{margin-bottom:25px!important;}
+.marTop{margin-top:30px!important;}
+
+/************************************ GLOBAL CONTENT TANIMLAMALARI **************************************/
+/* #content{width:970px; overflow:hidden; margin:10px auto 0;} this row is in global.css */
+#content > .leftContent{float:left; display:inline-block; width:650px; margin-bottom:20px;}
+#content > .rightContent{float:left; display:inline-block; width:300px; margin-left:20px; }
+/************************************ GLOBAL CONTENT TANIMLAMALARI **************************************/
+
+/* BREADCRUMBS ******************************************************************************************/
+#content .breadcrumbs{width:960px; margin-bottom:10px; overflow:hidden;}
+#content .breadcrumbs a{display:inline-block; float:left; font:normal 11px arial; color:#000; margin-right:5px; padding:3px 0px;}
+#content .breadcrumbs a span.s{display:inline-block; width:11px; height:11px; background-position:0px -110px; float:left; margin-right:5px; margin-top:2px;}
+#content .breadcrumbs a:hover{color:#f68b25;}
+#content .breadcrumbs span{display:inline-block;float:left;font:normal 11px arial; color:#000;padding:3px 0px; margin-right:5px;}
+#content .breadcrumbs small{display:inline-block;float:left;font:normal 11px arial; color:#f68b25; padding:3px 0px;margin-right:5px;}
+/* BREADCRUMBS ******************************************************************************************/
+
+/* SHOWCASE SLIDER **************************************************************************************/
+.leftContent .xshowCase{width:650px; overflow:hidden; border-bottom:1px solid #ccc;}
+.leftContent .xshowCase .left{display:inline-block; width:350px; height:350px; float:left; position:relative;}
+.leftContent .xshowCase .left .imgs{display:inline-block; width:350px; height:225px; margin-bottom:5px;}
+.leftContent .xshowCase .left .imgs img{width:350px; height:225px; display:block;}
+.leftContent .xshowCase .left .text{display:inline-block; width:350px;}
+.leftContent .xshowCase .left .text a{width:350px; font:bold 30px/30px Arial; color:#000; text-decoration:none; overflow:hidden; background-position:-194px -24px;}
+.leftContent .xshowCase .left .mostRead{width:350px; display:inline-block; position:absolute; left:2px; bottom:2px; color:#F68B25;}
+.leftContent .xshowCase .left .mostRead a{display:inline-block; color:#000; font:bold 12px Arial;}
+.leftContent .xshowCase .rows{display:inline-block; width:300px; float:left;}
+.leftContent .xshowCase .rows a{display:inline-block; width:275px; font:normal 9pt Arial; color:#000; padding:5px 10px 5px 15px; text-decoration:none; overflow:hidden; background-position:-194px -24px; height:15px;}
+.leftContent .xshowCase .rows a.selected{background-position:-194px 0px; color:#fff;}
+.leftContent .xshowCase .rows a:hover{background-position:-194px 0px; color:#fff;}
+.leftContent .xshowCase .rows a span.star{width:13px; height:13px; display:block; float:left; margin-right:5px; background-position:-186px -206px;}
+.leftContent .xshowCase .rows a img{display:none;}
+/* SHOWCASE SLIDER **************************************************************************************/
+
+/* 648 x 60 BANNER ALANI ********************************************************************************/
+#content .banner648x60{width:648px; height:60px; overflow:hidden; margin:0 1px;}
+#content .banner648x60 img{width:648px; height:60px; display:block;}
+/* 648 x 60 BANNER ALANI ********************************************************************************/
+
+/* BİGPARA UZMANLARI ************************************************************************************/
+.leftContent .bigparaMasters{width:650px; overflow:hidden;}
+.leftContent .bigparaMasters .mContent{ width:650px; margin-top:20px; overflow:hidden; padding-bottom:8px; border-bottom:2px solid #d2d2d2;}
+.leftContent .bigparaMasters .mContent .cnt{float:left;width:145px; padding:0px 6px 0 15px}
+.leftContent .bigparaMasters .mContent .cnt:first-child{border-left:none; padding:0px 5px 0 0}
+.leftContent .bigparaMasters .mContent .cnt a{display:inline-block; color:#000}
+.leftContent .bigparaMasters .mContent .cnt a span.pic{width:145px; height:140px; display:inline-block; position:relative;}
+.leftContent .bigparaMasters .mContent .cnt a span.pic img{width:145px; height:140px;}
+.leftContent .bigparaMasters .mContent .cnt a span.pic span.bottom{width:135px; height:30px; overflow:hidden; color:#555; padding:5px; position:absolute; bottom:0px; left:0px; background-position:0 -276px; background-repeat:repeat-x;}
+.leftContent .bigparaMasters .mContent .cnt a span.pic span.bottom b{font:bold 12px Arial; display:block;}
+.leftContent .bigparaMasters .mContent .cnt a span.pic span.bottom small{font:normal 15px Arial; display:block;}
+.leftContent .bigparaMasters .mContent .cnt a span.newsCap{width:140px; height:40px; overflow:hidden; font:bold 16px/21px Arial; color:#333; margin:10px 0 0; display:block;}
+/* BİGPARA UZMANLARI ************************************************************************************/
+
+/* YATAY 3LÜ HABERLER ***********************************************************************************/
+.scrollableShowcase{width:650px; overflow:hidden; margin-bottom:37px;}
+.scrollableShowcase ul.horizontalRow{width:650px; overflow:hidden; list-style:none;}
+.scrollableShowcase ul.horizontalRow li{float:left; width:210px; margin-left:6px; border:1px solid #ccc; height:418px;}
+.scrollableShowcase ul.horizontalRow li:first-child{margin-left:0px;}
+
+.scrollableShowcase .news{overflow:hidden; padding:10px 0; width:210px;}
+.scrollableShowcase .news .text{overflow:hidden;}
+.scrollableShowcase .news .text a{display:inline-block; overflow:hidden;text-decoration:none;}
+.scrollableShowcase .news .text a span{font:bold 29px/1.1 arial; color:#000; display:block; padding:5px 10px; width:190px; height:150px; overflow:hidden;}
+.scrollableShowcase .news .text a img{width:210px; height:130px; display:block;}
+.scrollableShowcase .news .text a small{height:95px; font:normal 12px/18px arial; color:#000; display:inline-block; padding:0 10px; margin-top:10px; overflow:hidden;}
+.scrollableShowcase .news .text a small i{color:#F68B25; font-style:normal; font-weight:bold;}
+.scrollableShowcase .news .text a small i:hover{text-decoration:underline;}
+.scrollableShowcase .news .comments{padding:10px 0 0; border-top:dotted 1px #dedede; font:normal 9pt arial; color:#000; margin-top:10px}
+
+.scrollableShowcase .news.advert{background-color:#28792d;}
+.scrollableShowcase .news.advert .advertTitle{overflow:hidden;}
+.scrollableShowcase .news.advert .text a{height:333px;}
+.scrollableShowcase .news.advert .text a span{color:#fff; line-height:37px; margin-bottom:10px; height:148px;}
+.scrollableShowcase .news.advert .text a small{color:#fff;}
+.scrollableShowcase .news.advert .text a small i{color:#fff; font-style:normal; font-weight:bold;}
+.scrollableShowcase .news.advert .comments{color:#fff;}
+/* YATAY 3LÜ HABERLER ***********************************************************************************/
+
+/* VIDEO & POSTCAST *************************************************************************************/
+.leftContent .vpBox{width:650px; height:409px; overflow:hidden; padding-bottom:10px; margin-bottom:40px; border-bottom:1px solid #ccc;}
+.leftContent .vpBox .video{width:315px; display:inline-block; margin-top:23px; float:left; height:348px; position:relative;}
+.leftContent .vpBox .video .imgs{width:315px; height:175px; display:inline-block; position:relative;}
+.leftContent .vpBox .video .imgs img{width:315px; height:175px; display:inline-block;}
+.leftContent .vpBox .video .imgs a.playBtn{width:81px; height:81px; display:block; position:absolute; top:50px; left:120px; background-position:0 -165px;}
+.leftContent .vpBox .video h2{width:315px; display:inline-block; margin:23px 0;}
+.leftContent .vpBox .video h2 a{width:315px; display:inline-block; color:#555; font:bold 20px Arial;}
+.leftContent .vpBox .video small{width:315px; display:inline-block; margin-bottom:35px; font:normal 13px Arial; color:#333;}
+.leftContent .vpBox .video b{width:315px; display:inline-block; position:absolute; left:0; bottom:0;}
+.leftContent .vpBox .video b a{width:315px; display:inline-block; color:#000; font:bold 12px Arial;}
+
+.leftContent .vpBox .podcast{width:315px; display:inline-block; margin:23px 0 0 20px; float:left;}
+.leftContent .vpBox .podcast .search{ float:left; border:solid 1px #dadada; box-shadow:inset 0px 0px 5px #dadada; margin-top:15px;}
+.leftContent .vpBox .podcast .search input{border:none; width:280px; background-color:transparent; font:normal 9pt arial; color:#838383; font-style:italic; padding:4px 5px; float:left;}
+.ie9 .leftContent .vpBox .podcast .search input{padding:8px 5px 0;}
+.ie8 .leftContent .vpBox .podcast .search input{padding:8px 5px 0;}
+.ie7 .leftContent .vpBox .podcast .search input{padding:8px 5px 0;}
+.leftContent .vpBox .podcast .search input:focus{font:normal 9pt arial; color:#000;}
+.leftContent .vpBox .podcast .search a.searchBtn{display:inline-block; float:left;width:23px; height:25px; background-position:-8px -80px; margin-top:2px; padding:0;}
+
+.leftContent .vpBox .podcast a{width:315px; height:75px; display:inline-block; position:relative; padding:15px 0; border-bottom:1px dotted #ddd;}
+.leftContent .vpBox .podcast a:first-child{padding-top:0px;}
+.leftContent .vpBox .podcast a:hover{background-color:#f8f8f8;}
+.leftContent .vpBox .podcast a span.imgs{width:128px; height:72px; display:inline-block; position:relative; float:left; margin-right:15px;}
+.leftContent .vpBox .podcast a span.imgs img{width:128px; height:72px; display:inline-block;}
+.leftContent .vpBox .podcast a span.imgs span.playBtn{width:32px; height:32px; display:block; position:absolute; top:20px; left:50px; background-position:-299px -84px;}
+.leftContent .vpBox .podcast a span.caption{width:172px; height:50px; display:inline-block; font:bold 13px Arial; color:#555;}
+.leftContent .vpBox .podcast a small{width:172px; height:18px; display:inline-block; font:normal 13px Arial; color:#333; position:absolute; bottom:15px; right:0;}
+/* VIDEO & POSTCAST *************************************************************************************/
+
+/* WRAPBOX GENEL TANIM **********************************************************************************/
+.leftContent .wrapBox{width:315px; display:inline-block; float:left;}
+.leftContent .wrapBox.right{margin-left:20px;}
+.allCommentLink{margin-top:15px; text-align:left;}
+.allCommentLink a{font:bold 9pt arial; color:#000; display:inline-block;}
+.allCommentLink a span{color:#000}
+/* WRAPBOX GENEL TANIM **********************************************************************************/
+
+/* KULLANICI YORUMLARI **********************************************************************************/
+.leftContent .userComments{width:315px; height:444px; overflow:hidden; padding-top:1px;}
+.leftContent .userComments .title{padding:10px 0px 15px; position:relative; z-index:1; border-bottom:solid 1px #dedede; font:bold 9pt arial; color:#959595}
+.leftContent .userComments .title small{position:absolute; bottom:5px; right:5px; font:normal 8pt arial; color:#000;}
+.leftContent .userComments .title span{display:inline-block; width:23px; height:13px;background:transparent url(/Content/Images/bArrow.png) no-repeat; position:absolute; bottom:-1px; left:20px}
+.leftContent .userComments .text{height:50px; overflow:hidden; font:normal 11px/1.5 arial; color:#000; padding:9px 0 0;}
+.leftContent .userComments .text a{color:#f48f2e}
+.leftContent .userComments a.commentBtn{display:block;height:15px;text-align:center; padding:6px; margin-top:22px; background-position:0px -128px; font: bold 9pt arial; color:#fff; text-shadow:1px 1px 0px #985413; border:solid 1px #d8710e;}
+.leftContent .userComments a.commentBtn:hover{text-decoration:none; background-position:0px -155px }
+/* KULLANICI YORUMLARI **********************************************************************************/
+
+/* BROKER YORUMLARI *************************************************************************************/
+.brokerComments{width:315px; overflow:hidden; padding-top:1px;} 
+.brokerComments ul{display:block; margin:0px; color:#f68b25; list-style:none;} 
+.brokerComments ul li{padding:15px 0; font:normal 9pt arial; color:#f68b25; border-bottom:1px dotted #dfdfdf;} 
+.ie9 .brokerComments ul{margin-bottom:23px;}
+.ie9 .brokerComments ul li{padding:12px 0;}
+.brokerComments ul li .line{margin-left:12px; padding-left:24px; border-left:6px solid #dfdfdf;} 
+.brokerComments ul li a{display:block; font:normal 11pt/1.5 arial; color:#000; height:22px; overflow:hidden;} 
+.brokerComments ul li span{display:block; font:normal 9pt arial; color:#000; height:15px; overflow:hidden;} 
+/* BROKER YORUMLARI *************************************************************************************/
+
+/* BIST HABERLERİ ***************************************************************************************/
+.leftContent .bistNews{ width:315px; height:425px; overflow:hidden;}
+.leftContent .bistNews ul{list-style:none;}
+.leftContent .bistNews ul li{display:inline-block; padding:5px 0; border-bottom:dotted 1px #d2d2d2;}
+.ie7 .leftContent .bistNews ul li{padding:4px 0;}
+.leftContent .bistNews ul li span{width:9px; height:9px; display:block; background-position:-59px -153px;}
+.leftContent .bistNews ul li small{font:normal 10px Arial; color:#d2d2d2; display:inline-block; margin:2px 0 1px;}
+.leftContent .bistNews ul li a{width:300px; height:36px; display:block; margin-left:15px; font:normal 9pt/1.7 arial; color:#111; overflow:hidden;}
+.leftContent .bistNews ul li ol{margin-left:10px;}
+.leftContent .bistNews ul li ol li{list-style-image:url(/Content/Images/blackEnter.png);}
+.leftContent .bistNews ul li ol li a{font:normal 9pt/1.5 arial; color:#111;}
+.ie7 .leftContent .bistNews .allCommentLink{margin-top:9px;}
+.ie9 .leftContent .bistNews ul li a{height:43px;}
+
+/* BIST HABERLERİ ***************************************************************************************/
+
+/* BEKLENTİ ENDEKSİ ***************************************************************************************/
+.leftContent .bekEnd{width:315px; height:425px; overflow:hidden;}
+.leftContent .bekEnd .beBox{width:283px; height:360px; display:inline-block; position:relative; padding:15px; background-color:#fafafa; box-shadow:inset 1px 1px 5px #ccc; border:1px solid #ccc; border-top:none;}
+.leftContent .bekEnd .beBox .rows{overflow:hidden; padding:7px 0;font:normal 12px/1.5 arial; color:#000;}
+.leftContent .bekEnd .beBox .rows label{float:left; margin-left:5px; width:100%;}
+.leftContent .bekEnd .beBox .rows label input{float:left; margin:1px 5px 0 0;}
+.leftContent .bekEnd .beBox .rows a{font:bold 9pt arial; color:#000; text-decoration:none;}
+.leftContent .bekEnd .beBox .rows a span{color:#F68B25}
+.leftContent .bekEnd .beBox .rows a.sendBtn{display:block; height:15px; text-align:center; margin-top:3px; padding:6px; background-position:0px -128px; font:bold 12px arial; color:white; text-shadow: 1px 1px 0px #985413; border:solid 1px #D8710E;}
+.leftContent .bekEnd .beBox .rows a.sendBtn:hover{background-position:0px -155px;}
+
+.leftContent .bekEnd .beBox .endeks{width:283px; display:inline-block; margin:5px 0;}
+.leftContent .bekEnd .beBox .endeks p{height:11px; display:inline-block; font:bold 9px Arial; color:#0c667a; float:left; margin:3px 0;}
+.leftContent .bekEnd .beBox .endeks small{width:10px; height:10px; display:inline-block; float:left; margin:3px 10px;}
+.leftContent .bekEnd .beBox .endeks small.blue{background-color:#226bb7;}
+.leftContent .bekEnd .beBox .endeks small.red{background-color:#b72222;}
+.leftContent .bekEnd .beBox .endeks small.green{background-color:#30b722;}
+.leftContent .bekEnd .beBox .endeks span{display:inline-block; float:left; color:#000; font:bold 15px Arial;}
+
+.leftContent .bekEnd .beBox .beklentiDagilimi {display:inline-block; width:283px; position:absolute; bottom:15px; left:15px;}
+.leftContent .bekEnd .beBox .beklentiDagilimi .titletext{font:bold 15px Arial; color:#727272; margin-top:5px;}
+.leftContent .bekEnd .beBox .beklentiDagilimi .content{width:283px;overflow:hidden; margin:0;}
+.leftContent .bekEnd .beBox .beklentiDagilimi .content .rows{padding:7px 10px; margin-top:10px;  overflow:hidden; background-color:#fff; border:solid 1px #c4c4c4;}
+.leftContent .bekEnd .beBox .beklentiDagilimi .content .rows .title{float:left; font:normal 9pt arial; color:#000; width:65px;}
+.leftContent .bekEnd .beBox .beklentiDagilimi .content .rows .rangeBar{float:left; margin-left:10px;height:12px; width:184px;overflow:hidden; background-position:0px -184px;border:solid 1px #c9c9c9; padding:1px 0 1px; border-radius:5px;}
+.leftContent .bekEnd .beBox .beklentiDagilimi .content .rows .rangeBar small{display:inline-block; background-position:0px -199px; height:13px; font:normal 8pt arial; color:#fff; text-align:center;border-radius:0px 5px 5px 0px;}
+/* BEKLENTİ ENDEKSİ ***************************************************************************************/
+
+/* PİYASA TAKVİMİ *****************************************************************************************/
+.leftContent .piyasaCalendar{width:315px; height:344px; overflow:hidden;}
+.leftContent .piyasaCalendar .dateNow{width:315px; display:inline-block; padding:2px 0 0 0;}
+.leftContent .piyasaCalendar .dateNow small{width:20px; height:11px; display:block; height:18px; background-position:-328px -55px; float:left; margin-top:5px; padding:2px 0 5px 0px;}
+.leftContent .piyasaCalendar .dateNow span{display:inline-block; font:normal 10pt arial; color:#f68b25; padding:7px 0 0 5px;}
+.leftContent .piyasaCalendar .piyasaContent{width:315px; display:inline-block; overflow:hidden;}
+.leftContent .piyasaCalendar .piyasaContent .rows{padding:8px 0 9px; border-bottom:dotted 1px #d2d2d2; overflow:hidden;}
+.leftContent .piyasaCalendar .piyasaContent .rows .date{float:left; width:100px; height:30px; overflow:hidden; border:solid 1px #d2d2d2; padding:5px; color:#8f8f8f; box-shadow:0px 1px 5px #ccc;}
+.leftContent .piyasaCalendar .piyasaContent .rows .date small{display:block; font:normal 7pt arial;}
+.leftContent .piyasaCalendar .piyasaContent .rows .date span{display:block; font:bold 11pt arial; }
+.leftContent .piyasaCalendar .piyasaContent .rows .date.tomarrow{ color:#000}
+.leftContent .piyasaCalendar .piyasaContent .rows .text{float:left; width:190px; height:36px; overflow:hidden; margin-left:10px; font:normal 9pt arial; color:#000}
+.leftContent .piyasaCalendar .piyasaContent .rows .text a{font:normal 9pt/1.5 arial; color:#000}
+/* PİYASA TAKVİMİ *****************************************************************************************/
+
+/* SEANS RAPORU *******************************************************************************************/
+.seansRaporu{width:315px; height:332px; overflow:hidden;}
+.seansRaporu ul{margin-top:7px; list-style:none; border-bottom: dotted 1px #D2D2D2;}
+.seansRaporu ul li{display:inline-block; color:#f68f2c; font:bold 9pt arial; padding:4px 0 14px;}
+.ie7 .seansRaporu ul li{padding-bottom:10px;}
+.seansRaporu ul li a{width:215px; height:48px; overflow:hidden; float:left; font:normal 12px/16px Arial; color:#000;}
+.seansRaporu ul li a.rightColumn{width:200px;}
+.seansRaporu ul li small{width:34px; height:16px; padding-top:4px; overfloW:hidden; float:left; font:normal 10px arial; color:#d2d2d2;}
+.seansRaporu ul li span{width:50px; height:17px; padding-top:3px; overflow:hidden; float:left; margin:0 14px 0 2px; background-color:#f68f2c;}
+.seansRaporu ul li span a{width:50px; height:17px; text-align:center; font:bold 12px Arial; color:#fff;}
+
+/* SEANS RAPORU *******************************************************************************************/
+
+/* RIGHT BOX **********************************************************************************************/
+.rightContent .rightBox{width:300px; display:inline-block;}
+.rightContent .rightBox .globaTitle{border-bottom:1px solid #fff;;}
+/* RIGHT BOX **********************************************************************************************/
+
+/* CANLI BORSA ********************************************************************************************/
+.rightContent .borsaLive{width:300px; height:40px; display:inline-block; margin-bottom:15px; background-color:#ffefdf;}
+.rightContent .borsaLive a{width:300px; height:40px; display:inline-block; color:#f68b25; font:normal 17px Helvetica; text-decoration:none; cursor:pointer;}
+.rightContent .borsaLive span{width:44px; height:41px; position:absolute; right:25px; bottom:-10px; background-position:-344px -78px;}
+/* CANLI BORSA ********************************************************************************************/
+
+/* CHART TAB **********************************************************************************************/
+.rightContent .chartTab{width:300px; overflow:hidden; height:304px;}
+.rightContent .chartTab .topBar{overflow:hidden; top:2px; margin-top:-1px; position:relative; z-index:0;}
+.rightContent .chartTab .topBar span{height:15px; display:inline-block; float:left;font:bold 9pt arial; color:#000;padding:10px 15px; box-shadow: 0px 1px 3px #CCC; cursor:pointer;}
+.rightContent .chartTab .topBar span:first-child{border-right:none;}
+.rightContent .chartTab .topBar span:hover{background:none #f5f5f5; box-shadow:inset 1px 1px 5px #c7c7c7; text-decoration:none;}
+.rightContent .chartTab .topBar span.selected{color:#f68b25; border-bottom-color:transparent; background:#fafafa none; box-shadow: inset 0px 3px 5px #CCC;}
+.ie8 .rightContent .chartTab .topBar span.selected{border:1px solid #e5e5e5; border-bottom:transparent;}
+.ie7 .rightContent .chartTab .topBar span.selected{border:1px solid #e5e5e5; border-bottom:transparent;}
+
+.rightContent .chartTab .chartContent{width:298px; border:solid 1px #e9e9e9; box-shadow: inset 0px 0px 1px #CCC;}
+.rightContent .chartTab .chartContent .cnt{width:296px; padding:6px 1px 5px; overflow:hidden; display:none; background-color:#fafafa;}
+.ie7 .rightContent .chartTab .chartContent .cnt{padding:3px 1px 1px;}
+.ie8 .rightContent .chartTab .chartContent .cnt{padding:5px 1px}
+.rightContent .chartTab .chartContent .cnt .left{float:left; width:125px; border-right:dotted 1px #dedede; margin:0 7px 0 8px; padding:2px 0;overflow:hidden}
+.rightContent .chartTab .chartContent .cnt .left span{display:block; font:bold 18pt arial; color:#000}
+.rightContent .chartTab .chartContent .cnt .left span small.s{display:inline-block;width: 22px;height: 23px;background-position: -114px -77px;margin-right:3px; float:left;}
+.rightContent .chartTab .chartContent .cnt .left span small{font:normal 8pt arial; color:#000}
+.rightContent .chartTab .chartContent .cnt .left span b{font:bold 8pt arial; color:#000}
+.rightContent .chartTab .chartContent .cnt .left.high span{color:#009819}
+.rightContent .chartTab .chartContent .cnt .left.high span small.s{display:inline-block;width: 22px;height: 23px;background-position: -114px -77px;margin-right:3px; float:left;}
+.rightContent .chartTab .chartContent .cnt .left.high span b{color:#009819;}
+.rightContent .chartTab .chartContent .cnt .left.high span b.time{color:#000;}
+.rightContent .chartTab .chartContent .cnt .left.high span.update{margin-top:5px;}
+.rightContent .chartTab .chartContent .cnt .left.low span{color:#ea0000}
+.rightContent .chartTab .chartContent .cnt .left.low span small.s{display:inline-block;width: 22px;height: 23px;background-position: -137px -77px;margin-right:3px; float:left;}
+.rightContent .chartTab .chartContent .cnt .left.low span b{color:#ea0000}
+
+.rightContent .chartTab .chartContent .cnt .right{float:left; width:150px;padding:5px 5px 5px 0; overflow:hidden}
+.rightContent .chartTab .chartContent .cnt .right .top{width:145px; display:inline-block;}
+.rightContent .chartTab .chartContent .cnt .right .top .info{float:left; width:40px; font:normal 8pt arial; color:#000; height:28px; overflow:hidden;text-align:right;}
+.rightContent .chartTab .chartContent .cnt .right .top .info:first-child{text-align:left;}
+.rightContent .chartTab .chartContent .cnt .right .top .info small{width:auto; height:auto; display:block; font:normal 8pt arial; color:#d2d2d2; margin:1px 0; background:none;}
+.rightContent .chartTab .chartContent .cnt .right .top .info b{font-weight:normal;}
+.rightContent .chartTab .chartContent .cnt .right .top .date{float:left; width:65px; font:bold 9pt arial; color:#d2d2d2; padding-top:13px;}
+.rightContent .chartTab .chartContent .cnt .right .range{width:145px; display:inline-block; margin-top:3px; position:relative; z-index:0;}
+.rightContent .chartTab .chartContent .cnt .right .range .rangeBar{width:150px;height:5px; background-color:#1a5488; }
+.rightContent .chartTab .chartContent .cnt .right .range .indicator{display:inline-block; height:23px;}
+.rightContent .chartTab .chartContent .cnt .right .range .indicator span{font:normal 8pt arial; color:#555; padding-top:10px; display:inline-block;}
+.rightContent .chartTab .chartContent .cnt .right .range span.s.arrow{display:inline-block; width:7px; height:8px; background-position:-159px -67px; position:absolute; top:5px; }
+.rightContent .chartTab .chartContent .cnt .chartImg{width:296px; height:140px; overflow:hidden; margin:10px 0; padding-top:10px; border-top:dotted 1px #dadada;}
+.rightContent .chartTab .chartContent .cnt .chartImg img{width:296px; height:137px; overflow:hidden;}
+/* CHART TAB **********************************************************************************************/
+
+/* YABANCI PAYI *******************************************************************************************/
+.rightContent .yabanciPayi{width:298px; height:58px; border:solid 1px #d2d2d2; overflow:hidden; margin-bottom:35px; box-shadow:inset 0px 0px 3px #EEE;}
+.rightContent .yabanciPayi .left{float:left;width:85px; height:17px; padding:16px 5px; margin:5px 0; border-right:dotted 1px #d2d2d2;}
+.rightContent .yabanciPayi .left a{font:bold 10pt arial; color:#000;}
+.rightContent .yabanciPayi .deger{float:left;width:95px; overflow:hidden; margin-left:5px; padding:12px 0 7px;}
+.rightContent .yabanciPayi .deger small{display:block; font:normal 8pt arial; color:#000}
+.rightContent .yabanciPayi .deger span{display:inline-block;font:bold 16pt arial; color:#000}
+.rightContent .yabanciPayi .deger span.s{display:inline-block;width: 16px;height: 17px;margin:3px 3px 0 0; float:left;}
+.rightContent .yabanciPayi .deger.yukselen span{color:#009819}
+.rightContent .yabanciPayi .deger.yukselen span.s{background-position: -159px -83px;}
+.rightContent .yabanciPayi .deger.dusen span{color:#ea0000}
+.rightContent .yabanciPayi .deger.dusen span.s{background-position: -176px -83px;}
+/* YABANCI PAYI *******************************************************************************************/
+
+/* BANNER 300x250 *****************************************************************************************/
+.rightContent .banner300x200{width:300px; height:200px; overflow:hidden;} 
+.rightContent .banner300x250{width:300px; height:250px; overflow:hidden;} 
+.rightContent .banner300x250.mTop50px{margin-top:50px;}
+.rightContent .banner300x250.mTop31px{margin-top:31px;}
+.rightContent .banner300x250.mTop29px{margin-top:29px;}
+.rightContent .banner300x250.mBot33px{margin-bottom:33px;}
+.rightContent .banner300x250.mBottom{margin-bottom:35px;}
+/* BANNER 300x250 *****************************************************************************************/
+
+/* BUGÜN 1000TL NE OLDU? **********************************************************************************/
+.rightContent .rightBox .moneyChart{width:298px; height:154px; overflow:hidden; margin-bottom:20px; border:solid 1px #d2d2d2; border-top:solid 3px #f68f2c;}
+.bin_lira_icerik {background:url(/Content/Images/1000tlBg.png) 1px 1px no-repeat; height:115px; width:240px; margin:27px 0 5px 0; text-align:center; padding:0 0 0 60px; }
+.bin_lira_icerik.doviz{margin:40px 0 25px 0;}
+.ie9 .bin_lira_icerik.doviz{margin:30px 0 25px 0;}
+.bin_lira_icerik .horizontal_bar_dis {width:47px; margin:0 5px 0 0; float:left; }
+.bin_lira_icerik .horizontal_bar_dis .horizontal_bar {width:40px; height:95px; position:relative; margin:0 0 10px 4px; }
+.bin_lira_icerik .horizontal_bar_dis .horizontal_bar span {font:bold 9px Arial; position:relative; width:50px; text-align:center; top:-20px; left:-6px;}
+.bin_lira_icerik .horizontal_bar_dis .horizontal_bar .line {background:url(/Content/Images/1000tl_Bar_Bg.png) top left repeat-y; width:40px; border-top:3px solid #4caa00; position:absolute; left:0; bottom:0; box-shadow:0px 0px 10px #CCC;}
+.bin_lira_icerik .horizontal_bar_dis .horizontal_bar .line.kirmizi {border-top-color:#ab0000;}
+.bin_lira_icerik .horizontal_bar_dis a { overflow:hidden; font:normal 9px Arial; color:#0C667A;}
+.bin_lira_icerik .horizontal_bar_dis span {display:block; margin:3px 0 0 0; } 
+.bin_lira_icerik .horizontal_bar_dis .yesil {color:#118e00; }
+.bin_lira_icerik .horizontal_bar_dis .kirmizi {color:#d70000; }
+
+.bin_lira_icerik .horizontal_bar_dis .horizontal_bar.kirmizi .line{border-top:3px solid #ab0000;}
+.bin_lira_icerik .horizontal_bar_dis .horizontal_bar.kirmizi .line span{color:#d70000;}
+.bin_lira_icerik .horizontal_bar_dis .horizontal_bar.yesil .line{border-top:3px solid #4caa00;}
+.bin_lira_icerik .horizontal_bar_dis .horizontal_bar.yesil .line span{color:#118e00;}
+/* BUGÜN 1000TL NE OLDU? **********************************************************************************/
+
+/* HİSSE HAKKINDA HABERLER ********************************************************************************/
+.rightContent .hisseNews{width:300px; height:272px; overflow:hidden; margin-bottom:35px;} 
+.rightContent .hisseNews.noBorder{border:none;} 
+.rightContent .hisseNews ul.news{display:block; margin-left:20px; color:#f68b25; list-style-type:square;} 
+.rightContent .hisseNews ul.news li{padding:10px 5px; font:normal 9pt arial; color:#f68b25; border-bottom:1px dotted #d2d2d2;} 
+.rightContent .hisseNews ul.news li a{display:block; font:normal 12px Arial; color:#444;}  
+.rightContent .hisseNews .allCommentLink{margin-top:10px; text-align:left;}     
+.rightContent .hisseNews .allCommentLink a{font:bold 9pt arial; color:#000;}
+.rightContent .hisseNews .allCommentLink a > span{color:#f68b25}
+/* HİSSE HAKKINDA HABERLER ********************************************************************************/
+
+/* HİSSE İSTATİSTİKLERİ ***********************************************************************************/
+.hisseIstatistlikleri{width:300px;overflow:hidden;}
+.hisseIstatistlikleri.w315{width:315px;}
+.hisseIstatistlikleri h3{width:300px; overflow:hidden; font:bold 12px Arial; color:#444; padding-bottom:5px;}
+.hisseIstatistlikleri .content{width:298px; height:107px; overflow:hidden; margin:0; border:solid 1px #d2d2d2; border-top:none; padding:5px 0; box-shadow: inset 0px 0px 3px #CCC; background-color: #FAFAFA;}
+.hisseIstatistlikleri .content.w313{width:313px;}
+.ie8 .hisseIstatistlikleri .content{border:1px solid #d2d2d2;}
+.ie7 .hisseIstatistlikleri .content{border:1px solid #d2d2d2;}
+.hisseIstatistlikleri .content .rows{padding:10px; overflow:hidden;}
+.hisseIstatistlikleri .content .rows .title{float:left; font:normal 9pt arial; color:#000; width:78px;}
+.hisseIstatistlikleri .content .rows .rangeBar{float:left; margin-left:10px;height:12px; width:180px;overflow:hidden; background-position:0px -184px;border:solid 1px #c9c9c9; padding:1px 0 1px; border-radius:5px;}
+.hisseIstatistlikleri .content .rows .rangeBar small{display:inline-block; background-position:0px -199px; height:13px; font:normal 8pt arial; color:#fff; text-align:center;border-radius:0px 5px 5px 0px;}
+.hisseIstatistlikleri .content .rows .rangeBar small.green{background-position:0px -532px;}
+.hisseIstatistlikleri .content .rows .rangeBar small.red{background-position:0px -547px;}
+.hisseIstatistlikleri .allCommentLink{margin-top:10px; text-align:left;}
+.ie7 .hisseIstatistlikleri .allCommentLink{margin-top:5px;}
+.ie8 .hisseIstatistlikleri .allCommentLink{margin-top:8px;}
+.ie9 .hisseIstatistlikleri .allCommentLink{margin-top:9px;}
+.hisseIstatistlikleri .allCommentLink a{font:bold 9pt arial; color:#000;}
+.hisseIstatistlikleri .allCommentLink a span{color:#000;}
+/* HİSSE İSTATİSTİKLERİ ***********************************************************************************/
+
+/* EN ÇOK İŞLEM GÖREN & DEĞİŞENLER TABLO ******************************************************************/
+.rightContent .rightBox .tabStyle{margin-top:12px; border-bottom:none;}
+.rightContent .rightBox.degisen{margin-bottom:35px;}
+.rightContent .rightBox.suan{margin-bottom:35px;}
+.ie7 .rightContent .rightBox.degisen{margin-bottom:46px;}
+.ie7 .rightContent .rightBox .tabStyle{margin-top:8px;}
+.rightContent .degisenIslemlerTablo{width:300px; height:395px; overflow:hidden;}
+.rightContent .degisenIslemlerTablo .topBar{position: relative; z-index: 1; overflow: hidden; height: 50px; background-color: #FAFAFA;}
+.rightContent .degisenIslemlerTablo .topBar span{display:inline-block; float:left;font:bold 13px arial; text-align:center; color:#000;padding:12px 15px; background-position:0px -46px; border:solid 1px #d3d3d3; cursor:pointer; }
+.rightContent .degisenIslemlerTablo .topBar span.one{width:97px; box-shadow: 0px 2px 5px #CCC; background-color: white; border-top-color: transparent; border-left-color: transparent; border-right: 1px solid #DEDEDE;}
+.rightContent .degisenIslemlerTablo .topBar span.two{width: 140px; background-color: white; height: 15px; box-shadow: 0px 2px 5px #CCC; border-top-color: transparent; border-right-color: transparent;}
+.rightContent .degisenIslemlerTablo .topBar span.selected{color: #F68B25; border-bottom-color: transparent; background: #FAFAFA; height: 40px; box-shadow: inset 2px 1px 5px #CCC;}
+.rightContent .degisenIslemlerTablo .topBar span.one.selected{border-right:none;}
+.rightContent .degisenIslemlerTablo .topBar span.two.selected{box-shadow: inset -2px 1px 5px #CCC; border-left: none; border-right:1px solid #dedede;}
+.rightContent .degisenIslemlerTablo > .title{border:solid 1px #d3d3d3; overflow:hidden; height:33px;}
+.rightContent .degisenIslemlerTablo > .title span{float:left;display:inline-block;width:50px; padding:9px;border-left:solid 1px #d3d3d3; font:normal 9pt arial; color:#000;}
+.ie7 .rightContent .degisenIslemlerTablo > .title span{padding:8px 10px 6px;}
+.rightContent .degisenIslemlerTablo > .title span:first-child{border:none; width:130px;}
+.rightContent .degisenIslemlerTablo .content{overflow:hidden; border:solid 1px #d3d3d3; border-top:none; padding:0 10px 10px; box-shadow: inset 0px 0px 5px #CCC; background-color:#fafafa;}
+.ie7 .rightContent .degisenIslemlerTablo .content{padding-bottom:6px;}
+.rightContent .degisenIslemlerTablo .content .cnt{overflow:hidden;}
+.rightContent .degisenIslemlerTablo .content .cnt p.s_x{background-position:0px -128px; display:block; height:17px; font:bold 10pt arial; color:#fff; padding:5px 10px; cursor:pointer; border:solid 1px #d8710e; position:relative;z-index:1;}
+.rightContent .degisenIslemlerTablo .content .cnt p.s_x span.s{display:inline-block;width:17px; height:10px;background-position:0px -125px; position:absolute; right:5px; top:9px;}
+.rightContent .degisenIslemlerTablo .content .cnt p.s_x:hover{background-position:-1px -128px;}
+.rightContent .degisenIslemlerTablo .content .cnt p.s_x.selected{background-position:-1px -128px;}
+.rightContent .degisenIslemlerTablo .content .cnt p.s_x.selected span.s{background-position:-2px -138px;width:10px; height:16px;top:6px;}
+.rightContent .degisenIslemlerTablo .content .cnt ul{display:none;}
+.rightContent .degisenIslemlerTablo .content .cnt ul > li{display:block; width:100%; overflow:hidden}
+.rightContent .degisenIslemlerTablo .content .cnt ul li ol{display:block; width:100%; list-style:none; border-bottom:dotted 1px #dedede;}
+.rightContent .degisenIslemlerTablo .content .cnt ul li ol li{float:left; padding:5px 11px; width:40px; font:normal 9pt arial; color:#000}
+.ie7 .rightContent .degisenIslemlerTablo .content .cnt ul li ol li{padding:3px 11px;}
+.rightContent .degisenIslemlerTablo .content .cnt ul li ol li:first-child{width:130px; padding-left:10px;}
+.rightContent .degisenIslemlerTablo .content .cnt ul li ol li span{display:block; font:normal 12px Arial;}
+.rightContent .degisenIslemlerTablo .content .cnt ul li ol li span a{display:inline-block; color:#000;}
+.rightContent .degisenIslemlerTablo .content .cnt ul li ol li small{height:14px; display:block; font:normal 10px arial; color:#9c9c9c; margin-top:3px; overflow:hidden;}
+.rightContent .degisenIslemlerTablo .content .cnt ul li ol li b.green{color:#30b722;}
+.rightContent .degisenIslemlerTablo .content .cnt ul li ol li b.red{color:#b72222;}
+.rightContent .degisenIslemlerTablo .content .cnt ul li ol li b.blue{color:#226bb7;}
+.rightContent .degisenIslemlerTablo .content .tabContent{display:none;}
+.rightContent .degisenIslemlerTablo .allCommentLink{margin:13px 0 3px; text-align:left;}
+.ie9 .rightContent .degisenIslemlerTablo .allCommentLink{margin-top:19px;}
+.ie7 .rightContent .degisenIslemlerTablo .allCommentLink{margin-top:8px;}
+.rightContent .degisenIslemlerTablo .allCommentLink a{font:bold 9pt arial; color:#000;}
+.rightContent .degisenIslemlerTablo .allCommentLink a span{color:#f68b25}
+/* EN ÇOK İŞLEM GÖREN & DEĞİŞENLER TABLO ******************************************************************/
+
+/* ŞUAN PİYASALAR & ENDEKSLER *****************************************************************************/
+.rightContent .suanTablo{width:300px; overflow:hidden;}
+.rightContent .suanTablo .topBar{position:relative;z-index:1; overflow:hidden; height: 50px; background-color: #FAFAFA;}
+.rightContent .suanTablo .topBar span{display:inline-block; float:left;font:bold 13px arial; color:#000;padding:12px 15px; text-align:center; background-position:0px -46px; border:solid 1px #d3d3d3; cursor:pointer; }
+.rightContent .suanTablo .topBar span.one{width:97px; box-shadow: 0px 2px 5px #CCC; background-color: white; border-top-color: transparent; border-left-color: transparent; border-right: 1px solid #DEDEDE;}
+.rightContent .suanTablo .topBar span.two{width: 140px; background-color: white; height: 15px; box-shadow: 0px 2px 5px #CCC; border-top-color: transparent; border-right-color: transparent;}
+.rightContent .suanTablo .topBar span.selected{color:#f68b25; border-bottom-color:transparent; background:#fafafa; height: 40px; box-shadow: inset 2px 1px 5px #CCC;}
+.rightContent .suanTablo .topBar span.one.selected{border-right:none;}
+.rightContent .suanTablo .topBar span.two.selected{box-shadow: inset -2px 1px 5px #CCC; border-left: none; border-right:1px solid #dedede;}
+.rightContent .suanTablo > .title{border:solid 1px #d3d3d3;overflow:hidden; height:33px;}
+.rightContent .suanTablo > .title span{float:left;display:inline-block;width:50px; padding:9px;border-left:solid 1px #d3d3d3; font:normal 9pt arial; color:#000;}
+.rightContent .suanTablo > .title span:first-child{border:none; width:150px;}
+.rightContent .suanTablo .content{border:solid 1px #d3d3d3; border-top:none; padding:0 10px 10px; box-shadow: inset 0px 0px 5px #CCC; background-color:#fafafa;}
+.rightContent .suanTablo .content .cnt p.s_x{background-position:0px -128px; display:block; height:17px; font:bold 10pt arial; color:#fff; padding:5px 10px; cursor:pointer; border:solid 1px #d8710e; position:relative;z-index:1; margin-top:10px;}
+.rightContent .suanTablo .content .cnt p.s_x span.s{display:inline-block;width:17px; height:10px;background-position:0px -125px; position:absolute; right:5px; top:9px;}
+.rightContent .suanTablo .content .cnt p.s_x:hover{background-position:-1px -155px;}
+.rightContent .suanTablo .content .cnt p.s_x.selected{background-position:-1px -155px;}
+.rightContent .suanTablo .content .cnt p.s_x.selected span.s{background-position:-2px -138px;width:10px; height:16px;top:6px;}
+.rightContent .suanTablo .content .cnt{display:none;}
+.rightContent .suanTablo .content .cnt ul > li{display:block; width:100%; overflow:hidden}
+.rightContent .suanTablo .content .cnt ul li ol{display:block; width:100%; list-style:none; border-bottom:dotted 1px #dedede;}
+.rightContent .suanTablo .content .cnt ul > li.up ol li b{color:#4caa00}
+.rightContent .suanTablo .content .cnt ul > li.down ol li b{color:#ab0000}
+.rightContent .suanTablo .content .cnt ul li ol li{float:left; padding:8px 10px; width:40px; font:normal 9pt arial;}
+.rightContent .suanTablo .content .cnt ul li ol li a{display:inline-block; color:#000}
+.ie7 .rightContent .suanTablo .content .cnt ul li ol li{padding:5px 10px 6px;}
+.rightContent .suanTablo .content .cnt ul li ol li:first-child{width:145px; padding-left:0px;}
+.rightContent .suanTablo .content .cnt ul li ol li b{color:#4caa00; font-weight:normal; }
+.rightContent .suanTablo .content .tabContent{display:none;}
+.rightContent .suanTablo .allCommentLink{margin-top:5px; text-align:left;}
+.ie7 .rightContent .suanTablo .allCommentLink{margin-top:0px;}
+.rightContent .suanTablo .allCommentLink a{font:bold 9pt arial; color:#000;}
+.rightContent .suanTablo .allCommentLink a span{color:#f68b25}
+/* ŞUAN PİYASALAR & ENDEKSLER *****************************************************************************/
+
+/* HİSSE DETAY - LOTNAMEBAR *******************************************************************************/
+.leftContent .lotNameBar {width:650px; height:97px; overflow:hidden; margin:0; border-top:solid 2px #f48f2e}
+.leftContent .lotNameBar.endeks {height:53px;}
+.leftContent .lotNameBar.analiz {margin:0px 0 13px;}
+.leftContent .lotNameBar ul{display:block; border:solid 1px #d2d2d2; overflow:hidden;}
+.leftContent .lotNameBar ul li{float:left;height:40px; display:inline-block; list-style:none; padding:0px 5px; border-left:dotted 1px #d2d2d2; overflow:hidden;}
+.leftContent .lotNameBar ul li:first-child{border:none; width:80px; height:30px; padding:5px;}
+.leftContent .lotNameBar ul li img{width:80px; height:30px; display:block;}
+.leftContent .lotNameBar ul li a{display:inline-block; font:normal 9pt arial; color:#808080; padding:11px 10px 9px 10px;}
+.leftContent .lotNameBar ul li.commentNo{height:14px; font:normal 12px Arial; color:#808080; text-align:center; padding:13px 0;}
+.leftContent .lotNameBar ul li.lotsEndeks{width:453px; overflow:hidden; height:20px; padding:10px 5px; font:normal 14px/20px Arial;}
+.leftContent .lotNameBar ul li.lotsName{width:362px; overflow:hidden;}
+.leftContent .lotNameBar ul li.lotsName span{display:block;font:bold 13px arial; color:#000; padding:5px 5px 1px}
+.leftContent .lotNameBar ul li.lotsName small{display:block;font:normal 9px arial; color:#000; padding:3px 5px;}
+.leftContent .lotNameBar ul li.comment a{width:60px; padding:0; margin:13px 10px 0;}
+.leftContent .lotNameBar ul li.eposta a{width:16px; height:11px; display:inline-block; background-position:-351px -62px; margin:14px 10px; padding:0;}
+.leftContent .lotNameBar ul li.print a{width:16px; height:15px; display:inline-block; background-position:-372px -58px; margin:12px 10px;padding:0;}
+.leftContent .lotNameBar ul li.eposta:hover, .leftContent .lotNameBar ul li.print:hover, .leftContent .dp_socialBar ul li.print:hover{background-color:#e6e6e6; box-shadow:inset 1px 1px 4px #d1d1d1;}
+
+.leftContent .lotNameBar .rankLikeBar{width:638px; height:43px; padding:5px;border:solid 1px #d2d2d2;border-top:none; overflow:hidden; box-shadow:inset -1px -1px 5px #eee;}
+.leftContent .lotNameBar .rankLikeBar .left{float:left; font:normal 8pt arial; color:#000; width:290px; overflow:hidden; padding:14px 10px}
+.leftContent .lotNameBar .rankLikeBar .left a{font:normal 8pt arial; color:#000; text-decoration:underline;}
+.leftContent .lotNameBar .rankLikeBar .left b{font:bold 9pt arial; color:#000;}
+.leftContent .lotNameBar .rankLikeBar .right{float:left;width:325px; padding:13px 0;}
+.leftContent .lotNameBar .rankLikeBar .right .soc{display:inline-block; margin-right:5px; float:left;}
+
+.sharePopularArea{width:650px; height:40px; overflow:hidden; margin:0; float:left;}
+.sharePopularArea .left{width:248px; height:16px; display:inline-block; padding:12px 0px; float:left; font:normal 8pt arial; color:#000;}
+.sharePopularArea .left a{font:normal 8pt arial; color:#000; text-decoration:underline;}
+.sharePopularArea .left b{font:bold 9pt arial; color:#000;}
+.sharePopularArea .right{width:394px; height:20px; display:inline-block; padding:10px 0; float:left;}
+.sharePopularArea .right .soc{display:inline-block; margin-right:5px; float:left;}
+
+/* HİSSE DETAY - LOTNAMEBAR *******************************************************************************/
+
+/* HİSSE DETAY - CHART ************************************************************************************/
+.hisseChart{width:630px; overflow:hidden; padding:9px; background-color:#fafafa; box-shadow:inset 1px 1px 10px #ccc; border:1px solid #f2f2f2;}
+.hisseChart .chartBox{width:630px; height:325px; overflow:hidden; margin:5px 0;}
+.hisseChart .blankBig{width:630px; display:inline-block; font:bold 12px Arial; margin-bottom:0px; cursor:pointer;}
+/* HİSSE DETAY - CHART ************************************************************************************/
+
+/* HİSSE DETAY - FACEBOOK TAVSİYE ET OVERFLOW SORUNU İÇİN *************************************************/
+.hdOverflow{overflow:inherit;}
+.hdOverflow .lotNameBar{overflow:inherit; display:inline-block;}
+.hdOverflow .lotNameBar .rankLikeBar{overflow:inherit;}
+/* HİSSE DETAY - FACEBOOK TAVSİYE ET OVERFLOW SORUNU İÇİN *************************************************/
+
+/* HİSSE DETAY - TEKNİK YORUM *****************************************************************************/
+.teknikYorum{width:650px; display:inline-block;}
+.teknikYorum h3{width:650px; display:inline-block; color:#111; font:normal 12px Arial; text-align:right; margin-bottom:10px;}
+.teknikYorum .tacyoTable{width:650px; display:inline-block; margin-bottom:30px;}
+.teknikYorum .tacyoTable .caption{width:70px; height:57px; display:inline-block; float:left; padding:10px; border:1px solid #d2d2d2; background-color:#cfe1e8; color:#111; font:normal 11px/21px Arial;}
+.teknikYorum .tacyoTable .caption b{width:70px; font:bold 12px Arial;}
+.teknikYorum .tacyoTable .rows{width:558px; height:25px; display:inline-block; border-top:1px solid #d2d2d2; color:#111; font:normal 11px/25px Arial;}
+.teknikYorum .tacyoTable .rows.last{border-bottom:1px solid #d2d2d2;}
+.teknikYorum .tacyoTable .rows span{width:54px; float:left; text-align:center; border-right:1px solid #d2d2d2;}
+.teknikYorum .tacyoTable .rows span.cap{width:100px; font-weight:bold; text-align:left; padding:0 15px;}
+.teknikYorum .tacyoTable .rows span.arrow{width:10px; height:11px; padding:7px 22px;}
+.teknikYorum .tacyoTable .rows span.arrow small{width:10px; height:11px; display:block;}
+.teknikYorum .tacyoTable .rows span.arrow small.up{background-position:-271px -83px;}
+.teknikYorum .tacyoTable .rows span.arrow small.down{background-position:-284px -83px;}
+
+.teknikYorum .tyContent{width:650px; display:inline-block;}
+.teknikYorum .tyContent > img{width:220px; height:163px; padding:8px 6px; display:inline-block; border:1px solid #d2d2d2; float:right; margin:0 0 15px 15px;}
+.teknikYorum .tyContent .paragraph{font:normal 12px Arial; line-height:19px;}
+.teknikYorum .tyContent .paragraph table{border:none;}
+.teknikYorum .tyContent .paragraph img.cfximg{float:right; padding:0 0 20px 20px;}
+.teknikYorum .tyContent .firstChild{margin:0;}
+.teknikYorum .tyContent .paragraph .ikinci{background-color: #E5E5E5; border: 1px solid #D2D2D2; width: 648px; margin: 0; padding: 5px 0; font: normal 12px Arial;}
+
+
+
+/* HİSSE DETAY - TEKNİK YORUM *****************************************************************************/
+
+/* HİSSE DETAY - TREND TEKNİK ANALİZ VS ************************************************************************************/
+.leftContent .hisseContent{display:inline-block;}
+.leftContent .hisseContent h3{display:inline-block; font:bold 12px Arial; float:left; text-align:left; margin:10px 0 40px;}
+.leftContent .hisseContent h3 > a{display:inline-block; color:#000; text-align:right; cursor:pointer;}
+.leftContent .hisseContent h3 > a b{color:#000; float:left;}
+.leftContent .hisseContent h3 > a span{color:#f48f2e; margin-left:3px; float:left;}
+
+.leftContent .kisaOrtaUzun{width:650px; height:26px; overflow:hidden; margin:10px 0 18px;}
+.leftContent .kisaOrtaUzun .vadeliTrend{height:12px; padding:5px 23px 7px 7px; display:inline-block; float:left; position:relative; border:1px solid #d4d4d4; font:normal 12px Arial; margin-left:10px;}
+.leftContent .kisaOrtaUzun .vadeliTrend:first-child{margin-left:0;}
+.leftContent .kisaOrtaUzun .vadeliTrend span{width:11px; height:12px; display:block; position:absolute; top:7px; right:5px; background:transparent url(/Content/Images/bigpara_spriteV4.png);}
+.leftContent .kisaOrtaUzun .vadeliTrend span.up{background-position:-271px -83px;}
+.leftContent .kisaOrtaUzun .vadeliTrend span.dw{background-position:-284px -83px;}
+
+.leftContent .trendAnaliz{width:283px; height:238px; overflow:hidden; border:1px solid #ccc; margin-right:20px; font:normal 12px Arial; padding:5px 15px; float:left; box-shadow: inset 2px 2px 3px #CCC; background-color: #FAFAFA;}
+.leftContent .trendAnaliz.trendRight{margin-right:0;}
+.leftContent .trendAnaliz.short{height:174px; margin-bottom:0;}
+.leftContent .trendAnaliz > span{width:177px; display:inline-block; float:left; border-bottom:1px dotted #d4d4d4; padding:11px 0 7px;}
+.leftContent .trendAnaliz > span a{display:inline-block; color:#000; font-weight:bold;}
+.leftContent .trendAnaliz > span.borderNone{border:none;}
+.leftContent .trendAnaliz > small{width:105px; display:inline-block; float:left; border-bottom:1px dotted #d4d4d4; padding:11px 0 7px; text-align:right;}
+.leftContent .trendAnaliz > small a{color:#333;}
+.leftContent .trendAnaliz .mwSAT{width:283px; display:inline-block; margin:15px 0 8px;}
+.leftContent .trendAnaliz .mwSAT > span{width:35px; height:9px; display:block; margin-right:12px; float:left; background:transparent url(/Content/Images/bigpara_spriteV4.png) -15px -153px; margin-top:3px;}
+.leftContent .trendAnaliz .mwSAT > small{width:235px; display:inline-block; font:normal 12px Arial; color:#000; float:left;}
+/* HİSSE DETAY - TREND TEKNİK ANALİZ VS ************************************************************************************/
+
+.leftContent .stockCalculator{width:646px; height:78px; overflow:hidden; border:1px solid #ccc; font:normal 12px Arial;box-shadow: inset 2px 2px 3px #CCC; background-color: #FAFAFA;}
+.leftContent .stockCalculator input[type="text"]{height:20px; display:inline-block; margin:3px 0 0 0; padding:5px; font:normal 13px Arial; color:#686868; float:left; border:1px solid #d2d2d2; background-color:#fefefe; box-shadow:inset 1px 1px 3px #c7c7c7;}
+.leftContent .innerColumn{font:bold 12px Arial;color:#707070;float:left; margin:15px 5px;}
+.leftContent .innerColumn span{display:inline-block; margin-left:2px;}
+.leftContent .innerColumn .rodeo{display:inline-block; float:left; margin-top:5px;}
+.leftContent .stockCalculator a{height:21px; width:87px;text-align:center;display:inline-block; margin:18px 0 8px 3px; border:1px solid #d2d2d2; padding:8px 7px 1px; font:normal 12px Arial; color:#838383; float:left; background-position:0 -9px;font-weight:bold;text-decoration:none;}
+.leftContent .stockCalculator select{height:30px; float:left; font:normal 9pt arial; color:#838383; border:solid 1px #D6D6D6; padding:5px; margin:3px 0 0 0;}
+.ie7 .leftContent .stockCalculator select{height:20px; margin-top:7px;}
+.leftContent #stockResult{width:646px; overflow:hidden; border:1px solid #ccc; font:normal 12px Arial;box-shadow: inset 2px 2px 3px #CCC; background-color: #FAFAFA;display:none;}
+.leftContent #closeStockResult{float:right;margin-top:62px;margin-right:3px;font:normal 12px Arial;color:#686868;height:21px; width:87px;text-align:center;display:inline-block; margin:35px 8px 8px 3px; border:1px solid #d2d2d2; padding:8px 7px 1px;background-position:0 -9px;font-weight:bold;text-decoration:none;}
+.leftContent .stockCalculator .mainResultHolder{width:648px;height:75px;}
+.leftContent .innerResultHolder{padding:8px 8px 0 0;width:200px}
+.leftContent .resultLine{width:180px;margin-top:3px;text-overflow:ellipsis;white-space:nowrap;border:1px solid #f1f1f1}
+.leftContent .stockName{width:100px;float:left;font:bold 12px Arial;}
+.leftContent .stockValue{font:bold 12px Arial;color:#4f4f4f;}
+
+.custom-checkbox, .custom-radio { position: relative; float:left;}
+/* input, label positioning */
+.custom-checkbox input, .custom-radio input {position: absolute;left: 2px;top: 3px;margin: 0;z-index: 0;}
+.custom-checkbox label, .custom-radio label {display: block;position: relative;z-index: 1;font-size: 1.1em;padding-right: 1em;line-height: 1;padding: .5em 0 .5em 30px;margin: 0 0 .3em;cursor: pointer;}
+/* states */
+.custom-checkbox label { background: url(http://kredi.bigpara.com/images/checkbox.gif) no-repeat; }
+.custom-radio label { background: url(http://kredi.bigpara.com/Images/radiobutton.gif) no-repeat; padding-left:25px;}
+.custom-checkbox label, .custom-radio label {background-position: -10px -14px;}
+.custom-checkbox label.hover, .custom-checkbox label.focus, .custom-radio label.hover, .custom-radio label.focus {background-position: -10px -114px;}
+.custom-checkbox label.checked, .custom-radio label.checked {background-position: -10px -214px;}
+.custom-checkbox label.checkedHover, .custom-checkbox label.checkedFocus {background-position: -10px -314px;}
+.custom-checkbox label.focus, .custom-radio label.focus {outline: 1px dotted #ccc;}
+
+/* HİSSE DETAY - LOT PROCESS BAR *******************************************************************************************/
+.leftContent .lotProcessBar{width:650px; height:142px; overflow:hidden; display:inline-block;}
+.leftContent .lotProcessBar .price{width:300px; display:inline-block; margin-right:15px; float:left;}
+.leftContent .lotProcessBar .price .lineTop{width:300px; height:76px; display:inline-block; border-bottom:1px dotted #d2d2d2; margin-bottom:3px;}
+.leftContent .lotProcessBar .price .lineTop > select{display: inline-block; margin-right: 10px; height: 25px; float: left; font: normal 9pt arial; color: #838383; border: solid 1px #d6d6d6; padding: 3px;}
+.ie7 .leftContent .lotProcessBar .price .lineTop > select{height: 20px;}
+.leftContent .lotProcessBar .price .lineTop > small{width:135px; display:inline-block; margin-top:5px; font:bold 11px Arial; float:left;}
+.leftContent .lotProcessBar .price .lineTop > small:first-child{margin-left:0px;}
+.leftContent .lotProcessBar .price .lineTop .upCount{width:300px; display:inline-block;}
+.leftContent .lotProcessBar .price .lineTop .upCount span{width:117px; display:inline-block; float:left; font:bold 32px Arial; color:#009819; margin-top:10px;}
+.leftContent .lotProcessBar .price .lineTop .upCount.up span{width:33px; height:35px; display:block; margin:10px 5px 0 0; background-position:-192px -83px;}
+.leftContent .lotProcessBar .price .lineTop .upCount.down span{width:33px; height:35px; display:block; margin:10px 5px 0 0; background-position:-234px -83px;}
+.leftContent .lotProcessBar .price .lineTop .upCount.static span{width:33px; height:35px; display:block; margin:10px 5px 0 0; background-position:-352px -148px;}
+.leftContent .lotProcessBar .price .lineTop .upCount span.value{width:130px;}
+.leftContent .lotProcessBar .price .lineTop .upCount span.value.endeks{width:190px;}
+.leftContent .lotProcessBar .price .lineTop .upCount.up span.value{color:#4eb000;}
+.leftContent .lotProcessBar .price .lineTop .upCount.down span.value{color:#b01d1c;}
+.leftContent .lotProcessBar .price .lineTop .upCount.static span.value{color:#2d73c6;}
+.leftContent .lotProcessBar .price .lineTop .upCount span.percentCount{width:auto; display:inline-block; font:normal 32px Arial; color:#000; text-align:right; float:right; margin:10px 0 0 0;}
+.leftContent .lotProcessBar .price .lineBot{width:300px; display:inline-block; margin-bottom:3px; border-bottom:1px dotted #d2d2d2;}
+.leftContent .lotProcessBar .price .lineBot .hacimArea{width:142px; display:inline-block; float:left; margin-left:16px;}
+.leftContent .lotProcessBar .price .lineBot .hacimArea:first-child{margin-left:0px;}
+.leftContent .lotProcessBar .price .lineBot .hacimArea > small{width:142px; display:inline-block; font:normal 11px Arial;}
+.leftContent .lotProcessBar .price .lineBot .hacimArea > span{width:142px; display:inline-block; font:bold 26px Arial;}
+.leftContent .lotProcessBar .price .lineInfo{width:300px; display:inline-block; font:bold 9px Arial;}
+.leftContent .lotProcessBar .price .lineInfo b{font:bold 11px Arial; color:#f68b25;}
+
+.leftContent .lotProcessBar .seansArea{width:335px; height:141px; display:inline-block; overflow:hidden; float:left;}
+.ie10 .leftContent .lotProcessBar .seansArea{height:135px;}
+.leftContent .lotProcessBar .seansTable{width:182px; height:140px; margin-right:1px; overflow:hidden; float:left; border:1px solid #d5d5d5; border-bottom:none;}
+.leftContent .lotProcessBar .seansTable span{width:50px; display:inline-block; padding:7px 10px 5px; float:left; border-bottom:1px solid #d5d5d5; font:normal 12px Arial; clear:both;}
+.leftContent .lotProcessBar .seansTable b{width:50px; display:inline-block; padding:7px 2px 5px 4px; float:left; border-bottom:1px solid #d5d5d5; font:bold 12px Arial;}
+.leftContent .lotProcessBar .seansLeftBlock{margin-right:19px; width:127px;}
+
+.leftContent .lotProcessBar .price.endex{width:483px;}
+.leftContent .lotProcessBar .price.endex .lineTop{width:483px;}
+.leftContent .lotProcessBar .price.endex .lineTop > small{width:483px;}
+.leftContent .lotProcessBar .price.endex .lineTop .upCount{width:483px;}
+.leftContent .lotProcessBar .price.endex .lineTop .upCount span.close{width:190px;}
+.leftContent .lotProcessBar .price.endex .lineTop .upCount span.percentCount{float:left; text-align:left;}
+.leftContent .lotProcessBar .price.endex .lineBot{width:483px;}
+.leftContent .lotProcessBar .price.endex .lineBot .hacimArea{width:230px;}
+.leftContent .lotProcessBar .price.endex .lineInfo{width:483px;}
+.leftContent .lotProcessBar .price.endex .lineBot .hacimArea > small{width:230px;}
+.leftContent .lotProcessBar .price.endex .lineBot .hacimArea > span{width:230px;}
+
+.leftContent .lotProcessBar .seansArea.endex{width:152px;}
+.leftContent .lotProcessBar .seansArea.endex .seansTable{width:150px;}
+.leftContent .lotProcessBar .seansArea.endex .seansTable b{width:73px;}
+.ie9 .leftContent .lotProcessBar .seansTable{margin-top:2px;}
+.ie9 .leftContent .lotProcessBar .seansTable span{padding-bottom:6px;}
+.ie9 .leftContent .lotProcessBar .seansTable b{padding-bottom:6px;}
+.ie7 .leftContent .lotProcessBar{height:148px; margin-top:10px;}
+.ie9 .leftContent .lotProcessBar{margin-top:0px;}
+.ie8 .leftContent .lotProcessBar{margin-top:0px;}
+/* HİSSE DETAY - LOT PROCESS BAR *******************************************************************************************/
+
+/* CANLI BORSA | LIVE STOCK MARKET *****************************************************************************************/
+#content .liveStock{margin-bottom:30px;}
+/* CANLI BORSA | LIVE STOCK MARKET *****************************************************************************************/
+
+/* ANALİZ | TABLE (ÖZEL TABLO ORANLARDAN BAĞIMSIZ) ************************************************************************************/
+.analizTable{overflow:hidden;}
+.analizTable p{display:inline-block; color:#878787; font:normal 11px/17px Arial; margin:5px;}
+.analizTable .tableContent{width:968px; border:solid 1px #d2d2d2; display:inline-block;}
+.analizTable .tableContent.width648px{width:648px;}
+.analizTable .tableContent > ul{display:block; overflow:hidden; background-color: #cfe1e8;}
+.analizTable .tableContent > ul li {float:left; list-style:none;display:inline-block;padding:10px 15px 10px 0;text-align:right;border-left:solid 1px #d2d2d2; border-bottom:solid 1px #d2d2d2; font:bold 12px Arial; color:#333}
+.analizTable .tableContent > ul li:first-child{border-left:none;}
+.analizTable .tableContent > ul li.small {width:55px;}
+.analizTable .tableContent > ul li.smack {width:55px;}
+.analizTable .tableContent > ul li.normal {width:85px;}
+.analizTable .tableContent > ul li.cap {width:70px; text-align:left; font-weight:bold; padding-left:15px;}
+.analizTable .tableContent > ul li.big {width:200px; padding-left:15px; text-align:center;}
+.analizTable .tableContent > ul li.nBig {width:136px;}
+.analizTable .tableContent > ul li.double {width:85px; padding-right:35px;}
+.analizTable .tableContent > ul li.yatCap {width:53px; height:30px; text-align:left; font-weight:bold; padding:10px 10px; }
+.analizTable .tableContent > ul li.yatBig {width:180px; height:30px; text-align:right; font-weight:bold; padding:10px 10px; }
+.analizTable .tableContent > ul li.yatSer {width:80px; height:30px; text-align:right; font-weight:bold; padding:10px 10px; }
+.analizTable .tableContent > ul li.yatNar {width:72px; height:30px; text-align:right; font-weight:bold; padding:10px 10px;}
+.analizTable .tableContent > ul li.trible {width:194px; height:50px; text-align:right; font-weight:bold; padding:0;}
+.analizTable .tableContent > ul li.trible span{width:64px; padding:6px 0; float:left; text-align:center; font:bold 11px Arial; border-left:1px solid #fff; background-color:#656565; color:#fff;}
+.analizTable .tableContent > ul li.trible span.fChild{border-left:none;}
+.analizTable .tableContent > ul li.trible small{width:194px; float:left; text-align:center; line-height:25px;}
+
+.analizTable .tableContent .dataList ul {display:block; overflow:hidden;}
+.analizTable .tableContent .dataList ul li {float:left;height:16px; list-style:none;display:inline-block;padding:5px 15px 5px 0;text-align:right;border-left:solid 1px #d2d2d2;border-top:solid 1px #d2d2d2; font:normal 11px Arial; color:#696868;}
+.analizTable .tableContent .dataList ul li a{display:inline-block; color:#333;}
+.analizTable .tableContent .dataList ul:first-child li{border-top:none;}
+.analizTable .tableContent .dataList ul li:first-child{border-left:none;}
+.analizTable .tableContent .dataList ul li.small {width:55px;}
+.analizTable .tableContent .dataList ul li.smack {width:55px; font-weight:bold;}
+.analizTable .tableContent .dataList ul li.normal {width:85px;}
+.analizTable .tableContent .dataList ul li.cap {width:70px; text-align:left; font-weight:bold; padding-left:15px;}
+.analizTable .tableContent .dataList ul li.yatCap {width:53px; text-align:left; font-weight:bold; padding:5px 10px;}
+.analizTable .tableContent .dataList ul li.yatBig {width:180px; text-align:left; padding:5px 10px;}
+.analizTable .tableContent .dataList ul li.yatSer {width:80px; text-align:right; padding:5px 10px;}
+.analizTable .tableContent .dataList ul li.yatNar {width:72px; text-align:right; padding:5px 10px;}
+.analizTable .tableContent .dataList ul li.bgBeta {background-color:#ffeede;}
+.analizTable .tableContent .dataList ul li.trible {width:194px; height:26px; text-align:left; padding:0}
+.analizTable .tableContent .dataList ul li.trible span{width:57px; padding:6px 3px 6px 4px; float:left; text-align:right; border-left:1px solid #d2d2d2;}
+.analizTable .tableContent .dataList ul li.trible span:first-child{border-left:none;}
+
+.analizTable .tableContent .dataList ul li.big {width:200px; padding-left:15px;}
+.analizTable .tableContent .dataList ul li.nBig {width:136px;}
+.analizTable .tableContent .dataList ul li.double {width:85px; padding-right:35px; position:relative;}
+.analizTable .tableContent .dataList ul li.double i{width:10px; height:8px; display:block; background-position:-199px -120px; position:absolute; right:10px; top:8px;}
+.analizTable .tableContent .dataList ul li.double i.up{background-position:-199px -128px;}
+.analizTable .tableContent .dataList ul li.double i.down{background-position:-199px -136px;}
+.analizTable .tableContent .rangeBar{text-align:left;float:left; margin-left:10px;height:12px; width:180px;overflow:hidden; background-position:0px -184px;border:solid 1px #c9c9c9; padding:1px 0 1px; border-radius:5px;}
+.analizTable .tableContent .rangeBar small{display:inline-block; height:13px; font:normal 8pt arial; color:#fff; text-align:center;border-radius:0px 3px 3px 0px;}
+.analizTable .tableContent .rangeBar small.green{background-position:0px -532px;}
+.analizTable .tableContent .rangeBar small.red{background-position:0px -547px;}
+/* ANALİZ | TABLE **********************************************************************************************************/
+
+/* HİSSE SENEDİ | PERFORMANS ANALİZİ ***************************************************************************************/
+.performansAnalizi{width:650px; display:inline-block; margin-bottom:35px;}
+.performansAnalizi b{width:650px; display:inline-block; padding:0px 0 5px; font:bold 12px Arial; color:#333;}
+.performansAnalizi .pa_listTable{width:650px; display:inline-block;}
+.performansAnalizi .pa_listTable ul:first-child{ border:solid 1px #d2d2d2; width:648px; display:inline-block;}
+.performansAnalizi .pa_listTable ul:first-child li{display:inline-block; float:left; list-style:none; border-left:solid 1px #d2d2d2; width:68px; height:55px; text-align:center; overflow:hidden;}
+.performansAnalizi .pa_listTable ul:first-child li.big{width:61px; padding-left:5px;}
+.performansAnalizi .pa_listTable ul:first-child li.big span{text-align:left; font:bold 12px Arial;}
+.performansAnalizi .pa_listTable ul:first-child li.partial{width:222px;border-left:none;}
+.performansAnalizi .pa_listTable ul:first-child li:first-child{border-left:none; text-align:center; height:30px;}
+.performansAnalizi .pa_listTable ul:first-child li span{display:block;font:normal 12px arial; color:#000; padding:5px;}
+.performansAnalizi .pa_listTable ul:first-child li.partial span{display:block; width:215px; float:left; text-align:center; font:normal 12px arial; padding-top:10px; color:#000; height:16px; text-align:center; border-bottom:solid 1px #d2d2d2; border-left:solid 1px #d2d2d2;}
+.performansAnalizi .pa_listTable ul:first-child li.partial small{display:inline-block; float:left; width:69px; text-align:center; font:normal 8pt arial; color:#000; padding:5px 2px;border-left:solid 1px #d2d2d2; background-color:#cfe1e8;}
+.ie9 .performansAnalizi .pa_listTable ul:first-child li.partial small{padding-top:6px;}
+.performansAnalizi .pa_listTable ul{ border:solid 1px #d2d2d2; width:648px; display:inline-block; border-top:none;}
+.performansAnalizi .pa_listTable ul li{display:inline-block; float:left; list-style:none; width:68px; text-align:right; overflow:hidden; border-left:1px solid #d2d2d2;}
+.performansAnalizi .pa_listTable ul li.big{width:61px; padding-left:5px;}
+.performansAnalizi .pa_listTable ul li.big span{text-align:left; font-weight:bold; color:#000;}
+.performansAnalizi .pa_listTable ul li.partial{width:222px;border-left:none;}
+.performansAnalizi .pa_listTable ul li:first-child{border-left:none; text-align:center;}
+.performansAnalizi .pa_listTable ul li span{display:block; padding:5px; font:normal 8pt arial; color:#666;}
+.performansAnalizi .pa_listTable ul li span a{display:inline-block; font:bold 8pt arial; color:#666;}
+.performansAnalizi .pa_listTable ul li.partial small{display:inline-block; float:left; width:59px; text-align:right; font:normal 8pt arial; color:#666; padding:5px 12px 5px 2px; border-left:1px solid #d2d2d2;}
+.performansAnalizi .pa_listTable ul li.partial small i{width:8px; height:8px; margin-left:4px; display:inline-block;}
+.performansAnalizi .pa_listTable ul li.partial small i.down{background-position:-200px -136px;}
+.performansAnalizi .pa_listTable ul li.partial small i.up{background-position:-200px -128px;}
+.performansAnalizi .pa_listTable ul li.partial small i.static{background-position:-200px -120px;}
+.performansAnalizi .pa_listTable p{display:inline-block; font:normal 11px Arial; color:#333; margin-top:10px;}
+/* HİSSE SENEDİ | PERFORMANS ANALİZİ ***************************************************************************************/
+
+/* GLOBAL TABLO YAPISI | ORANLAR **************************************************************************************************/
+.oranContent{width:650px; display:inline-block; margin-bottom:30px;}
+.oranContent.w970px{width:970px;}
+.oranContent h4{width:628px; display:inline-block; font:bold 12px Arial; color:#444; padding:10px; border:1px solid #d2d2d2; border-bottom:none;}
+.oranContent .productSavingsTitle{width:628px; display:inline-block; font:bold 12px Arial; color:#444; padding:10px; border:1px solid #d2d2d2; border-bottom:none;}
+.oranContent h3{display:inline-block; font:bold 12px Arial; color:#444; padding:10px; border:1px solid #d2d2d2; border-bottom:none;}
+.oranContent > small{display:inline-block; float:right; margin-bottom:10px; font:normal 10px Arial;}
+.oranContent strong{width:648px; display:inline-block; margin-top:5px;}
+.oranContent strong a{display:inline-block; font:bold 12px Arial; color:#333;}
+
+.selector{width:648px; display:inline-block; border:1px solid #d2d2d2; border-bottom:none;}
+.selector b{display:inline-block; font:normal 11px Arial; margin:13px 5px; float:right;}
+.selector span{display:inline-block; font:normal 11px Arial; margin:13px 5px; float:left;}
+.selector span i{font-weight:bold; font-style:normal;}
+.selector select{width:118px; height:30px; margin:5px; font:normal 9pt arial; color: #838383; float:right; border: solid 1px #D6D6D6; padding: 5px; background-color:#f7f7f7;}
+
+.oranlar{width:740; display:inline-block; border:solid 1px #d2d2d2; margin-bottom:5px;}
+.oranContent.w970px .oranlar{width:968px;}
+.oranContent.w970px .oranlar > ul{width:968px;}
+.oranContent.w970px .oranlar.miniTable{width:241px; float:left; border-left:none;}
+.oranContent.w970px .oranlar.miniTable:first-child{border-left:1px solid #d2d2d2;;}
+.oranContent.w970px .oranlar.miniTable > ul{width:241px;}
+
+.oranlar > ul{width:648px; display:block; overflow:hidden; background-color: #cfe1e8;}
+.oranlar > ul li{display:inline-block; float:left; font:bold 11px Arial; color:#333; width:53px; border-left:solid 1px #d2d2d2;border-bottom:solid 1px #d2d2d2; padding:10px 10px 10px 5px; text-align:right;}
+.oranlar > ul li:first-child{ border-left:none;}
+.oranlar > ul li.ay{width:104px; text-align:right; padding:10px 10px; }
+.oranlar > ul li.wBig{width:180px; text-align:left; padding:10px 10px; }
+.oranlar > ul li.wide{width:427px; text-align:right; padding:10px 10px; }
+.oranlar > ul li.nBig{width:280px; text-align:left; padding:10px 10px; }
+.oranlar > ul li.portC{width:271px; text-align:left; padding:10px 10px; }
+.oranlar > ul li.dCins{width:167px; text-align:left; padding:10px 10px;}
+.oranlar > ul li.nYBig{width:80px; text-align:left; padding:10px 10px; }
+.oranlar > ul li.narrow{width:79px; text-align:right; padding:10px 10px; }
+.oranlar > ul li.valor{width:67px; text-align:right; padding:10px 10px; }
+.oranlar > ul li.kredi{width:124px; padding:10px 10px; }
+.oranlar > ul li.afaiz{width:147px; padding:10px 10px; }
+.oranlar > ul li.repo{width:63px; padding:10px 10px; }
+.oranlar > ul li.double{width:127px; text-align:right; padding:10px 10px;}
+.oranlar > ul li.double.left{text-align:left;}
+.oranlar > ul li.yIslem{width:116px; text-align:right; padding:10px 10px; }
+.oranlar > ul li.sube{width:181px; text-align:left; padding:10px 10px;}
+.oranlar > ul li.adres{width:210px; text-align:left; padding:10px 10px; }
+.oranlar > ul li.telfax{width:87px; text-align:left; padding:10px 10px;}
+.oranlar > ul li.bist{width:161px; text-align:right; padding:10px 10px;}
+.oranlar > ul li.emtia{width:87px; text-align:right; padding:10px 10px; }
+.oranlar > ul li.metal{width:195px; text-align:left; padding:10px 10px;}
+.oranlar > ul li.vob{width:176px; text-align:left; padding:10px 10px; }
+.oranlar > ul li.getiriCap{width:167px; text-align:left; padding:10px 10px; }
+.oranlar > ul li.vob1{width:108px; text-align:left; padding:10px 10px;}
+.oranlar > ul li.vob2{width:34px; text-align:right; padding:10px 10px;}
+.oranlar > ul li.vob3{width:42px; text-align:right; padding:10px 10px;}
+.oranlar > ul li.vob4{width:70px; text-align:right; padding:10px 10px;}
+.oranlar > ul li.hCap{width:83px; text-align:left; padding:10px 10px;}
+.oranlar > ul li.hBig{width:59px; text-align:left; padding:10px 10px;}
+.oranlar > ul li.hWide{width:68px; text-align:right; padding:10px 10px;}
+.oranlar > ul li.hNarrow{width:44px; text-align:right; padding:10px 10px;}
+.oranlar > ul li.live{width:91px; text-align:left; padding:10px 10px;}
+.oranlar > ul li.vay{width:40px; text-align:right; padding:10px 10px; }
+.oranlar > ul li.cap{width:76px; text-align:left; padding:10px 10px; }
+.oranlar > ul li.gecmis{width:88px; text-align:right; padding:10px 10px; }
+.oranlar > ul li.hsenet{width:55px; text-align:right; padding:10px 10px;}
+.oranlar > ul li.aciklama{width:195px; text-align:right; padding:10px 10px;}
+.oranlar > ul li.foreign{width:172px; text-align:right; padding:10px 10px;}
+.oranlar > ul li.perf{width:70px; height:37px; text-align:right; padding:10px 10px;}
+.oranlar > ul li.perfCap{width:76px; height:37px; text-align:left; padding:10px 10px;}
+.oranlar > ul li.portBtn{width:111px; text-align:right; padding:10px 10px;}
+.oranlar > ul li.merkez{width:304px; text-align:left; padding:10px 10px;}
+.oranlar > ul li.sector{width:356px; text-align:left; padding:10px 10px;}
+.oranlar > ul li.cAltin{width:196px; text-align:left; padding:10px 10px;}
+.oranlar > ul li.hAlis{width:450px; text-align:left; padding:10px 10px;}
+.oranlar > ul li.hSatis{width:77px; text-align:left; padding:10px 10px;}
+.oranlar > ul li.hisseCap{width:50px; text-align:right; padding:10px 10px;}
+.oranlar > ul li.mevB{width:24px; text-align:right; padding:10px 10px;}
+.oranlar > ul li.portfoyMlyt{width:302px; text-align:right; padding:10px 10px;}
+.oranlar > ul li.portfoyName{width:137px; text-align:left; padding:10px 10px;}
+.oranlar > ul li.portfoyHisse{width:192px; text-align:left; padding:10px 10px;}
+.oranlar > ul li.icon{width:15px; padding:10px 10px;}
+.oranlar > ul li.left{text-align:left;}
+
+.oranlar > ul li.hacimCap{width:126px; padding:23px 10px; float:left; border-bottom:none;}
+.oranlar > ul li.hacim{width:410px; height:60px; overflow:hidden; padding:0;}
+.oranlar > ul li.hacim span{display:inline-block; width:390px; float:left; padding:10px; text-align:center; font:normal 12px arial; color:#000; border-bottom:solid 1px #d2d2d2;}
+.oranlar > ul li.hacim small{display:inline-block; float:left; width:126px; font:normal 8pt arial; color:#000; padding:5px; border-left:solid 1px #d2d2d2; background-color:#EDEDED;}
+.oranlar > ul li.hacim small.fChild{border-left:none;}
+.ie9 .oranlar > ul li.hacim span{padding-top:13px;}
+
+.oranlar > ul li.perform{width:344px; height:57px; overflow:hidden; padding:0;}
+.oranlar > ul li.perform span{display:inline-block; width:324px; float:left; padding:10px; text-align:center; font:normal 12px arial; color:#000; border-bottom:solid 1px #d2d2d2;}
+.oranlar > ul li.perform small{display:inline-block; float:left; width:104px; font:normal 8pt arial; color:#000; padding:5px; border-left:solid 1px #d2d2d2; background-color:#EDEDED;}
+.oranlar > ul li.perform small.fChild{border-left:none;}
+
+.oranlar .dataList ul{display:block;overflow:hidden; }
+.oranlar .dataList ul li{display:inline-block; float:left; font:normal 11px arial; color:#333; width:54px; padding:5px 10px 5px 5px; text-align:right; border-left:1px solid #d2d2d2;}
+.oranlar .dataList ul li a{color:#333; font:bold 11px Arial; float:left;}
+.ie9 .oranlar .dataList ul li a{font:normal 11px Arial; float:left;}
+.oranlar .dataList ul li a b{font:bold 11px Arial;}
+.oranlar .dataList ul li a b img{margin-right:10px;}
+.oranlar .dataList ul li:first-child{border-left:0;}
+.oranlar .dataList ul li.Arrow{display:inline-block; position:relative;}
+.oranlar .dataList ul li.Arrow span{width:10px; height:8px; display:block; padding:0; position:absolute; top:8px; right:10px;}
+.oranlar .dataList ul li.Arrow span.up{background-position:-199px -128px;}
+.oranlar .dataList ul li.Arrow span.down{background-position:-199px -136px;}
+.oranlar .dataList ul li.Arrow span.static{background-position:-199px -120px;}
+.oranlar .dataList ul li input.portfoySat{border: none; height: 15px; color:#F68B25; font: bold 12px Arial; cursor: pointer; background-color: transparent; padding: 0 10px;}
+
+.oranlar .dataList ul li.sube{width:181px; text-align:left; padding:5px 10px; color:#333;}
+.oranlar .dataList ul li.adres{width:210px; height:28px; text-align:left; padding:5px 10px; color:#333;}
+.oranlar .dataList ul li.telfaks{width:87px; height:28px; text-align:left; padding:5px 10px; color:#333;}
+.oranlar .dataList ul li.telfax{width:87px; text-align:left; padding:5px 10px; color:#333;}
+.oranlar .dataList ul li.wBig{width:180px; text-align:left; padding:5px 10px; color:#333;}
+.oranlar .dataList ul li.portC{width:271px; text-align:left; padding:5px 10px;}
+.oranlar .dataList ul li.wide{width:427px; text-align:right; padding:5px 10px; color:#333;}
+.oranlar .dataList ul li.nBig{width:280px; text-align:left; padding:5px 10px; color:#333; font-weight:bold; position:relative;}
+.oranlar .dataList ul li.dCins{width:167px; text-align:left; padding:5px 10px; color:#333; font-weight:bold; position:relative;}
+.oranlar .dataList ul li.dCins img{width:20px; height:13px; float:left; margin-right:7px;}
+.oranlar .dataList ul li.nYBig{width:80px; text-align:left; padding:5px 10px; color:#333; font-weight:bold; position:relative;}
+.oranlar .dataList ul li.b{font-weight:bold;}
+.oranlar .dataList ul li.double{width:127px; padding:5px 10px;}
+.oranlar .dataList ul li.double.left{text-align:left;}
+.oranlar .dataList ul li.double span{width:50px; margin-left:20px; float:left;}
+.oranlar .dataList ul li.double span.aqua{margin-left:7px; color:#7cc8e6;}
+.oranlar .dataList ul li.valor{width:67px; padding:5px 10px;}
+.oranlar .dataList ul li.narrow{width:79px; padding:5px 10px;}
+.oranlar .dataList ul li.yIslem{width:116px; padding:5px 10px;}
+.oranlar .dataList ul li.bist{width:161px; padding:5px 10px;}
+.oranlar .dataList ul li.ay{width:42px; padding:5px 10px;}
+.oranlar .dataList ul li.ay2{width:104px; padding:5px 10px;}
+.oranlar .dataList ul li.kredi{width:124px; padding:5px 10px; text-align:left;}
+.ie9 .oranlar .dataList ul li.kredi{padding-bottom:2px;}
+.oranlar .dataList ul li.afaiz{width:147px; padding:5px 10px; text-align:right;}
+.oranlar .dataList ul li.repo{width:63px; padding:5px 10px; text-align:right;}
+.oranlar .dataList ul li.emtia{width:87px; text-align:right; padding:5px 10px;}
+.oranlar .dataList ul li.metal{width:195px; text-align:left; padding:5px 10px;}
+.oranlar .dataList ul li.getiriCap{width:167px; text-align:left; padding:5px 10px; font-weight:bold;}
+.oranlar .dataList ul li.vob{width:176px; text-align:left; padding:5px 10px; font-weight:bold;}
+.oranlar .dataList ul li.vob1{width:108px; text-align:left; padding:5px 10px; font-weight:bold;}
+.oranlar .dataList ul li.vob2{width:34px; text-align:right; padding:5px 10px;}
+.oranlar .dataList ul li.vob3{width:42px; text-align:right; padding:5px 10px;}
+.oranlar .dataList ul li.vob4{width:70px; text-align:right; padding:5px 10px;}
+.oranlar .dataList ul li.hCap{width:83px; text-align:left; padding:5px 10px;}
+.oranlar .dataList ul li.hBig{width:59px; text-align:left; padding:5px 10px; font-weight:bold;}
+.oranlar .dataList ul li.hWide{width:68px; text-align:right; padding:5px 10px;}
+.oranlar .dataList ul li.hNarrow{width:44px; text-align:right; padding:5px 10px;}
+.oranlar .dataList ul li.live{width:91px; text-align:left; padding:5px 10px; font-weight:bold;}
+.oranlar .dataList ul li.vay{width:40px; padding:5px 10px; }
+.oranlar .dataList ul li.rFark{width:64px; padding-right:30px;}
+.oranlar .dataList ul li.cap{width:76px; padding:5px 10px; text-align:left; font-weight:bold;}
+.oranlar .dataList ul li.gecmis{width:88px; padding:5px 10px;}
+.oranlar .dataList ul li.hsenet{width:55px; text-align:right; padding:5px 10px;}
+.oranlar .dataList ul li.aciklama{width:195px; text-align:right; padding:5px 10px;}
+.oranlar .dataList ul li.cAltin{width:196px; text-align:left; padding:5px 10px; font-weight:bold; position:relative;}
+.oranlar .dataList ul li.foreign{width:172px; text-align:right; padding:5px 10px;}
+.oranlar .dataList ul li.perf{width:70px; text-align:right; padding:5px 10px;}
+.oranlar .dataList ul li.seans{width:788px; text-align:left; padding:5px 10px; height:14px; line-height:16px; overflow:hidden;}
+.oranlar .dataList ul li.merkez{width:304px; text-align:left; padding:5px 10px;}
+.oranlar .dataList ul li.sector{width:356px; text-align:left; padding:5px 10px;}
+.oranlar .dataList ul li.hAlis{width:450px; height:26px; text-align:left; padding:5px 10px;}
+.oranlar .dataList ul li.hSatis{width:77px; height:26px; text-align:left; padding:5px 10px;}
+.oranlar .dataList ul li.hisseCap{width:50px; text-align:right; padding:5px 10px;}
+.oranlar .dataList ul li.icon{width:15px; padding:5px 10px;}
+.oranlar .dataList ul li.mevB{width:24px; text-align:right; padding:5px 10px;}
+.oranlar .dataList ul li.mevB input{margin-top:1px;}
+.oranlar .dataList ul li.portMiktar{height:26px; padding:5px 10px; line-height:26px;}
+.oranlar .dataList ul li.portfoyMlyt{width:302px; text-align:right; padding:5px 10px;}
+.oranlar .dataList ul li.portfoyHisse{width:192px; text-align:left; padding:5px 10px;}
+.oranlar .dataList ul li.portfoyName{width:137px; text-align:left; padding:5px 10px;}
+.oranlar .dataList ul li.portfoyName input{width:122px; padding:5px; height:12px; color:#999;}
+.oranlar .dataList ul li.portBtn{width:111px; text-align:center; padding:5px 10px;}
+.oranlar .dataList ul li.portBtn a{width:111px; text-align:center; color:#ed8108; font:bold 12px Arial; display:inline-block;}
+.oranlar .dataList ul li.portBtn a:hover{color:#666;}
+.oranlar .dataList ul li.left{text-align:left;}
+.oranlar .dataList ul li.right{text-align:right;}
+.oranlar .dataList ul li.b{font-weight:bold;}
+.oranlar .dataList ul li.bgBeta{background-color:#ffeede;}
+
+.oranlar .dataList ul li.hacimCap{width:126px; padding:5px 10px; text-align:left; border-bottom:none;}
+.oranlar .dataList ul li.hacim{width:410px; overflow:hidden; padding:0;}
+.oranlar .dataList ul li.hacim span{display:inline-block; width:390px; float:left; padding:0 10px 10px 10px; font:normal 12px arial; color:#000; border-bottom:solid 1px #d2d2d2;}
+.oranlar .dataList ul li.hacim small{display:inline-block; float:left; width:126px; font:normal 8pt arial; color:#000; padding:5px; border-left:solid 1px #d2d2d2;}
+.oranlar .dataList ul li.hacim small.fChild{border-left:none;}
+
+.oranlar .dataList ul li.perform{width:344px; overflow:hidden; padding:0;}
+.oranlar .dataList ul li.perform span{display:inline-block; width:324px; float:left; padding:0 10px 10px 10px; font:normal 12px arial; color:#000; border-bottom:solid 1px #d2d2d2;}
+.oranlar .dataList ul li.perform small{display:inline-block; float:left; width:104px; font:normal 8pt arial; color:#000; padding:5px; border-left:solid 1px #d2d2d2;}
+.oranlar .dataList ul li.perform small.fChild{border-left:none;}
+
+.oranlar .dataList ul.subCap li{background-color:#656565; color:#fff;}
+.oranlar .dataList ul.subCap li.kredi{width:124px; padding:5px 10px; background-color:#fff;}
+.oranlar .dataList ul.subCap li.ay{width:42px; padding:5px 10px;}
+/* HİSSE SENEDİ | ORANLAR **************************************************************************************************/
+
+/* HİSSE SENEDİ | ELLIOT ***************************************************************************************************/
+.elliot{display:inline-block;}
+.elliot .elliotChart{width:630px; height:540px; margin-bottom:30px; padding:9px; border:1px solid #d2d2d2; overflow:hidden;}
+.elliot .elliotChart img{width:630px; display:block;}
+/* HİSSE SENEDİ | ELLIOT ***************************************************************************************************/
+
+/* HİSSE SENEDİ | TEKNİK ANALİZ ********************************************************************************************/
+.teknikAnaliz{display:inline-block; margin-bottom:20px;}
+.teknikAnaliz .tekAnChart{width:630px; padding:9px; border:1px solid #d2d2d2; margin-bottom:30px;}
+.teknikAnaliz .tekAnChart img{width:630px; height:500px; display:block;}
+
+.teknikAnaliz .parameters{width:630px; display:inline-block; margin:30px 0 10px;}
+.teknikAnaliz .parameters h2{width:450px; display:inline-block; margin:10px 0; font:bold 12px Arial;}
+.teknikAnaliz .parameters .boxOuter{width:195px; height:219px; display:inline-block; float:left; margin-bottom:10px; overflow:hidden; position:relative;}
+.teknikAnaliz .parameters .boxOuter span{width: 155px; height:16px; display:inline-block; color:#111; font:bold 12px Arial; background-color: #CFE1E8; padding: 8px 20px 6px;}
+.teknikAnaliz .parameters .boxOuter select{width:195px; height:125px; display:inline-block; color: black; padding: 5px; font:normal 9pt Arial; border: solid 1px #D2D2D2; background-color: #E6E6E6; text-shadow: 1px 1px 0px white; box-shadow: inset 1px 1px 5px #D2D2D2;}
+.teknikAnaliz .parameters .boxOuter select option.span{height:50px; color:Orange; border:2px solid red;}
+.teknikAnaliz .parameters .boxInner{width:180px; height:150px; display:inline-block; float:left; margin:18px 30px 0 30px;}
+.teknikAnaliz .parameters .boxInner .period{width:120px; height:23px; display:inline-block; padding:8px 15px; margin-top:5px;}
+.teknikAnaliz .parameters .boxInner .period span{width:61px; display:inline-block; float:left; font:bold 12px Arial; padding:5px 0;}
+.teknikAnaliz .parameters .boxInner .period input{width:55px; height:11px; padding:6px 0; border:1px solid #d6d6d6; display:inline-block; text-align:center; float:right; color:#838383; font:normal 12px Arial;}
+.teknikAnaliz .parameters .boxInner .text{display:inline-block; color:#707070; font:normal 11px Arial;}
+.teknikAnaliz .parameters small{width:435px; display:inline-block; float:left; color:#686868; font:normal 11px/16px Arial;}
+.teknikAnaliz .parameters a{width:195px; height:30px; display:inline-block; float:left;}
+.teknikAnaliz .parameters a span.updateBttn{width:193px; height:22px; display:inline-block; font:bold 12px/22px Arial; color:#fff; text-align:center; text-shadow:1px 1px #985413; padding:4px 0 1px; background-position:0 -128px; border:solid 1px #D8710E;}
+.teknikAnaliz .parameters input[type="submit"]{width:195px; height:29px; display:inline-block; font:bold 12px/22px Arial; color:#fff; text-align:center; text-shadow:1px 1px #985413; padding:4px 0 1px; background-position:0 -128px; border:solid 1px #D8710E!important;}
+.ie7 .teknikAnaliz .parameters input[type="submit"]{padding-top:2px;}
+
+.teknikAnalizBox{width:263px; height:160px; display:inline-block; font:normal 12px Arial; margin:0; padding:15px 15px 10px 35px; background-color:#f0f0f0; float:left; position:relative; box-shadow: inset 0px -1px 3px #CCC; border: 1px solid #EEE;}
+.teknikAnalizBox h2{width:211px; display:inline-block; font:bold 15px Arial; color:#151515; margin-bottom:10px;}
+.teknikAnalizBox > span{width:212px; display:inline-block; font:normal 12px Arial; color:#626262; line-height:18px;}
+.teknikAnalizBox a{width:211px; display:inline-block; font:normal 12px Arial; color:#000; margin:5px 0;}
+.teknikAnalizBox h3{display:inline-block; font:bold 12px Arial; position: absolute; bottom: 15px; left: 35px; margin:0;}
+.teknikAnalizBox h3 > a{display:inline-block; color:#000; text-align:left;  cursor:pointer;}
+.teknikAnalizBox h3 > a b{color:#000; float:left;}
+.teknikAnalizBox h3 > a span{color:#f48f2e; margin-left:3px; float:left;}
+/* HİSSE SENEDİ | TEKNİK ANALİZ ********************************************************************************************/
+
+/* HİSSE SENEDİ | HİSSE EKLE ÇIKAR *****************************************************************************************/
+.hisseEkleCikar{display:inline-block; margin-bottom:20px;}
+.hisseEkleCikar h3{width:970px; display:inline-block; color:#444; font:bold 12px Arial; margin:10px 0;}
+.hisseEkleCikar .boxOuter{width:390px; display:inline-block; float:left; margin-bottom:40px;}
+.hisseEkleCikar .boxOuter span{width:350px; display:inline-block; padding:8px 20px 6px; color:#444; font:normal 12px/15px Arial; background-color:#cfe1e8;}
+.hisseEkleCikar .boxOuter select{width:390px; height:125px; display:inline-block; color:black; padding:5px; font:normal 9pt Arial; border:solid 1px #D2D2D2; background-color:#E6E6E6; box-shadow:inset 1px 1px 5px #D2D2D2;}
+
+.hisseEkleCikar .boxBttn{width:82px; padding:21px 54px 10px; display:inline-block; float:left; margin-bottom:40px; float:left;}
+.hisseEkleCikar .boxBttn a{width:82px; height:15px; display:inline-block; padding:8px 0; text-align:center; border: solid 1px #D6D6D6; font:bold 13px Arial; color:#000; text-shadow: 1px 1px 0px white; text-decoration:none; margin-bottom:10px;}
+.hisseEkleCikar .boxBttn a.addRemove{background-position:0 -9px;}
+.hisseEkleCikar .boxBttn a.addRemove:hover{background:none #fff;}
+.hisseEkleCikar .boxBttn a.save{background-position:0 -432px; color:#fff; text-shadow:none; border:solid 1px #D8710E;}
+.hisseEkleCikar .boxBttn a.save:hover{background:none #f68b25;}
+/* HİSSE SENEDİ | HİSSE EKLE ÇIKAR *****************************************************************************************/
+
+/* BORSA | HİSSE SENETLERİ *************************************************************************************************/
+.borsaSenet{width:970px; display:inline-block;}
+.w315pxContent{width:315px; overflow:hidden; margin-left:20px; float:left; margin-bottom:30px;}
+.w315pxContent.fChild{margin-left:0;}
+.w315pxContent h5{display:inline-block; font:bold 12px Arial; color:#444; padding:10px; border:1px solid #d2d2d2; border-bottom:none;}
+.w315pxContent h4{width:293px; display:inline-block; font:bold 12px Arial; color:#444; padding:10px; border:1px solid #d2d2d2; border-bottom:none;}
+.w315pxContent h3{width:315px; display:inline-block; font:bold 12px Arial; color:#444; margin-bottom:5px;}
+.w315pxContent h2{width:315px; display:inline-block; font:bold 12px Arial; color:#444; margin-bottom:5px; padding-bottom:5px; border-bottom:1px solid #ccc;}
+
+.oranlar315{width:313px; overflow:hidden; border:solid 1px #d2d2d2; margin-bottom:5px;}
+.oranlar315.hAuto{height:auto;}
+.oranlar315 > ul{width:313px; display:block; overflow:hidden; background-color: #cfe1e8;}
+.oranlar315 > ul li{display:inline-block; float:left; font:bold 12px Arial; color:#777; width:53px; border-left:solid 1px #d2d2d2;border-bottom:solid 1px #d2d2d2; padding:10px 10px 10px 5px; text-align:right;}
+.oranlar315 > ul li:first-child{ border-left:none;}
+.oranlar315 > ul li.normal{width:57px; text-align:right; padding:10px 10px; color:#696868;}
+.oranlar315 > ul li.cNormal{width:59px; text-align:left; padding:10px 10px; color:#333;}
+.oranlar315 > ul li.double{width:97px; text-align:right; padding:10px 10px; color:#696868;}
+.oranlar315 > ul li.cDouble{width:57px; text-align:left; padding:10px 10px; color:#333;}
+.oranlar315 > ul li.cKur{width:175px; text-align:left; padding:10px 10px; color:#333;}
+.oranlar315 > ul li.mini{width:38px; text-align:right; padding:10px 10px; color:#696868;}
+.oranlar315 > ul li.bank{width:80px; text-align:left; padding:10px 10px; color:#696868;}
+.oranlar315 > ul li.gold{width:50px; text-align:right; padding:10px 10px; color:#696868;}
+.oranlar315 .dataList ul{display:block;overflow:hidden; }
+.oranlar315 .dataList ul li{display:inline-block; float:left; font:normal 11px arial; color:#696868; width:54px; padding:5px 10px 5px 5px; text-align:right; border-left:1px solid #d2d2d2;}
+.oranlar315 .dataList ul li:first-child{border-left:0;}
+.oranlar315 .dataList ul li.normal{width:57px; text-align:right; padding:5px 10px; color:#696868;}
+.oranlar315 .dataList ul li.cNormal{width:59px; text-align:left; padding:5px 10px; color:#333; font:bold 11px Arial;}
+.oranlar315 .dataList ul li.double{width:97px; text-align:right; padding:5px 10px; color:#696868;}
+.oranlar315 .dataList ul li.double2{width:82px; text-align:right; padding:5px 30px 5px 5px; color:#696868;}
+.oranlar315 .dataList ul li.cDouble{width:57px; text-align:left; padding:5px 10px; color:#333; font:bold 11px Arial;}
+.oranlar315 .dataList ul li.mini{width:38px; text-align:right; padding:5px 10px; color:#696868;}
+.oranlar315 .dataList ul li.bank{width:80px; text-align:left; padding:5px 10px; color:#696868; font-weight:bold;}
+.oranlar315 .dataList ul li.gold{width:50px; text-align:right; padding:5px 10px; color:#696868;}
+.oranlar315 .dataList ul li.cKur{width:175px; text-align:left; padding:5px 10px; color:#333;}
+.oranlar315 .dataList ul li.parite{width:77px; padding:5px 30px 5px 10px; color:#696868;}
+
+.oranlar315 .dataList ul li.Arrow{position:relative;}
+.oranlar315 .dataList ul li.Arrow span{width:10px; height:8px; display:block; padding:0; position:absolute; right:10px; top:8px;}
+.oranlar315 .dataList ul li.Arrow span.up{background-position:-199px -128px;}
+.oranlar315 .dataList ul li.Arrow span.down{background-position:-199px -136px;}
+.oranlar315 .dataList ul li.Arrow span.static{background-position:-199px -120px;}
+
+.oranlar315 .dataList ul li.double i{width:8px; height:8px; display:inline-block; margin-left:5px;}
+.oranlar315 .dataList ul li.double i.down{background-position:-200px -136px;}
+.oranlar315 .dataList ul li.double i.up{background-position:-200px -128px;}
+.oranlar315 .dataList ul li.double i.static{background-position:-200px -120px;}
+
+.oranlar315 .dataList ul li a{color:#333; font-weight:bold;}
+
+.oranlar315 img{width:296px; height:156px; padding:12px 9px; display:block;}
+
+.graphBox{width:290px; overflow:hidden; padding:4px; border:1px solid #d2d2d2; margin:20px 0 35px;}
+.graphBox img{width:290px; height:148px; display:block;}
+/* BORSA | HİSSE SENETLERİ *************************************************************************************************/
+
+/* BORSA | HİSSE SENETLERİ - KAPANIŞLAR ************************************************************************************/
+.kapanislar{width:300px; overflow:hidden; border-bottom:1px dotted #d2d2d2; margin:35px 0;}
+.kapanislar h3{width:300px; overflow:hidden; font:bold 12px Arial; color:#444; padding-bottom:5px; border-bottom:1px solid #d2d2d2; margin-bottom:5px;}
+.kapanislar .radio{width:300px; overflow:hidden; font:normal 12px Arial; color:#000; margin:15px 0 20px;}
+/* BORSA | HİSSE SENETLERİ - KAPANIŞLAR ************************************************************************************/
+
+/* BORSA | HİSSE SENETLERİ - EDNEKSİN TEKNİK ANALİZİ ***********************************************************************/
+.endeksTeknikAnaliz{width:650px; display:inline-block; margin-bottom:30px;}
+.endeksTeknikAnaliz h3{width:650px; display:inline-block; font:bold 12px Arial; color:#444; padding-bottom:5px; margin-bottom:20px; border-bottom:1px solid #d2d2d2;}
+.endeksTeknikAnaliz .chart{width:225px; display:inline-block; margin-right:20px; float:left;}
+.endeksTeknikAnaliz .chart u{width:225px; height:15px; display:inline-block; font:normal 12px Arial; color:#333; text-decoration:none;}
+.endeksTeknikAnaliz .chart img{width:215px; height:125px; padding:4px; border:1px solid #d2d2d2; margin:5px 0;}
+.endeksTeknikAnaliz .chart a{width:225px; display:inline-block; font:normal 11px Arial; color:#333; text-decoration:none;}
+
+.endeksTeknikAnaliz .masterAnaliz{width:405px; height:135px; display:inline-block; margin:20px 0; float:left;}
+.endeksTeknikAnaliz .masterAnaliz img{width:135px; height:135px; overflow:hidden; margin-right:10px; float:left;}
+.endeksTeknikAnaliz .masterAnaliz .expo{width:260px; height:135px; overflow:hidden; float:left;}
+.endeksTeknikAnaliz .masterAnaliz .expo h2{width:260px; display:inline-block; font:normal 12px Arial;}
+.endeksTeknikAnaliz .masterAnaliz .expo small{width:260px; display:inline-block; font:normal 11px Arial; margin-top:5px;}
+.endeksTeknikAnaliz .masterAnaliz .expo .twitter{width:170px; height:30px; display:inline-block; text-align:center; margin:9px 0; background-position:0 -9px; border:1px solid #d2d2d2;}
+.endeksTeknikAnaliz .masterAnaliz .expo .twitter a{width:150px; height:19px; display:inline-block; padding:6px 10px 5px; color:#000;}
+.endeksTeknikAnaliz .masterAnaliz .expo .twitter a u{width:14px; height:19px; display:inline-block; margin-right:7px; background-position:-215px -125px; float:left;}
+.endeksTeknikAnaliz .masterAnaliz .expo .twitter a i{display:inline-block; color:#000; float:left; font:bold 10px/19px Arial;}
+.endeksTeknikAnaliz .masterAnaliz .expo .comment{width:260px; display:inline-block; font:normal 12px/18px Arial;}
+.endeksTeknikAnaliz .masterAnaliz .expo .comment span{width:14px; height:13px; display:inline-block;}
+.endeksTeknikAnaliz .masterAnaliz .expo .comment span.start{background-position:-235px -127px; margin-right:3px;}
+.endeksTeknikAnaliz .masterAnaliz .expo .comment span.stop{background-position:-254px -131px; margin-left:3px;}
+/* BORSA | HİSSE SENETLERİ - EDNEKSİN TEKNİK ANALİZİ ***********************************************************************/
+
+/* HİSSE DETAY | YABANCI İŞLEMLER ******************************************************************************************/
+.yabanciIslemler{width:650px; display:inline-block;}
+.yabanciIslemler .filtrele{width:650px; display:inline-block;}
+.yabanciIslemler .filtrele .caption{width:650px; display:inline-block; margin-bottom:5px;}
+.yabanciIslemler .filtrele .caption p{width:186px; overflow:hidden; padding:2px; float:left; margin-right:10px; font:bold 12px Arial; color:#838383;}
+/* HİSSE DETAY | YABANCI İŞLEMLER ******************************************************************************************/
+
+/* ANALİZ | MALİ TABLOLAR **************************************************************************************************/
+.leftContent .maliTable{width:648px; display:inline-block; border:solid 1px #d2d2d2; overflow:hidden; margin:3px 0;}
+.leftContent .maliTable > ul{width:100%; display:block;}
+.leftContent .maliTable > ul li{width:648px; display:inline-block; list-style:none; overflow:hidden; text-align:right;border-top:solid 1px #d2d2d2; float:left;}
+.leftContent .maliTable > ul li span{display:inline-block; padding:6px 15px; font:bold 12px Arial; color:#333; float:left;}
+.leftContent .maliTable > ul li span.i{font-weight:normal; margin-left:20px;}
+.leftContent .maliTable > ul li span.ii{font-weight:normal; margin-left:40px;}
+.leftContent .maliTable > ul li span.iii{font-weight:normal; margin-left:60px;}
+.leftContent .maliTable > ul li small{width:100px; display:inline-block; padding:6px 15px; font:bold 11px Arial; color:#666; float:right; border-left:1px solid #d2d2d2;}
+.leftContent .maliTable > ul li small.up{color:#1ea42b;}
+.leftContent .maliTable > ul li small.down{color:#db2626;}
+.leftContent .maliTable > ul li:first-child{border-top:none; }
+/* ANALİZ | MALİ TABLOLAR **************************************************************************************************/
+
+/* ANALİZ | ARZAN AZALAN BIST CHART ****************************************************************************************/
+.analizChart{width:630px; overflow:hidden; padding:20px 9px; background-color:#FAFAFA; box-shadow:inset 1px 1px 10px #CCC; border:1px solid #F2F2F2; margin-bottom:30px;}
+.analizChart .tabSelect{width:630px; display:inline-block;}
+.analizChart .tabSelect h4{width:630px; display:inline-block; font:bold 12px Arial; margin-bottom:5px;}
+.analizChart .tabSelect .chartBox{width:630px; margin:5px 0 20px;}
+.analizChart .tabSelect .chartBox img{width:630px; height:170px; overflow:hidden; margin-bottom:5px;}
+.analizChart .tabSelect .chartBox .openNewBrowser{text-align:center;}
+/* ANALİZ | MALİ TABLOLAR **************************************************************************************************/
+
+/* ANALİZ | AÇIKLAMA KUTULARI **********************************************************************************************/
+.expoBox{width:650px; display:inline-block; margin-bottom:30px;}
+.expoBox h3{width:650px; display:inline-block; color:#444; font:bold 12px Arial; margin-bottom:5px;}
+.expoBox p{width:650px; display:inline-block; color:#444; font:normal 12px/20px Arial;}
+/* ANALİZ | AÇIKLAMA KUTULARI **********************************************************************************************/
+
+/* ANALİZ | TOOGLE TAB MENÜ ************************************************************************************************/
+.toggleTab{width:650px; display:inline-block;}
+.toggleTab .item{width:650px; display:inline-block; margin-bottom:5px;}
+.toggleTab .item .caption{width:630px; height:15px; display:inline-block; padding:10px; margin-bottom:5px; background-color:#deeaef; cursor:pointer;}
+.toggleTab .item .caption h2{height:15px; display:inline-block; float:left; font:bold 12px/20px Arial; color:#333;}
+.toggleTab .item .caption span{width:10px; height:10px; display:inline-block; float:left; margin:5px 0 0 5px; background-position:-280px -130px;}
+.toggleTab .item .caption span.selected{background-position:-269px -130px;}
+.toggleTab .item .text{width:640px; display:inline-block; padding:5px; display:none;}
+.toggleTab .item .text p{width:640px; display:inline-block; font:normal 12px/20px Arial; color:#333; margin-bottom:5px;}
+/* ANALİZ | TOOGLE TAB MENÜ ************************************************************************************************/
+
+/* HİSSE DETAY | HİSSE GRAFİKLERİ ******************************************************************************************/
+.hisseGraph{width:650px; display:inline-block;}
+.hisseGraph .hisseBox{width:315px; height:220px; overflow:hidden; margin:0 0 35px 20px; float:left;}
+.hisseGraph .hisseBox .boxContent{width:296px; display:inline-block; padding:8px 8px 8px 7px; border:1px solid #d2d2d2; margin-bottom:10px;}
+.hisseGraph .hisseBox .boxContent span{width:296px; height:14px; display:inline-block; font:bold 11px Arial; color:#444;}
+.hisseGraph .hisseBox .boxContent img{width:296px; height:150px; overflow:hidden; margin:5px 0 5px;}
+/* HİSSE DETAY | HİSSE GRAFİKLERİ ******************************************************************************************/
+
+/* DÖVİZ | KURLAR KABLOSU **************************************************************************************************/
+.kurChart{width:650px; display:inline-block;}
+.kurChart a{width:196px; display:inline-block; border:1px solid #d2d2d2; padding:7px 4px 5px 8px; color:#000; float:left; margin:0 0 5px 10px;}
+.kurChart a:first-child{margin-left:0px;}
+.kurChart a h3{width:102px; display:inline-block; font:bold 13px Arial; float:left;}
+.kurChart a h4{width:87px; display:inline-block; font:bold 11px Arial; float:left;}
+.kurChart a span{width:95px; display:inline-block; float:left; margin-top:5px; padding:0;}
+.kurChart a span.right{width:80px; display:inline-block; padding:0 5px 0 5px; border-left:1px dashed #d2d2d2;}
+.kurChart a span small{width:100%; display:inline-block; font:normal 10px Arial;}
+.kurChart a span b{width:100%; display:inline-block; font:bold 23px Arial;}
+.kurChart a span b.up{color:#009819;}
+.kurChart a span b.down{color:#ea0000;}
+.kurChart a span b.static{color:#3C6FB3;}
+.kurChart p{width:630px; padding:0 10px; font:bold 11px Arial; color:#333;}
+/* DÖVİZ | KURLAR KABLOSU **************************************************************************************************/
+
+/* DÖVİZ | ÜLKE BAYRAĞI - KURLAR LİSTESİ ***********************************************************************************/
+.kurWithFlags{width:650px; display:inline-block;}
+.kurWithFlags .filterBar{width:650px; margin:0; height:auto;}
+.kurWithFlags .filterBar select{height:33px; float:left; font:normal 9pt arial; color:#838383; border:solid 1px #D6D6D6; padding:5px; margin:5px;}
+/* DÖVİZ | ÜLKE BAYRAĞI - KURLAR LİSTESİ ***********************************************************************************/
+
+/* DÖVİZ | MASTERS RIGHT BOX ***********************************************************************************************/
+.masterBox{width:280px; height:auto; padding:9px; overflow:hidden; border:1px solid #d2d2d2;}
+.masterBox a{display:inline-block; color:#000;}
+.masterBox img{width:140px; height:125px; display:block; margin-right:15px; float:left;}
+.masterBox b{width:125px; height:20px; overflow:hidden; float:right; font:bold 11px Arial;}
+.masterBox small{width:125px; height:20px; overflow:hidden;; float:right; font:normal 14px Arial; color:#444;}
+.masterBox h3{width:125px; height:70px; overflow:hidden; float:right; font:normal 18px/24px Arial; margin-top:10px;}
+.masterBox p{width:280px; height:auto; display:inline-block; font:normal 12px/20px Arial; color:#444; margin-top:10px; overflow:hidden;}
+/* DÖVİZ | MASTERS RIGHT BOX ***********************************************************************************************/
+
+/* GENEL - TAB MENÜ ********************************************************************************************************/
+.tabMenu{display:inline-block; position:relative; z-index:9;}
+.tabMenu ul.subMenu{width:968px; height:43px; list-style:none; border:1px solid #eee; border-bottom:none; background:transparent url(/Content/Images/subMenuBg.png) repeat-x bottom;}
+.tabMenu ul.subMenu.haber{margin-bottom:25px;}
+.tabMenu ul.subMenu.bilgi{margin-bottom:25px;}
+.tabMenu ul.subMenu.vobVar{margin-bottom:20px;}
+.tabMenu ul.subMenu.width648px{width:648px;}
+.tabMenu ul.subMenu li{float:left; height:40px; display:inline-block; border-left:1px solid #eee;}
+.tabMenu ul.subMenu li:first-child{border-left:none;}
+.tabMenu ul.subMenu li a{display:inline-block; color:#222; font:normal 10px Arial; cursor:pointer;}
+.tabMenu ul.subMenu li a:hover{color:#f68b25;}
+.tabMenu ul.subMenu li a h2{height:13px; display:inline-block; padding:5px 20px; margin:10px 0 7px; position:relative;}
+.tabMenu ul.subMenu li a h2 small{width:8px; height:7px; display:block; position:absolute; right:2px; top:8px;}
+.tabMenu ul.subMenu li a h2 small.downBlack{background-position:-355px -124px;}
+.tabMenu ul.subMenu li a h2 small.downOrange{background-position:-355px -132px;}
+.tabMenu ul.subMenu li.selected{height: 43px; box-shadow: inset 0px 2px 2px #BBB; background: white url(/Content/Images/bigpara_spriteBg.png) repeat-x 0 -389px;}
+.tabMenu ul.subMenu li a.gif{padding:4px 10px;}
+.tabMenu ul.subMenu.borsa{width:auto;}
+.tabMenu ul.subMenu.analiz{width:auto;}
+.tabMenu ul.subMenu.teknik{width:auto;}
+.tabMenu ul.subMenu.haber{width:auto;}
+.tabMenu ul.subMenu.hisse{width:auto; border-right:none;}
+.ipad.safari .tabMenu ul.faizler li.selected{height:42px;}
+.ipad.safari .tabMenu ul.analiz li.selected{height:42px;}
+.ipad.safari .tabMenu ul.bilgi li.selected{height:42px;}
+.tabMenu ul.subMenu li.selected a{color:#f68b25;}
+.tabMenu ul.subMenu.mBotHisse{margin-bottom:35px;}
+.ie7 .tabMenu ul.subMenu.mBotHisse{margin-bottom:0px;}
+.ie9 .tabMenu ul.subMenu li a h2 small{top:7px;}
+.ie7 .tabMenu ul.subMenu li a h2 small{right:7px;}
+
+.tabMenu ul.subMenu li.selected2{height:50px; box-shadow:inset -1px 2px 2px #ccc; background-color:#ededed;}
+.tabMenu ul.subMenu li.selected2 .downBlack{display:none;}
+.tabMenu ul.subMenu li.selected2 a{color:#f68b25;}
+.tabMenu ul.subMenu li.selected2 .hoverable{width:947px; height:40px; display:inline-block; padding:0 10px; position:absolute; left:0; top:50px; background-color:#ededed; box-shadow:inset 0px -2px 3px #CCC; border:1px solid #ddd; border-top:none;}
+.tabMenu ul.subMenu li.selected2 .hoverable ul.subHover{width:950px; height:28px; display:inline-block; padding:12px 0 0; float:left; list-style:none; border:none; margin:0; background:none;}
+.tabMenu ul.subMenu li.selected2 .hoverable ul.subHover li{height:20px; display:inline-block; padding:0 10px; float:left; border-left:2px groove #f8f8f8; box-shadow:none;}
+.tabMenu ul.subMenu li.selected2 .hoverable ul.subHover li a{display:inline-block; color:#333; font:bold 13px Arial;}
+.tabMenu ul.subMenu li.selected2 .hoverable ul.subHover li a h2{height:auto; margin:0; padding:0;}
+.tabMenu ul.subMenu li.selected2 .hoverable ul.subHover li:first-child{border-left:none;}
+.tabMenu ul.subMenu li.selected2 .hoverable ul.subHover li.select{position:relative;}
+.tabMenu ul.subMenu li.selected2 .hoverable ul.subHover li.select a{color:#f68b25;}
+.tabMenu ul.subMenu li.selected2 .hoverable ul.subHover li.select span.arrow{width:100%; height:10px; display:block; background:transparent url(/Contnet/Images/arrowBottom.png) no-repeat center bottom; position:absolute; bottom:-9px; left:0;}
+.tabMenu ul.width648px li.selected2 .hoverable{width:627px;}
+.tabMenu ul.width648px li.selected2 .hoverable ul.subHover{width:645px;}
+.ie7 .tabMenu ul.width648px li.selected2 .hoverable{width:628px;}
+
+.tabMenu ul.subMenu li.analiz{width:75px; position:relative;}
+.ie7 .tabMenu ul.subMenu li.analiz{width:82px;}
+.ie9 .tabMenu ul.subMenu li.analiz{width:76px;}
+.tabMenu ul.subMenu li.analiz a{width:75px; border-right:1px solid #ddd;}
+.ie9 .tabMenu ul.subMenu li.analiz a{width:77px;}
+.ie7 .tabMenu ul.subMenu li.analiz a{width:81px;}
+.tabMenu ul.subMenu li.analiz a.lysSelected{height:45px; background-color:#d2d2d2; color:#000;}
+.tabMenu ul.subMenu li.analiz ul.submenu{width:177px; height:auto; display:none; z-index:99; position:absolute; top:40px; right:-1px; background:#e5e5e5 none; border:none; padding:1px 0 5px; border-bottom: 5px solid #BEBABA; box-shadow: inset 2px 2px 5px #CCC;}
+.ie9 .tabMenu ul.subMenu li.analiz ul.submenu{right:-1px;}
+.ie7 .tabMenu ul.subMenu li.analiz ul.submenu{right:0px; width:177px;}
+.tabMenu ul.subMenu li.analiz ul.submenu li{width:177px; height:32px; display:inline-block; border:none; margin:0 1px; box-shadow:none;}
+.tabMenu ul.subMenu li.analiz ul.submenu li a{width:175px; height:32px; display:inline-block; color:#000; font:normal 12px Arial;}
+.tabMenu ul.subMenu li.analiz ul.submenu li a:hover{height:32px;}
+.tabMenu ul.subMenu li.analiz ul.submenu li a h2{width:160px; height:21px; display:inline-block; margin:0 1px; padding:10px 0 0 15px; border:none; border-bottom:1px solid #fff; text-shadow:1px 1px 1px #fff; font:normal 12px Arial;}
+.tabMenu ul.subMenu li.analiz ul.submenu li a:hover{background-color:#fff; color:#ff9f22;}
+.tabMenu ul.subMenu li.analiz ul.submenu li.caption{width:130px; height:8px; font:normal 10px Arial; padding:16px 9px 18px 16px; cursor:pointer;}
+.tabMenu ul.subMenu li.analiz ul.submenu li.caption:hover{background-color:#e5e5e5; color:#000; box-shadow: inset 2px 2px 5px #CCC;}
+.tabMenu ul.subMenu li.analiz ul.submenu li span.arrow{display:none;}
+
+.tabMenu ul.haber li a h2{padding:5px 10px;}
+.tabMenu ul.haber li.yorumlar{width:84px; z-index:1;}
+.tabMenu ul.haber li.yorumlar a{width:84px}
+.tabMenu ul.haber li.yorumlar a h2{width:84px}
+.tabMenu ul.haber li.haberler{width:84px}
+.tabMenu ul.haber li.haberler a{width:84px}
+.tabMenu ul.haber li.last a h2{padding:5px 16px 5px 15px;}
+.ie10 .tabMenu ul.haber li a h2{padding:5px 12px}
+.ie9 .tabMenu ul.haber li a h2{padding:5px 11px 5px 12px;}
+.ie9 .tabMenu ul.haber li.last a h2{padding:5px 14px 5px 15px;}
+.ie7 .tabMenu ul.haber li.yorumlar a{width:79px;}
+
+.tabMenu ul.portfoy li a h2{padding:5px 27px 5px 28px;}
+.tabMenu ul.hisse li a h2{padding:5px 11px}
+.tabMenu ul.hisse li.selected2 > a > h2{width:46px; padding-left:20px;}
+.gecko .tabMenu ul.hisse li.selected2 > a > h2{padding-left:21px;}
+.ie10 .tabMenu ul.hisse li.selected2 > a > h2{width:46px; padding:5px 14px 5px 20px;}
+.ie9 .tabMenu ul.hisse li.selected2 > a > h2{width:46px; padding-left:22px;}
+.ie7 .tabMenu ul.hisse li.selected2 > a > h2{width:43px; padding:5px 16px 5px 23px;}
+.tabMenu ul.hisse li.analiz a h2{padding:5px 15px;}
+.tabMenu ul.teknik li a h2{padding:5px 8px;}
+.tabMenu ul.teknik li.last a h2{padding:5px 6px;}
+.tabMenu ul.analiz li a h2{padding:5px 12px;}
+.tabMenu ul.analiz li.last a h2{padding:5px 14px;}
+.tabMenu ul.analiz.width648px li a h2{padding:5px 24px;}
+.tabMenu ul.borsa li a h2{padding:5px 12px;}
+.tabMenu ul.borsa li.last a h2{padding:5px 17px 5px 18px;}
+.tabMenu ul.borsa.width648px li a h2{padding:5px 7px;}
+.tabMenu ul.bilgi li a h2{padding:5px 21px;}
+.tabMenu ul.bilgi li.selected a h2{padding:5px 19px;}
+.ie9 .tabMenu ul.bilgi li a h2{padding:5px 22px;}
+.ie10 .tabMenu ul.bilgi li.selected a h2{padding:5px 30px 5px 30px;}
+.ie9 .tabMenu ul.bilgi li.selected a h2{padding:5px 24px 5px 23px;}
+.ie7 .tabMenu ul.bilgi li.selected a h2{padding:5px 22px;}
+.ie10 .tabMenu ul.hisse li a h2{padding:5px 12px;}
+.ie9 .tabMenu ul.hisse li a h2{padding:5px 12px;}
+.ie7 .tabMenu ul.analiz.width648px li a h2{padding:5px 25px 5px 26px;}
+.ie9 .tabMenu ul.borsa li a h2{padding:5px 13px 5px 14px;}
+.ie10 .tabMenu ul.borsa li a h2{padding:5px 13px 5px 14px;}
+.ie9 .tabMenu ul.borsa li.last a h2{padding:5px 16px 5px 17px;}
+.ie7 .tabMenu ul.borsa li a h2{padding:5px 13px;}
+.ie7 .tabMenu ul.borsa.width648px li a h2{padding:5px 9px;}
+.ie7 .tabMenu ul.haber li a h2{padding:5px 12px 5px 9px;}
+.ie7 .tabMenu ul.analiz li a h2{padding:5px 12px;}
+.ie7 .tabMenu ul.analiz li.last a h2{padding:5px 14px;}
+.ie10 .tabMenu ul.analiz li a h2{padding:5px 14px 5px 13px;}
+.ie9 .tabMenu ul.analiz li a h2{padding:5px 14px 5px 13px;}
+.ie9 .tabMenu ul.analiz li.last a h2{padding:5px 15px;}
+.ie7 .tabMenu ul.teknik li a h2{padding:5px 9px;}
+.ie7 .tabMenu ul.teknik li.last a h2{padding:5px 11px;}
+.ie10 .tabMenu ul.teknik li a h2{padding:5px 10px;}
+.ie9 .tabMenu ul.teknik li a h2{padding:5px 10px;}
+.ie9 .tabMenu ul.teknik li.last a h2{padding:5px 10px 5px 11px;}
+.ie10 .tabMenu ul.temel li a h2{padding:5px 26px 5px 27px;}
+
+.tabMenu ul.subMenu li.hbr{width:90px;}
+.tabMenu ul.subMenu li.hbr a{width:90px;}
+.tabMenu ul.subMenu li.hbr a h2{width:55px; padding:5px 14px;}
+
+.ie9 .tabMenu ul.subMenu li.hbr{width:90px;}
+.ie9 .tabMenu ul.subMenu li.hbr a{width:90px;}
+.ie9 .tabMenu ul.subMenu li.hbr a h2{width:55px; padding:5px 14px;}
+
+.ie7 .tabMenu ul.subMenu li.hbr{width:90px;}
+.ie7 .tabMenu ul.subMenu li.hbr a{width:90px;}
+.ie7 .tabMenu ul.subMenu li.hbr a h2{width:55px; padding:5px 14px;}
+/* GENEL - TAB MENÜ ********************************************************************************************************/
+
+/* FAİZLER BANKA ŞUBELERİ **************************************************************************************************/
+.faizlerSubeler{width:650px; display:inline-block;}
+.faizlerSubeler .filtrele{width:650px; display:inline-block;}
+.faizlerSubeler .filtrele .caption{width:650px; display:inline-block; margin-bottom:5px;}
+.faizlerSubeler .filtrele .caption p{width:150px; overflow:hidden; padding:2px; float:left; margin:0 10px 0 0; font:bold 12px Arial; color:#838383;}
+.faizlerSubeler .filtrele .caption p:first-child{width:266px;}
+.ie7 .faizlerSubeler .filtrele .caption p:first-child{width:256px;}
+.latestupdateDate{float:right;font:11px Arial;padding-bottom:3px;margin-top:10px;}
+
+/* FAİZLER BANKA ŞUBELERİ **************************************************************************************************/
+
+/* HABERLER GENEL - RIGHT COLUMN *******************************************************************************************/
+.globeNews{width:300px; overflow:hidden;} 
+.globeNews.noBorder{border:none;} 
+.globeNews ul.news{display:block; margin-left:20px; color:#f68b25; list-style-type:square;} 
+.globeNews ul.news li{padding:10px 5px; font:normal 9pt arial; color:#f68b25; border-bottom:1px dotted #d2d2d2;} 
+.globeNews ul.news li a{display:block; font:normal 12px Arial; color:#444;}  
+.globeNews .allCommentLink{margin-top:10px; text-align:left;}     
+.globeNews .allCommentLink a{font:bold 9pt arial; color:#000;}
+.globeNews .allCommentLink a span{color:#f68b25}
+/* HİSSE HAKKINDA HABERLER ************************************************************************************************/
+
+/* ALTIN | GENEL CHART ****************************************************************************************************/
+.altinChart{width:650px; height:445px; overflow:hidden;}
+.altinChart .chartBox{width:630px; height:425px; overflow:hidden; padding:9px; background-color:#FAFAFA; box-shadow:inset 1px 1px 10px #CCC; border:1px solid #F2F2F2;}
+.altinChart .chartBox select{display:inline-block; margin:10px 0 10px 10px; height:33px; float:left; font:normal 9pt arial; color:#838383; border:solid 1px #d6d6d6; padding:5px;}
+.altinChart .chartBox img{width:630px; height:345px; overflow:hidden; margin-bottom:10px;}
+.ie7.altinChart .chartBox select{height:23px;}
+/* ANALİZ | MALİ TABLOLAR *************************************************************************************************/
+
+/* DÖVİZ DETAY | LIKE - COMMENT BAR ***************************************************************************************/
+.likeCommentBar{width:638px; display:inline-block; border:1px solid #d2d2d2; box-shadow:1px 2px 3px #ccc; padding:5px;}
+.likeCommentBar ul{width:638px; display:inline-block;}
+.likeCommentBar ul li{height:40px; display:inline-block; float:left; list-style:none; padding:0 5px; border-left:dotted 1px #D2D2D2; overflow:hidden;}
+.likeCommentBar ul li:first-child{border:none;}
+.likeCommentBar ul li a{display:inline-block; font:normal 12px Arial; color:#ccc; padding:11px 10px 9px 10px;}
+.likeCommentBar ul li.commentNumber{width:85px;}
+.likeCommentBar ul li.eposta a{width:16px; height:11px; display:inline-block; background-position:-351px -62px; margin:14px 10px; padding:0;}           
+.likeCommentBar ul li.print a{width:16px; height:15px; display:inline-block; background-position:-372px -58px; margin:12px 10px; padding:0;}
+.likeCommentBar ul li.commentNumber a{display:inline-block; padding:0 10px; line-height:40px; color:#808080;}
+.likeCommentBar ul li.social{width:428px; height:20px; display:inline-block; padding:10px; overflow:inherit;}
+.likeCommentBar ul li.social .btn{width:110px; height:21px; float:left; display:inline-block; margin-left:10px;}
+.googlePlus{width:80px; height:21px; float:left; display:inline-block; margin-left:10px;}
+.likeCommentBar ul li.eposta:hover, .likeCommentBar ul li.print:hover{background-color:#e6e6e6;}
+/* DÖVİZ DETAY | LIKE - COMMENT BAR ***************************************************************************************/
+
+/* DÖVİZ DETAY | KUR DETAY BAR ********************************************************************************************/
+.kurDetail{width:650px; display:inline-block;}
+.kurDetail .kurBox{width:121px; height:55px; overflow:hidden; float:left; padding:0 20px; border-left:1px dotted #d2d2d2;}
+.kurDetail .kurBox:first-child{border:none;}
+.kurDetail .kurBox span{width:48px; height:34px; display:inline-block; float:left; margin:5px 0 0 0; overflow:hidden;}
+.kurDetail .kurBox span img{width:48px; height:34px; display:block;}
+.kurDetail .kurBox h3{width:121px; height:15px; display:inline-block; float:left; font:bold 13px Arial; overflow:hidden;}
+.kurDetail .kurBox small{width:121px; display:inline-block; font:normal 10px Arial; margin-bottom:3px;}
+.kurDetail .kurBox b{width:121px; display:inline-block; font:bold 17px Arial;}
+.kurDetail .kurBox strong{width:121px; display:inline-block; font:bold 34px Arial;}
+.kurDetail .kurBox strong.up{color:#009819;}
+.kurDetail .kurBox strong.down{color:#e02b2b;}
+/* DÖVİZ DETAY | KUR DETAY BAR ********************************************************************************************/
+
+/* DÖVİZ DETAY | KUR DETAY BAR ********************************************************************************************/
+.vobContent{width:650px; display:inline-block; margin-bottom:35px;}
+/* DÖVİZ DETAY | KUR DETAY BAR ********************************************************************************************/
+
+/* MAIN COMMENTS AREA | YORUM MODÜLÜ **************************************************************************************/
+.mainCommentsArea{width:650px; display:inline-block; margin-bottom:30px;}
+.mainCommentsArea .writeArea{width:650px; display:inline-block; font:normal 12px Arial; color:#000; margin-bottom:20px;}
+.mainCommentsArea .writeArea p{width:650px; display:inline-block; padding:10px 0;}
+.mainCommentsArea .writeArea textarea{width:628px; margin-top:10px; border:solid 1px #d2d2d2; padding:10px; font:normal 12px Arial; color:#686868; background-color:#fafafa; box-shadow:inset 1px 1px 3px #c7c7c7;}
+.mainCommentsArea .writeArea textarea:focus{outline:none;}
+
+.mainCommentsArea .writeArea .comLeft{width:400px; display:inline-block; float:left; margin-top:10px;}
+.mainCommentsArea .writeArea .comLeft span{width:400px; display:inline-block; padding:5px 0; font:bold 13px Arial; color:#333; float:left;}
+.mainCommentsArea .writeArea .comLeft input[type="text"]{width:240px; height:20px; display:inline-block; margin:0 150px 10px 0; padding:5px; font:normal 13px Arial; color:#686868; float:left; border:1px solid #d2d2d2; background-color:#fafafa; box-shadow:inset 1px 1px 3px #c7c7c7;}
+.mainCommentsArea .writeArea .resultArea{width:230px; display:inline-block; float:right; margin:10px;}
+.mainCommentsArea .writeArea .resultArea span{width: 218px; display: inline-block; padding: 5px; color: red; text-align: center;}
+
+
+.mainCommentsArea .writeArea .sendArea{width:650px; display:inline-block; float:right;}
+.mainCommentsArea .writeArea .sendArea b {display:inline-block; font:normal 11px Arial; color:#666; margin:10px 0; float:left; border:1px solid #d2d2d2; background-color:#d7d7d7; padding:2px 5px;}
+.mainCommentsArea .writeArea .sendArea small {display:inline-block; font:normal 12px/27px Arial; color:#000; margin:10px 0; float:right;}
+.mainCommentsArea .writeArea .sendArea input[type="button"] {display:inline-block; font:bold 13px/27px Arial; color:#f68b25; margin:10px; float:right; cursor:pointer;}
+.mainCommentsArea .writeArea .sendArea input[type="button"].form_buton{width:88px; background-position:0px -432px; font:bold 12px Arial; color:#fff; padding:6px 10px 4px; text-align:center; text-shadow:1px 1px 0px #C56A13; border:solid 1px #df730a; text-decoration:none;}
+.mainCommentsArea .writeArea .sendArea a {display:inline-block; font:bold 13px/27px Arial; color:#f68b25; margin:10px; float:right;}
+.mainCommentsArea .writeArea .sendArea a.s_x{width:88px; background-position:0px -432px; font:bold 12px Arial; color:#fff; padding:6px 10px 4px; text-align:center; text-shadow:1px 1px 0px #C56A13; border:solid 1px #df730a; text-decoration:none;}
+.mainCommentsArea .writeArea .sendArea a.s_x:hover{background:#f68f2d none;}
+
+.mainCommentsArea .comments{width:650px; display:inline-block;}
+.mainCommentsArea .comments ul{width:100%;}
+.mainCommentsArea .comments ul li{display:block; list-style:none;}
+.mainCommentsArea .comments ul li .cmt{width:628px; border:solid 1px #d2d2d2; display:inline-block;padding:10px; margin-top:5px; position:relative;}
+.mainCommentsArea .comments ul li .cmt .hisseHaberID{max-width:450px; height:12px; display: inline-block; border: 1px solid #D2D2D2; padding: 5px 10px; overflow:hidden; border-top: none; position: absolute; left: 0; top: 0; border-left: 3px solid #FF9000; border-radius: 0px 0px 10px 0px;} 
+.mainCommentsArea .comments ul li .cmt .hisseHaberID a{display: inline-block; font: bold 11px Arial; color: #333;} 
+.mainCommentsArea .comments ul li .cmt .right{width:628px; display:inline-block; position:relative; z-index:1; padding:25px 0 10px;}
+.mainCommentsArea .comments ul li .cmt .right .comLine1{width:548px; display:inline-block; font:bold 14px/25px Arial;}
+.mainCommentsArea .comments ul li .cmt .right .comLine1 i{display:inline-block; padding:2px 10px; font:normal 11px Arial; color:#fff; border:solid 1px #c56a13; text-shadow:1px 1px 0px #c56a13; background-position:0 -435px;}
+.mainCommentsArea .comments ul li .cmt .right .comLine1 a{display:inline-block; color:#333;}
+.mainCommentsArea .comments ul li .cmt .right p{display:inline-block; font:normal 9pt/1.8 arial; color:#222;}
+.mainCommentsArea .comments ul li .cmt .right small{display:inline-block; font:normal 11px Arial; color:#333; margin:2px 0;}
+.mainCommentsArea .comments ul li .cmt .right .voteBar{position:absolute; top:0; right:0; z-index:1111;}
+.mainCommentsArea .comments ul li .cmt .right .voteBar small{display:inline-block; float:left; font:bold 12px Arial; color:#333; padding:1px 10px}
+.mainCommentsArea .comments ul li .cmt .right .voteBar span.s{display:inline-block; float:left; font:normal 8pt arial; padding:4px 10px 2px 30px; height:15px; border:solid 1px #d2d2d2; cursor:pointer; box-shadow:0px 1px 3px #ccc; border-radius:2px;}
+.mainCommentsArea .comments ul li .cmt .right .voteBar span.s.yes{ background-position:-32px -101px; color:#4ea600;}
+.mainCommentsArea .comments ul li .cmt .right .voteBar span.s.no{ background-position:-81px -101px; color:#ff0000}
+.mainCommentsArea .comments ul li .cmt .right .voteBar span.s:hover{background-color:#e6e6e6;box-shadow:inset 1px 1px 3px #c7c7c7}
+.mainCommentsArea .comments ul li .cmt .right .writeBar{position:absolute; bottom:0; right:0; z-index:1111;}
+.mainCommentsArea .comments ul li .cmt .right .writeBar a{display:inline-block; padding:3px 10px; border:solid 1px #d2d2d2; font:normal 9pt arial; color:#333; float:left; box-shadow:0px 1px 3px #ccc; border-radius:2px; background-position:0 -15px;}
+.mainCommentsArea .comments ul li .cmt .right .writeBar a:hover{background-color:#e6e6e6; box-shadow:inset 1px 1px 3px #c7c7c7}
+
+.mainCommentsArea .comments ul li ul{width:560px; float:right;}
+.mainCommentsArea .comments ul li ul li{display:block; list-style:none;}
+.mainCommentsArea .comments ul li.cmtComment ul li{position:relative; z-index:1;}
+.mainCommentsArea .comments ul li.cmtComment ul li .commentArrow{width:37px; height:36px;background-position:-145px -110px; position:absolute; top:35px; left:-70px;}
+
+.mainCommentsArea .comments ul li ul li .cmt{width:538px; border:solid 1px #d2d2d2; display:inline-block;padding:10px;}
+.mainCommentsArea .comments ul li ul li .cmt .left{float:left; width:70px; padding-top:5px}
+.mainCommentsArea .comments ul li ul li .cmt .left img{float:left; width:65px; height:65px; border:solid 1px #d1d1d1; box-shadow:1px 1px 2px #d2d2d2;}
+.mainCommentsArea .comments ul li ul li .cmt .right{float:left; margin-left:10px; width:458px; display:inline-block; position:relative;z-index:1; padding:0;}
+.mainCommentsArea .comments ul li ul li .cmt .right .comLine1{width:548px; display:inline-block; font:bold 14px/25px Arial;; color:#333;}
+.mainCommentsArea .comments ul li ul li .cmt .right .comLine1 i{display:inline-block; padding:2px 10px; font:normal 11px Arial; color:#fff; border:solid 1px #c56a13; text-shadow:1px 1px 0px #c56a13; background-position:0 -435px;}
+.mainCommentsArea .comments ul li ul li .cmt .right p{display:inline-block; font:normal 9pt/1.8 arial; color:#222;}
+.mainCommentsArea .comments ul li ul li .cmt .right small{display:inline-block; font:normal 11px Arial; color:#333; margin:2px 0;}
+.mainCommentsArea .comments ul li ul li .cmt .right .voteBar{position:absolute; top:0; right:0; z-index:1111;}
+.mainCommentsArea .comments ul li ul li .cmt .right .voteBar small{display:inline-block; float:left; font:bold 12px Arial; color:#333; padding:1px 10px}
+.mainCommentsArea .comments ul li ul li .cmt .right .voteBar span.s{display:inline-block; float:left; font:normal 8pt arial; padding:4px 10px 2px 30px; height:15px; border:solid 1px #d2d2d2; cursor:pointer; box-shadow:0px 1px 3px #ccc; border-radius:2px;}
+.mainCommentsArea .comments ul li ul li .cmt .right .voteBar span.s.yes{ background-position:-32px -101px; color:#4ea600;}
+.mainCommentsArea .comments ul li ul li .cmt .right .voteBar span.s.no{ background-position:-81px -101px; color:#ff0000}
+.mainCommentsArea .comments ul li ul li .cmt .right .voteBar span.s:hover{background-color:#e6e6e6;box-shadow:inset 1px 1px 3px #c7c7c7}
+.mainCommentsArea .comments ul li ul li .cmt .right .writeBar{position:absolute; bottom:0; right:0; z-index:1111; display:none;}
+.mainCommentsArea .comments ul li ul li .cmt .right .writeBar a{display:inline-block; padding:3px 10px; border:solid 1px #d2d2d2; font:normal 9pt arial; color:#333; float:left; box-shadow:0px 1px 3px #ccc; border-radius:2px; background-position:0 -15px;}
+.mainCommentsArea .comments ul li ul li .cmt .right .writeBar a:hover{background-color:#e6e6e6; box-shadow:inset 1px 1px 3px #c7c7c7}
+
+.mainCommentsArea .bottomBarComments{width:650px;padding:10px 0; display:inline-block; font:normal 9pt arial; color:#111}
+.mainCommentsArea .bottomBarComments a{display:inline-block; padding:2px 5px; background-color:#ffa54f; font:normal 11px Arial; color:#fff; margin-left:5px; border:solid 1px #c56a13; text-shadow:1px 1px 0px #c56a13; text-decoration:none;}
+.mainCommentsArea .bottomBarComments a:hover{background-color:#ffb56f;}
+/* MAIN COMMENTS AREA | YORUM MODÜLÜ **************************************************************************************/
+
+/* HABERLER - BİGPARA UZMANLARI - YAZAR BAŞLIĞI KUTULARI ******************************************************************/
+.yazarBoxes{width:648px; margin:0 auto; display:inline-block; margin-bottom:35px;}
+.yazarBoxes a{display:inline-block; float:left; background-position:0px -9px; border:solid 1px #d6d6d6; height:15px;padding:8px 15px; font:bold 9pt arial; color:#000; text-shadow:1px 1px 0px #fff; text-decoration:none; margin:0 10px 10px 0; border-radius:3px; box-shadow:0px 1px 3px #ccc;}
+.yazarBoxes a:hover{background:#fff none;}
+/* HABERLER - BİGPARA UZMANLARI - YAZAR BAŞLIĞI KUTULARI ******************************************************************/
+
+/* UZMAN YORUMLARI ********************************************************************************************************/
+.uzmanComments{width:650px; display:inline-block; margin-bottom:35px;}
+.uzmanComments ul{width:650px; display:inline-block; border-bottom:1px solid #ddd}
+.uzmanComments ul li{display:block; list-style:none; float:left; color:#c7c7c7; font:bold 12px Arial; padding:10px 5px 10px 0;}
+.uzmanComments ul li.tarih{width:75px;}
+.uzmanComments ul li.saat{width:45px;}
+.uzmanComments ul li.uzman{width:150px;}
+.uzmanComments ul li.kurum{width:200px;}
+.uzmanComments ul li.konu{width:260px;}
+.uzmanComments ul li.konu.yazar{width:310px;}
+.uzmanComments ul li.konu.encok{width:415px;}
+.uzmanComments ul li.konu.com{width:465px;}
+.uzmanComments ul li.konu.rapor{width:360px;}
+.uzmanComments ul li.yorum{width:35px; text-align:right;}
+.uzmanComments ul li.hit{width:55px; text-align:right;}
+.uzmanComments .dataList{display:inline-block;}
+.uzmanComments .dataList ul{display:inline-block; border:none; border-bottom:1px solid #ddd; width:650px;}
+.uzmanComments .dataList ul li{display:block; list-style:none; float:left; color:#000; font:normal 12px Arial; padding:10px 5px 10px 0;}
+.uzmanComments .dataList ul li.tarih{width:75px;}
+.uzmanComments .dataList ul li.saat{width:45px; font-weight:bold;}
+.uzmanComments .dataList ul li.hisse{width:70px;}
+.uzmanComments .dataList ul li.hisse a{display:inline-block; font-weight:bold; color:#000;}
+.uzmanComments .dataList ul li.hisse a:hover{color:#f68b25;}
+.uzmanComments .dataList ul li.uzman{width:150px;}
+.uzmanComments .dataList ul li.kurum{width:200px; color:#666; font:bold 12px Arial;}
+.uzmanComments .dataList ul li.konu{width:260px; overflow:hidden;}
+.uzmanComments .dataList ul li.konu a{display:inline-block; font-weight:bold; color:#000;}
+.uzmanComments .dataList ul li.konu a small{display:inline-block; margin-left:5px; color:#f68b25;}
+.uzmanComments .dataList ul li.konu a:hover{color:#f68b25;}
+.uzmanComments .dataList ul li.konu.yazar{width:310px;}
+.uzmanComments .dataList ul li.konu.kap{width:490px;}
+.uzmanComments .dataList ul li.konu.encok{width:415px;}
+.uzmanComments .dataList ul li.konu.com{width:465px;}
+.uzmanComments .dataList ul li.konu.rapor{width:360px;}
+.uzmanComments .dataList ul li.yorum{width:35px; text-align:right; padding:10px 0 10px 5px;}
+.uzmanComments .dataList ul li.hit{width:55px; text-align:right; padding:10px 0 10px 5px;}
+/* UZMAN YORUMLARI ********************************************************************************************************/
+
+/* ARACI KURUM GÖRÜŞLERİ **************************************************************************************************/
+.akgContent{width:650px; display:inline-block; margin-bottom:35px;}
+.akgContent .akgBox{width:300px; height:40px; display:inline-block; float:left; margin:0 0 5px 50px; overflow:hidden;}
+.akgContent .akgBox span{width:120px; height:30px; display:inline-block; text-align:center; overflow:hidden; border:1px solid #d7d7d7; background-position:0 -214px; float:left;}
+.akgContent .akgBox span a.firma{width:110px; height:20px; padding:6px 5px 4px; display:inline-block; font:bold 12px/20px Arial; text-align:center; text-decoration:none; color:#000; text-shadow:1px 1px 1px #fff;}
+.akgContent .akgBox span a:hover{background:none #fff;}
+.akgContent .akgBox.selected span{background-position:0 -245px;}
+.akgContent .akgBox.selected span a{color:#fff; text-shadow:none;}
+.akgContent .akgBox.selected span a:hover{color:#fff; background-color:#fe8f00;}
+
+.akgContent .akgBox a.continue{width:173px; height:30px; display:inline-block; float:left; color:#666; font:bold 12px/30px Arial; margin-left:5px;}
+.akgContent .akgBox.selected a{color:#fe8f00;}
+
+.akgEdit{width:650px; display:inline-block; margin-bottom:35px; font:normal 12px/18px Arial;}
+/* ARACI KURUM GÖRÜŞLERİ *************************************************************************************************/
+
+/* PİYASA TAKVİMİ CALENDER ***********************************************************************************************/
+.pTakvimText{width:650px; display:inline-block; margin-bottom:15px; color:#111; font:bold 11px Arial;}
+
+.daysList{width:650px; display:inline-block; margin-bottom:35px;}
+.daysList ul{width:650px; display:inline-block; border-top:1px solid #ddd;}
+.daysList ul li{width:650px; display:inline-block; padding:10px 0; border-bottom:1px solid #ddd;}
+.daysList ul li .date{width:150px; display:inline-block; margin-right:50px; float:left; color:#333; font:bold 12px Arial;}
+.daysList ul li .date span{width:150px; display:inline-block;}
+.daysList ul li .date small{width:150px; display:inline-block; font:normal 29px Arial; margin-top:2px;}
+.daysList ul li .date.hsonu{color:#8c8c8c;}
+.daysList ul li .date.selected{color:#f68b25;}
+.daysList ul li .calenderIndex{width:450px; display:inline-block; float:right; color:#333; font:normal 12px Arial;}
+.daysList ul li .calenderIndex span{width:450px; display:inline-block; margin-top:5px; }
+.daysList ul li .calenderIndex span:first-child{margin-top:0;}
+/* PİYASA TAKVİMİ CALENDER ***********************************************************************************************/
+
+/* VIDEO HABER YORUMLAR SLIDER *******************************************************************************************/
+.videoPage{width:650px; display:inline-block; position:relative; margin-bottom:65px;}
+.videoPage .videoContent{width:650px; height:365px; overflow:hidden; position:relative;}
+.videoPage .videoContent ul{width:650px; height:365px; overflow:hidden; position:absolute; left:0; top:0;}
+.videoPage .videoContent ul li{width:650px; display:inline-block;}
+.videoPage .videoContent ul li.img{height:365px;}
+.videoPage .videoContent ul li.img img{width:650px; height:365px; display:block;}
+.videoPage .videoContent ul li.cap{height:65px; overflow:hidden; position:absolute; left:0; bottom:25px; background-position:0 -466px;}
+.videoPage .videoContent ul li.cap small{width:33px; height:33px; display:inline-block; float:left; background-position:-299px -84px; margin:16px 23px;}
+.videoPage .videoContent ul li.cap a{width:570px; height:65px; display:inline-block; color:#1d1d1d; font:bold 27px/65px Arial; float:right;}
+.videoPage .videoContent ul li.cap.kobi a{width:600px; margin-right:25px;}
+
+.videoPage .videoBttn{width:150px; height:19px; padding:16px 10px 10px; overflow:hidden; position:absolute; left:250px; bottom:-32px; background-color:#fff; border-radius:10px 10px 0 0; border:1px solid #ddd; border-bottom:none; box-shadow:inset 0px 2px 3px #ddd;}
+.videoPage .videoBttn span{width:19px; height:19px; display:block; margin-left:9px; background-position:-120px -203px; float:left;}
+.videoPage .videoBttn span:hover{background-position:-140px -203px;}
+.videoPage .videoBttn span.selected{background-position:-100px -203px;}
+.videoPage .videoBttn span a{width:19px; height:19px; display:inline-block;}
+/* VIDEO HABER YORUMLAR SLIDER *******************************************************************************************/
+
+/* VIDEO SAYFASI LİSTELEME ***********************************************************************************************/
+.videoList {width:650px; display:inline-block; margin-bottom:35px;}
+.videoList a{width:315px; height:75px; display:inline-block; position:relative; padding:15px 0; border-bottom:1px dotted #ddd; margin-left:20px; float:left;}
+.videoList a:hover{background-color:#f8f8f8;}
+.videoList a span.imgs{width:128px; height:72px; display:inline-block; position:relative; float:left; margin-right:15px;}
+.videoList a span.imgs img{width:128px; height:72px; display:inline-block;}
+.videoList a span.imgs span.playBtn{width:32px; height:32px; display:block; position:absolute; top:20px; left:50px; background-position:-299px -84px;}
+.videoList a span.caption{width:172px; height:50px; display:inline-block; font:bold 13px Arial; color:#555;}
+.videoList a small{width:172px; height:18px; display:inline-block; font:normal 13px Arial; color:#333; position:absolute; bottom:15px; right:0;}
+/* VIDEO SAYFASI LİSTELEME ***********************************************************************************************/
+
+/* VIDEO SAYFASI PLAYER **************************************************************************************************/
+.videoDetail{width:650px; height:470px; overflow:hidden; margin-bottom:35px;}
+.videoDetail h3{width:650px; height:30px; display:inline-block; color:#333; font:bold 27px Arial; margin-bottom:5px;}
+.videoDetail img{width:650px; height:435px; display:block;}
+/* VIDEO SAYFASI PLAYER **************************************************************************************************/
+
+/* ANALİZ - SEKTÖR TAKİP *************************************************************************************************/
+.sektorTakip{width:970px; display:inline-block; margin-bottom:35px;}
+.sektorTakip p{width:970px; display:inline-block; margin-bottom:10px; padding:5px 0; font:normal 13px Arial; color:#333;}
+.sektorTakip .api{width:970px; display:inline-block; margin-bottom:35px; text-align:center;}
+/* ANALİZ - SEKTÖR TAKİP *************************************************************************************************/
+
+/* ANALİZ - BEKLENTİ ANALİZİ *********************************************************************************************/
+.beklentiAnaliz{width:970px; height:482px; overflow:hidden;}
+.beklentiAnaliz .beklentiChart{width:625px; height:460px; display:inline-block; float:left; border:1px solid #ddd; padding:10px 11px;}
+.beklentiAnaliz form{width:300px; height:460px; display:inline-block; float:right; padding:10px; border:1px solid #ddd; border-left:none;}
+.beklentiAnaliz form .sol{width:300px; display:inline-block;}
+.beklentiAnaliz form .sol select{display:inline-block; height:33px; float:left; font:normal 9pt arial; color:#838383; border:solid 1px #d6d6d6; padding:5px;}
+.beklentiAnaliz form .sol select.w300px{width:230px; margin-right:70px;}
+.beklentiAnaliz form .sol b{width:300px; display:inline-block; float:left; font:bold 12px Arial; color:#444; height:20px; margin-top:10px;}
+.beklentiAnaliz form .sol input[type=submit]{height:33px; display:inline-block;float:left;background-position:0px -9px; border:solid 1px #d6d6d6; padding:8px 15px; font:bold 9pt arial; color:#000; text-shadow:1px 1px 0px #fff; text-decoration:none; margin:10px 10px 0 0; cursor:pointer;}
+.beklentiAnaliz form .sol input[type=submit]:hover{background:#fff none;}
+
+.bAChart{width:930px; overflow:hidden; padding:19px; margin-bottom:44px; background-color:#fafafa; box-shadow:inset 1px 1px 10px #ccc; border:1px solid #f2f2f2; border-top:none;}
+.bAChart .chartBox{width:930px; height:325px; overflow:hidden; margin:5px 0;}
+.bAChart .chartBox img{width:930px; height:325px;}
+/* ANALİZ - BEKLENTİ ANALİZİ *********************************************************************************************/
+
+/* BİLGİ SAYFALARI - GEREKLİ LİNKLER *************************************************************************************/
+.bilgi{width:970px; display:inline-block; margin-bottom:35px;}
+
+.links{width:970px; display:inline-block; margin-bottom:35px;}
+.links span{width:970px; display:inline-block; font:bold 12px Arial; color:#a0a0a0; padding-bottom:10px; float:left;}
+.links .column{width:450px; display:inline-block; float:left;}
+.links .column.fChild{margin-right:30px; padding-right:30px; border-right:1px solid #ddd;}
+.links .column ul{width:450px; display:inline-block; border-bottom:1px solid #d2d2d2;}
+.links .column ul:first-child{border-top:1px solid #d2d2d2;}
+.links .column ul li{width:220px; display:inline-block; float:left; margin-left:10px; padding:10px 0 5px; color:#444; font:bold 12px Arial;}
+.links .column ul li:first-child{margin-left:0;}
+.links .column ul li a{color:#777; font:normal 12px Arial;}
+
+.links span.cap{width:285px;}
+.links span.bist{width:120px;}
+.links span.faks{width:80px;}
+.links .column ul.full{width:970px;}
+.links .column ul.full li{width:970px;}
+.links .column ul.full li.cap{width:275px; font-weight:normal;}
+.links .column ul.full li.bist{width:110px; font-weight:normal;}
+.links .column ul.full li.faks{width:70px; font-weight:normal;}
+.links .column ul.full li.faks a{color:#f79a42; font-weight:bold;}
+.links .column ul.full li.sozlukCap{width:220px;}
+.links .column ul.full li.sozlukInfo{width:730px; margin-left:20px; font-weight:normal;}
+
+/* BİLGİ SAYFALARI - GEREKLİ LİNKLER *************************************************************************************/
+
+/* BİLGİ SAYFALARI - HİSSE BİRLEŞTİRMELERİ *******************************************************************************/
+.hisseBir{width:970px; display:inline-block; margin-bottom:35px;}
+.hisseBir p{width:970px; display:inline-block; margin-bottom:10px; font:normal 12px Arial; color:#444;}
+
+.formuleBox{width:928px; height:150px; display:inline-block; padding:20px; border:1px solid #d2d2d2; box-shadow:inset 1px 2px 10px #ddd; margin-bottom:35px;}
+/* BİLGİ SAYFALARI - HİSSE BİRLEŞTİRMELERİ *******************************************************************************/
+
+/* BİLGİ SAYFALARI - MOBİL ***********************************************************************************************/
+.mobil{width:970px; display:inline-block;}
+.mobil .mobilLogo{width:122px; height:25px; display:inline-block; margin-bottom:20px; background-position:0 -252px;}
+.mobil p{width:970px; display:inline-block; margin-bottom:15px; color:#444; font:normal 12px/20px Arial;}
+.mobil span{width:970px; display:inline-block; margin-bottom:5px; color:#333; font:bold 12px/20px Arial;}
+.mobil ul.mobil{width:970px; display:inline-block; margin-bottom:20px;}
+.mobil ul.mobil li{width:850px; display:inline-block; color:#444; font:normal 12px/17px Arial; float:left;}
+.mobil ul.mobil li.caption{width:100px; margin-right:20px; font-weight:bold;}
+/* BİLGİ SAYFALARI - MOBİL ***********************************************************************************************/
+
+/* BİLGİ SAYFALARI - SIK SORULAN SORULAR *********************************************************************************/
+.sssRow{width:970px; display:inline-block; margin-bottom:20px; position:relative;}
+.sssRow span.icon{width:9px; height:9px; display:block; position:absolute; top:3px; left:0; background-color:#f68b25;}
+.sssRow h3{width:950px; display:inline-block; color:#666; font:bold 16px Arial; float:right; margin-bottom:3px;}
+.sssRow p{width:950px; display:inline-block; color:#666; font:normal 12px/17px Arial; float:right;}
+/* BİLGİ SAYFALARI - SIK SORULAN SORULAR *********************************************************************************/
+
+/* BİLGİ SAYFALARI - SÖZLÜK **********************************************************************************************/
+.dictionary{display:inline-block; margin-left:170px; text-align:center;}
+/* BİLGİ SAYFALARI - SÖZLÜK **********************************************************************************************/
+
+/* HABERLER - ENFLASYON VERİLERİ *****************************************************************************************/
+.enflasyon{width:928px; display:inline-block; border:1px solid #ddd; padding:20px; box-shadow:inset 2px 2px 3px #ddd; background-color:#f8f8f8;}
+.enflasyon .chartArea{width:620px; height:360px; overflow:hidden; float:left; margin-right:18px;}
+.enflasyon .chartArea img{width:620px; height:360px; display:block;}
+.enflasyon .rightBlock{width:290px; height:360px; overflow:hidden; float:right;}
+.enflasyon .rightBlock strong{width:290px; display:inline-block; color:#333; font:bold 12px Arial; margin-bottom:8px;}
+.enflasyon .rightBlock p{width:290px; display:inline-block; color:#333; font:normal 12px/20px Arial; margin-bottom:8px;}
+.enflasyon .rightBlock p b{display:inline-block; color:#111;}
+.enflasyon .rightBlock .proBasket{width:123px; display:inline-block; float:left; border:1px solid #d2d2d2;}
+.enflasyon .rightBlock .proBasket i{width:113px; display:inline-block; padding:8px 5px 5px; font:bold 12px Arial; color:#444; background-color:#cfe1e8; border-bottom:1px solid #d2d2d2;}
+.enflasyon .rightBlock .proBasket select{width:123px; height:200px; display:inline-block; margin:0; border:none; padding:2px;}
+
+.enflasyon .rightBlock .buttons{width:40px; display:inline-block; float:left; padding:70px 0;}
+.enflasyon .rightBlock .buttons span{width:24px; height:25px; display:inline-block; border:1px solid #d7d7d7; background-position:0 -214px; margin:7px; box-shadow: 0px 1px 3px #DDD;}
+.enflasyon .rightBlock .buttons span a{height:23px; padding:1px 7px; display:inline-block; font:bold 18px Arial; text-align:center; text-decoration:none; color:#000; text-shadow:1px 1px 1px #fff;}
+.enflasyon .rightBlock .buttons span a:hover{background:none #fff;}
+
+.enflasyon .rightBlock .tufe{width:290px; display:inline-block; margin:10px 0 0; font:bold 12px Arial; color:#757575; text-align:center;}
+.enflasyon .rightBlock .tufe small{display:inline-block; font:bold 21px Arial; color:#fe8f00;}
+
+.enflasyonCal{width:968px; display:inline-block; border:1px solid #ddd; border-top:none; border-bottom:none;}
+.enflasyonCal span{width:84px; height:50px; display:inline-block; padding-top:27px; text-align:center; border-bottom:1px solid #d2d2d2; float:left; font:bold 22px Arial;}
+.enflasyonCal ul{width:884px; height:26px; display:inline-block; float:right;}
+.enflasyonCal ul li{width:53px; height:16px; display:inline-block; float:left; font:normal 11px Arial; border-left:1px solid #d2d2d2; border-bottom:1px solid #d2d2d2; padding:6px 10px 3px 5px; text-align:right;}
+.enflasyonCal ul li.up{color:#1ea42b;}
+.enflasyonCal ul li.down{color:#db2626;}
+.enflasyonCal ul li.uto{width:40px; color:#696868; font:normal 12px Arial;}
+
+.enflasyonCal ul.months{width:968px; height:30px; display:inline-block; background-color:#cfe1e8;}
+.enflasyonCal ul.months li{width:53px; height:16px; display:inline-block; float:left; font:bold 12px Arial; border-left:1px solid #d2d2d2; border-bottom:1px solid #d2d2d2; padding:8px 10px 5px 5px; text-align:right;}
+.enflasyonCal ul.months li.uto{width:40px;}
+.enflasyonCal ul.months li.year{width:69px; border-left:none;}
+
+.enflasyonCal span.foreign{width:144px;}
+.enflasyonCal ul.foreign{width:824px;}
+.enflasyonCal ul.foreign li{width:166px;}
+.enflasyonCal ul.foreign li.uto{width:80px;}
+.enflasyonCal ul.foreign li.year{width:129px;}
+.foreignChart{width:948px; height:400px; overflow:hidden; padding:10px; border:1px solid #d2d2d2; border-bottom:0; box-shadow:inset 2px 2px 3px #d2d2d2; background-color:#fafafa;}
+/* HABERLER - ENFLASYON VERİLERİ *****************************************************************************************/
+
+/* ANALİZ - HİSSE KARŞILAŞTIRMA ******************************************************************************************/
+.matchAnalys{width: 628px; display: inline-block; border: 1px solid #DDD; padding: 10px; box-shadow: inset 2px 2px 3px #DDD; background-color: #F8F8F8; border-bottom:none;}
+.matchAnalys .list{width:410px; display:inline-block; float:left; border:1px solid #D2D2D2;}
+.matchAnalys .list select{width: 410px; height: 160px; display: inline-block; margin: 0; border: none; padding: 2px;}
+.matchAnalys .rightBlock{width:190px; height:162px; display:inline-block; float:right; margin-left:26px; position:relative;}
+.matchAnalys .rightBlock b{width:190px; display:inline-block; margin:20px 0; font:bold 12px Arial;}
+.matchAnalys .rightBlock a{display:inline-block; padding:6px 20px; font:bold 12px Arial; color:#fff; border:#df730a; position:absolute; bottom:0; left:0; background-position:0 -432px;}
+.matchAnalys .rightBlock a:hover{background:none #f68d28;}
+/* ANALİZ - HİSSE KARŞILAŞTIRMA ******************************************************************************************/
+
+/* SİTE HARİTASI *********************************************************************************************************/
+.mapColumn{width:176px; height:525px; display:inline-block; padding:0 10px 0 30px; border-left:1px dotted #d2d2d2; float:left; margin:20px 0;}
+.mapColumn:first-child{border-left:none;}
+.mapColumn .box{width:176px; display:inline-block; margin-bottom:20px;}
+.mapColumn .box span{width:176px; display:inline-block; font:bold 12px Arial;}
+.mapColumn .box a{width:168px; display:inline-block; margin:0 0 4px 8px; color:#444; font:normal 12px Arial;}
+.mapColumn .box a:hover{text-decoration:underline;}
+.mapColumn .box p{width:176px; display:inline-block; margin-bottom:4px; color:#222; font:bold 11px Arial;}
+.mapColumn .box span a{width:176px; display:inline-block; margin:0 0 7px 0; color:#222; font:bold 11px Arial;}
+/* SİTE HARİTASI *********************************************************************************************************/
+
+/* BİLGİ - YATIRIM STRATEJİLERİ ******************************************************************************************/
+.bilgi .yatStr{width:970px; display:inline-block; margin-bottom:35px;}
+.bilgi .yatStr p{width:970px; display:inline-block; margin-bottom:10px; font:normal 12px/18px Arial; color:#444;}
+.bilgi .yatStr ul{width:950px; display:inline-block; margin:0 0 10px 20px;}
+.bilgi .yatStr ul li{width:970px; display:inline-block;}
+.bilgi .yatStr ul li a{display:inline-block; font:normal 12px/18px Arial; color:#444;}
+/* BİLGİ - YATIRIM STRATEJİLERİ ******************************************************************************************/
+
+/* HABERLER - HABER DETAY ************************************************************************************************/
+.newsDetail{width:650px; display:inline-block; margin-bottom:35px;}
+.newsDetail .waySelector{width:650px; height:20px; display:inline-block; margin-bottom:15px; position:relative;}
+.newsDetail .waySelector span{display:inline-block; position:absolute; top:0; font:normal 11px Arial; color:#fff; background-position:0 -128px; border:1px solid #e7a15c; text-align:center;}
+.newsDetail .waySelector span a{display:inline-block; padding:3px 10px; color:#fff; position:relative;}
+.newsDetail .waySelector span a small{width:7px; height:11px; display:block; position:absolute; top:6px;}
+.newsDetail .waySelector span.prev{left:0;}
+.newsDetail .waySelector span.prev a{padding-left:15px;}
+.newsDetail .waySelector span.prev a small{background-position:-366px -125px; left:5px;}
+.newsDetail .waySelector span.next{right:0;}
+.newsDetail .waySelector span.next a{padding-right:17px;}
+.newsDetail .waySelector span.next a small{background-position:-373px -125px; right:5px;}
+.newsDetail .waySelector span:hover{background:none orange;}
+
+.newsDetail .news{width:650px; display:inline-block; margin-bottom:20px;}
+.newsDetail .news > img{border: 1px solid #D2D2D2; width: 628px; margin-bottom: 20px; padding: 10px;}
+.newsDetail .news h3{width:650px; display:inline-block; color:#333; font:bold 33px Arial; margin-bottom:5px;}
+.newsDetail .news h4{width:650px; display:inline-block; color:#333; font:bold 12px Arial; margin-bottom:15px;}
+.newsDetail .news span.dateTime{width:640px; display:inline-block; color:#333; font:normal 11px Arial; text-align:right; font-style:italic;}
+.newsDetail .news .newsContent{width:650px; display:inline-block; margin-bottom:10px;}
+.newsDetail .news .newsContent img{max-width:350px; display:block; padding:0 10px 10px 10px;}
+.ie7 .newsDetail .news .newsContent img{float:right;}
+.newsDetail .news .newsContent .text{color:#525252; font:normal 12px/20px Arial;}
+.newsDetail .news .newsContent .text a{text-decoration:underline; color:#525252;}
+.googleAccount{width:100%; display:inline-block; margin-bottom:10px; color:#000; font:bold 12px Arial;}
+.googleAccount a{display:inline-block; color:#f68b25; font:bold 13px Arial; margin:0 3px;}
+/* HABERLER - HABER DETAY ************************************************************************************************/
+
+/* analiz bar */
+.analiz_bar { background:url(/Content/Images/analiz_bar_bg.gif) top left repeat-y; position:relative; width:636px; height:62px; }
+.analiz_bar .analiz_bar_isaret { display:inline-block; width:41px; height:40px; color:#ffffff; font:11px Arial; text-align:center; position:absolute; left:120px; top:0; padding:23px 0 0 0; background:url(/Content/Images/analiz_bar_isaret.png) top left no-repeat; }
+.analiz_bar_yazilar {font:normal 11px Arial;}
+.analiz_bar_yazilar small.cok_olumsuz { color:#ee4246; width:20%; display:inline-block; }
+.analiz_bar_yazilar small.olumsuz { color:#c56f8e; width:20%; display:inline-block; text-align:center; }
+.analiz_bar_yazilar small.kararsiz { color:#9bc4f6; width:20%; display:inline-block; text-align:center; }
+.analiz_bar_yazilar small.olumlu { color:#58ac93; width:20%; display:inline-block; text-align:center; }
+.analiz_bar_yazilar small.cok_olumlu { color:#3b9c44; width:18%; text-align:right; display:inline-block; }
+/* analiz bar */
+
+
+/* kur çevirici */
+.kurCevir{width:648px; height:48px; display:inline-block; border:1px solid #d2d2d2; box-shadow:1px 1px 3px #d2d2d2; overflow:hidden;}
+.kurCevir span.caption{width:85px; height:30px; display:block; padding:18px 0 0 10px; float:left; background:#eee; color:#111; font:bold 11px Arial;}
+.kurCevir .radios{width:130px; height:35px; display:inline-block; padding:13px 0 0 10px; float:left;}
+.kurCevir input{display:inline-block; float:left;}
+.kurCevir .radios input[type="radio"]{margin:5px;}
+.ie7 .kurCevir .radios input[type="radio"]{margin-top:2px;}
+.ie9 .kurCevir .radios input[type="radio"]{margin-top:2px;}
+.kurCevir .radios label{display:inline-block; margin:5px; font:normal 12px Arial; color:#4b4b4b; float:left;}
+.kurCevir input[type="text"]{width:98px; height:20px; margin:8px 0 8px 10px; border:1px solid #d2d2d2; padding:5px; font:normal 12px Arial; color:#838383;}
+.kurCevir input.result{color:#e68218;}
+.kurCevir select{width:80px; height:32px; display:inline-block; margin:8px 0 8px 3px; border:1px solid #d2d2d2; padding:5px; font:normal 12px Arial; color:#838383; float:left;}
+.ie7 .kurCevir select{height:27px; margin-top:13px;}
+.ie7 .kurCevir input[type="text"]{padding:7px 5px 5px 3px}
+
+/* kur çevirici */
+
+/* kapanışlar */
+.kapanislarR{width:300px; display:inline-block; border-bottom:1px dotted #d2d2d2; padding-bottom:5px;}
+.kapanislarR span{width:300px; display:inline-block; margin-bottom:10px; padding-bottom:10px; border-bottom:1px solid #d2d2d2; color:#444; font:bold 12px Arial;}
+.kapanislarR .radios{width:300px; display:inline-block;}
+.kapanislarR .radios input[type="radio"]{margin:5px;}
+.kapanislarR .radios label{height:15px; display:inline-block; margin:5px 15px 5px 5px; font:normal 12px Arial; color:#4b4b4b; float:left;}
+.kapanislarR input{display:inline-block; float:left;}
+.kapanislarR select{width:73px; height:32px; display:inline-block; margin:8px 0 8px 3px; border:1px solid #d2d2d2; padding:5px; font:normal 12px Arial; color:#838383; float:left;}
+.kapanislarR a{height:20px; display:inline-block; margin:8px 0 8px 3px; border:1px solid #d2d2d2; padding:9px 20px 1px; font:normal 12px Arial; color:#838383; float:left; background-position:0 -9px;}
+.kapanislarR a.bist{padding:9px 14px 1px;}
+.kapanislarR small{width:300px; display:inline-block; color:#444; font:normal 11px/15px Arial; margin:10px 0 5px;}
+.kapanislarR .row{width:300px; height:40px; overflow:hidden; margin-bottom:5px;}
+
+
+.ie7 .kapanislarR .radios label{margin-top:9px;}
+.ie8 .kapanislarR .radios label{margin-top:8px;}
+.ie9 .kapanislarR .radios label{margin-top:8px;}
+/* kapanışlar */
+
+/* haber gündem */
+.gundemLine{width:650px; display:inline-block; margin-bottom:30px;}
+.gundemLine .gundem{width:315px; display:inline-block; margin-left:20px; float:left;}
+.gundemLine .gundem h4{width:315px; display:inline-block; border-bottom:1px solid #d2d2d2; font:bold 12px Arial; color:#444; padding-bottom:10px;}
+.gundemLine .gundem ul{width:315px; display:inline-block; margin:5px 0;}
+.gundemLine .gundem ul li{width:315px; display:inline-block; border-bottom:1px dotted #d2d2d2; padding:10px 0;}
+.ie7 .gundemLine .gundem ul li.status{padding:11px 0 10px;}
+.gundemLine .gundem ul li span{width:315px; display:inline-block; font:normal 12px Arial; color:#444; float:left; line-height:15px;}
+.gundemLine .gundem ul li span.saat{width:40px; color:#f68b25; font-weight:bold;}
+.gundemLine .gundem ul li span.hisse{width:50px; color:#f68b25; font-weight:bold;}
+.gundemLine .gundem ul li span.haber{width:265px; margin-left:10px; overflow:hidden; height:32px;}
+.gundemLine .gundem ul li span.sonDurum{width:215px; margin-left:10px; overflow:hidden; height:45px;}
+.gundemLine .gundem ul li span.baslik{font-weight:bold; margin-bottom:5px;}
+.gundemLine .gundem ul li span.aciklama{color:#666; overflow:hidden; height:15px;}
+.gundemLine .gundem small{width:315px; display:inline-block; margin-top:5px;}
+.gundemLine .gundem small a{width:315px; display:inline-block; font:bold 11px Arial; color:#000;}
+/* haber gündem */
+
+/* döviz çevirici right widget */
+.dovizCeviriciRight{width:300px; display:inline-block; border-bottom:1px dotted #d2d2d2; padding-bottom:5px;}
+.dovizCeviriciRight span{width:300px; display:inline-block; margin-bottom:5px; padding-bottom:5px; border-bottom:1px solid #d2d2d2; color:#444; font:bold 12px Arial;}
+.dovizCeviriciRight .radios{width:300px; display:inline-block;}
+.dovizCeviriciRight .radios input[type="radio"]{margin:5px;}
+.dovizCeviriciRight .radios label{display:inline-block; margin:5px 15px 5px 5px; font:normal 12px Arial; color:#4b4b4b; float:left;}
+.dovizCeviriciRight input{display:inline-block; float:left;}
+.dovizCeviriciRight input.dB{width: 165px; height: 20px; margin: 3px 0; border: 1px solid #D2D2D2; padding: 5px; font: normal 12px Arial; color: #838383;}
+.dovizCeviriciRight input.result{color:#E68218;}
+.dovizCeviriciRight select{width:100px; height:32px; display:inline-block; margin:3px 0 3px 20px; border:1px solid #d2d2d2; padding:5px; font:normal 12px Arial; color:#838383; float:left;}
+.dovizCeviriciRight a{height:20px; display:inline-block; margin:8px 0 8px 3px; border:1px solid #d2d2d2; padding:9px 20px 1px; font:normal 12px Arial; color:#838383; float:left; background-position:0 -9px;}
+.dovizCeviriciRight .row{width:300px; height:35px; overflow:hidden; margin-bottom:3px;}
+
+.ie7 .dovizCeviriciRight .radios label{margin-top:9px;}
+.ie8 .dovizCeviriciRight .radios label{margin-top:8px;}
+.ie9 .dovizCeviriciRight .radios label{margin-top:8px;}
+/* döviz çevirici right widget */
+
+/* döviz çevirici right widget */
+.portfoy{width:650px; display:inline-block; margin-bottom:35px;}
+.portfoy .newPortfoy{width:650px; display:inline-block; margin-bottom:35px; border:1px solid #d2d2d2;}
+.portfoy .newPortfoy h4{width: 628px; display: inline-block; font: bold 12px Arial; color: #444; padding: 10px; border-bottom: 1px solid #D2D2D2;}
+.portfoy .newPortfoy .form{width:600px; display:inline-block; margin:10px 25px;}
+.portfoy .newPortfoy .form span{width:150px; display:inline-block; float: left; font:bold 12px/27px Arial; color:#444; height:27px; margin:0 20px 10px 0;}
+.portfoy .newPortfoy .form input[type="text"]{width:200px; height:15px; border: 1px solid #D2D2D2; padding:5px; font:normal 12px Arial; color:#838383; float:left; margin:0 218px 10px 0;}
+.portfoy .newPortfoy .form input[type="submit"]{height:33px; display:inline-block; float:left; background-position:0px -433px; border:solid 1px #D6D6D6; padding:8px 15px; font: bold 9pt arial;  color: black; text-shadow: 1px 1px 0px white; text-decoration: none; margin-left: 170px; cursor: pointer;}
+
+.portfoy .newPortfoy .line{width:600px; display:inline-block; margin:10px 25px;}
+.portfoy .newPortfoy .line .filterBar span{width:200px;}
+/* döviz çevirici right widget */
+
+/* endeksin teknik yorumları - yazarın diğer yazıları */
+.otherNews{width:648px; display:inline-block; margin-bottom:35px; border:1px solid #d2d2d2;}
+.otherNews span{width:628px; display:inline-block; padding:10px; font:bold 14px Arial; border-bottom:1px solid #d2d2d2; background-color:#d2d2d2;}
+.otherNews span h3{float:left; margin-right:5px;}
+.otherNews span a{float:right; margin-left:5px; font:bold 11px Arial; color:#333; text-decoration:underline;}
+.otherNews ul{width:648px; display:inline-block; border-bottom:1px dotted #d2d2d2;}
+.otherNews ul.line{background-color:#eff9fd;}
+.otherNews ul li{display:inline-block; float:left; padding:5px 10px; font:normal 12px Arial; color:#333;}
+.otherNews ul li.date{width:178px;}
+.otherNews ul li.newsCaption{width:430px;}
+.otherNews ul li.newsCaption a{color:#000;}
+/* endeksin teknik yorumları - yazarın diğer yazıları */
+
+/* kredi hesap makinesi */
+.calculators{width:298px; display:inline-block; border:1px solid #ffe9ae;}
+.calculators h3{width:288px; display:inline-block; padding:10px 5px; font:bold 14px Arial; color:#ff9000; background-color:#f5f3f3; border-bottom:1px solid #ffe9ae;}
+.calculators a.calc{width:288px; display:inline-block; padding:10px 5px; border-top:1px dashed #ffe9ae;}
+.calculators a.calc.fChild{border-top:none;}
+.calculators a.calc span.left{width:50px; height:75px; display:inline-block; margin-right:5px; float:left;}
+.calculators a.calc span.right{width:222px; height:75px; overflow:hidden; margin-right:5px; float:right; color:#646464;}
+.calculators a.calc span.right b{width:222px; height:15px; display:inline-block; overflow:hidden; font:bold 12px Arial; margin-bottom:5px;}
+.calculators a.calc span.right p{width:222px; height:55px; overflow:hidden; font:normal 12px/14px Arial;}
+.calculators a.calc:hover span.right p{text-decoration:underline;}
+.calculators a.calc:hover span.right b{color:#ff9000;}
+/* kredi hesap makinesi */
+
+/* şuanda right widget yeni 2013 */
+.suanPiyEnd{width:300px; display:inline-block;}
+.suanPiyEnd .widgetRui{width:298px; overflow:hidden; background-color:#FAFAFA;}
+.suanPiyEnd .widgetRui .tabs{width:298px; height:37px; overflow:hidden; background-color:#fafafa;}
+.suanPiyEnd .widgetRui .tabs span{width:128px; display:inline-block; overflow:hidden; padding:10px; float:left; text-align:center; font:bold 13px Arial; cursor:pointer;}
+.suanPiyEnd .widgetRui .tabs span.tab{background-color: white; color:#333; border-bottom: 1px solid #D2D2D2;}
+.suanPiyEnd .widgetRui .tabs span.selected{border: 1px solid #D2D2D2; color:#F68B25;  border-bottom: none; background-color:#fafafa;}
+.suanPiyEnd .widgetRui .capRow{width: 296px; display:inline-block; border-left: 1px solid #D2D2D2; border-right: 1px solid #D2D2D2;}
+.suanPiyEnd .widgetRui .capRow .innerTabs{width:296px; display:inline-block; margin-top:10px; padding:0; border-top:1px solid #d2d2d2; background-color:#EAF2F3;}
+.suanPiyEnd .widgetRui .capRow .innerTabs span{display:inline-block; padding:5px 10px; font:normal 12px Arial; float:left;}
+.suanPiyEnd .widgetRui .capRow .innerTabs span.symbol{width:150px;}
+.suanPiyEnd .widgetRui .capRow .innerTabs span.last{width:42px; border-left:1px solid #d2d2d2; text-align:center;}
+.suanPiyEnd .widgetRui .suanContent{width:276px; display:inline-block; padding:9px 10px; border:1px solid #d2d2d2; background-color:#fafafa;}
+
+.suanPiyEnd .widgetRui .suanContent .boxContainer p.s_x{background-position:0px -128px; display:block; height:17px; font:bold 10pt arial; color:#fff; padding:5px 10px; cursor:pointer; border:solid 1px #d8710e; position:relative;z-index:1; margin-top:10px;}
+.suanPiyEnd .widgetRui .suanContent .boxContainer p.s_x span.s{display:inline-block;width:17px; height:10px;background-position:0px -125px; position:absolute; right:5px; top:9px;}
+.suanPiyEnd .widgetRui .suanContent .boxContainer p.s_x:hover{background-position:-1px -155px;}
+.suanPiyEnd .widgetRui .suanContent .boxContainer p.s_x.selected{background-position:-1px -155px;}
+.suanPiyEnd .widgetRui .suanContent .boxContainer p.s_x.selected span.s{background-position:-2px -138px;width:10px; height:16px;top:6px;}
+.suanPiyEnd .widgetRui .suanContent .boxContainer{display:none;}
+.suanPiyEnd .widgetRui .suanContent .boxContainer ul > li{display:block; width:100%; overflow:hidden; border-bottom:dotted 1px #dedede;}
+.suanPiyEnd .widgetRui .suanContent .boxContainer ul li ol{display:block; width:100%; list-style:none;}
+.suanPiyEnd .widgetRui .suanContent .boxContainer ul > li.up ol li.colorful{color:#4caa00; text-align:right;}
+.suanPiyEnd .widgetRui .suanContent .boxContainer ul > li.down ol li.colorful{color:#ab0000; text-align:right;}
+.suanPiyEnd .widgetRui .suanContent .boxContainer ul > li.static ol li.colorful{color:blue; text-align:right;}
+.suanPiyEnd .widgetRui .suanContent .boxContainer ul li ol li{float:left; padding:8px 0 7px 10px; width:45px; font:normal 9pt arial;}
+.suanPiyEnd .widgetRui .suanContent .boxContainer ul li ol li a{display:inline-block; color:#000}
+.suanPiyEnd .widgetRui .suanContent .boxContainer ul li ol li:first-child{width:155px; padding-left:0px; padding-right:10px;}
+.suanPiyEnd .widgetRui .suanContent .boxContainer ul li ol li b{color:#4caa00; font-weight:normal;}
+.suanPiyEnd .widgetRui .suanContent .tabContent{display:none;}
+/* şuanda right widget yeni 2013 */
+
+.widgetRui .allCommentLink{width:100%; display:inline-block; margin-top:10px; text-align:left;}
+.widgetRui .allCommentLink{margin-top:10px; text-align:left;}     
+.widgetRui .allCommentLink a{font:bold 9pt arial; color:#000;}
+.widgetRui .allCommentLink a.left{float:left;}
+.widgetRui .allCommentLink a > span{color:#000;}
+.widgetRui .allCommentLink small{display:inline-block; float:right; font:normal 11px Arial;}
+.widgetRui .allCommentLink small b{font-size:12px;}
+
+/* en çok değişenler widget yeni 2013 */
+.encokDeg{width:300px; display:inline-block;}
+.encokDeg .widgetRui{width:298px; overflow:hidden; background-color:#FAFAFA;}
+.encokDeg .widgetRui .tabs{width:298px; height:37px; overflow:hidden; background-color:#fafafa;}
+.encokDeg .widgetRui .tabs span{width:128px; display:inline-block; overflow:hidden; padding:10px; float:left; text-align:center; font:bold 13px Arial; cursor:pointer;}
+.encokDeg .widgetRui .tabs span.tab{background-color: white; color:#333; border-bottom: 1px solid #D2D2D2;}
+.encokDeg .widgetRui .tabs span.selected{border: 1px solid #D2D2D2; color:#F68B25;  border-bottom: none; background-color:#fafafa;}
+.encokDeg .widgetRui .capRow{width: 296px; display:inline-block; border-left: 1px solid #D2D2D2; border-right: 1px solid #D2D2D2;}
+.encokDeg .widgetRui .capRow .innerTabs{width:296px; display:inline-block; margin-top:10px; padding:0; border-top:1px solid #d2d2d2; background-color:#EAF2F3;}
+.encokDeg .widgetRui .capRow .innerTabs span{display:inline-block; padding:5px 10px; font:normal 12px Arial; float:left;}
+.encokDeg .widgetRui .capRow .innerTabs span.symbol{width:150px;}
+.encokDeg .widgetRui .capRow .innerTabs span.last{width:42px; border-left:1px solid #d2d2d2; text-align:center;}
+
+.encokDeg .widgetRui .encokContent{width:276px; height:293px; display:inline-block; overflow:hidden; padding:10px; border:1px solid #d2d2d2; background-color:#fafafa;}
+.encokDeg .widgetRui .encokContent .cnt{overflow:hidden; width:276px;}
+.encokDeg .widgetRui .encokContent .cnt p.s_x{background-position:0px -128px; display:block; height:17px; font:bold 10pt arial; color:#fff; padding:5px 10px; cursor:pointer; border:solid 1px #d8710e; position:relative;z-index:1;}
+.encokDeg .widgetRui .encokContent .cnt p.s_x span.s{display:inline-block;width:17px; height:10px;background-position:0px -125px; position:absolute; right:5px; top:9px;}
+.encokDeg .widgetRui .encokContent .cnt p.s_x:hover{background-position:-1px -128px;}
+.encokDeg .widgetRui .encokContent .cnt p.s_x.selected{background-position:-1px -128px;}
+.encokDeg .widgetRui .encokContent .cnt p.s_x.selected span.s{background-position:-2px -138px;width:10px; height:16px;top:6px;}
+.encokDeg .widgetRui .encokContent .cnt ul{display:none;}
+.encokDeg .widgetRui .encokContent .cnt ul > li{display:block; width:100%; overflow:hidden}
+.encokDeg .widgetRui .encokContent .cnt ul li ol{display:block; width:100%; list-style:none; border-bottom:dotted 1px #dedede;}
+.encokDeg .widgetRui .encokContent .cnt ul li ol li{float:left; padding:5px 11px; width:40px; font:normal 9pt arial; color:#000; text-align:right;}
+.encokDeg .widgetRui .encokContent .cnt ul li ol li:first-child{width:130px; padding-left:10px; text-align:left;}
+.encokDeg .widgetRui .encokContent .cnt ul li ol li span{display:block; font:normal 12px Arial;}
+.encokDeg .widgetRui .encokContent .cnt ul li ol li span a{display:inline-block; color:#000;}
+.encokDeg .widgetRui .encokContent .cnt ul li ol li small{height:14px; display:block; font:normal 10px arial; color:#9c9c9c; margin-top:3px; overflow:hidden;}
+.encokDeg .widgetRui .encokContent .cnt ul li ol li b.green{color:#30b722;}
+.encokDeg .widgetRui .encokContent .cnt ul li ol li b.red{color:#b72222;}
+.encokDeg .widgetRui .encokContent .cnt ul li ol li b.blue{color:#226bb7;}
+.encokDeg .widgetRui .encokContent .tabContent{display:none;}
+/* en çok değişenler widget yeni 2013 */
+
+/* arama sonuçları sayfası */
+.newsSearch{width:970px; display:inline-block; margin-bottom:35px;}
+.newsSearch .aramasonuc{width:970px; display:inline-block; margin-bottom:20px;}
+.newsSearch .aramasonuc ul{width:970px; display:inline-block;}
+.newsSearch .aramasonuc ul li{width:950px; display:inline-block; padding:10px; margin-bottom:20px; background-color:#fafafa;}
+.newsSearch .aramasonuc ul li a.caption{width:770px; height:20px; display:inline-block; margin-right:30px; float:left; font:bold 17px/20px Arial; color:#111;}
+.newsSearch .aramasonuc ul li span{width:150px; height:20px; display:inline-block; float:left; font:normal 12px/20px Arial; text-align:right;}
+.newsSearch .aramasonuc ul li a.newsLink{width:970px; display:inline-block; font:bold 13px Arial; color:#999; margin-top:5px;}
+/* arama sonuçları sayfası */
+
+.bilancoDonemi{width:640px; display:inline-block; overflow:hidden; padding:5px; font:bold 10px Arial; font-style:italic; text-align:right;}
+
+/* portföyüm sayfası kodları */
+.portfoyum{width:970px; display:inline-block; margin:20px 0;}
+.portfoyum form.list{width:970px; display:inline-block;}
+.yeniPortfoy{width:948px; display:inline-block; padding:10px; border:1px solid #d2d2d2;}
+.islemMerkezi{width:948px; display:inline-block; padding:10px; border:1px solid #d2d2d2;}
+.islemMerkezi small{width:948px; display:inline-block; padding:10px 5px 25px; font:normal 11px Arial;}
+.filterBar.portfoy{width:948px;}
+.FL{float:left}
+/* portföyüm sayfası kodları */
+
+/* künye sayfası kodları */
+.kunye{width:970px; display:inline-block; padding:30px 0 50px; border-top:1px solid #b3b3b3;}
+.kunye h2{width:970px; display:inline-block; text-align:center; font:bold 15px Arial; color:#a0a0a0;}
+.kunye h3{width:970px; display:inline-block; text-align:center; font:bold 16px Arial; color:#f68b25; margin-top:20px;}
+.kunye span{width:970px; display:inline-block; text-align:center; font:bold 14px Arial; color:#444; margin-top:40px;}
+.kunye p{width:970px; display:inline-block; text-align:center; font:normal 14px Arial; color:#777; margin-top:10px;}
+.kunye .contactUs{width:970px; display:inline-block; text-align:center; font:normal 14px Arial; color:#333; margin-top:50px;}
+.kunye .contactUs a{display:inline-block; color:#f68b25;}
+.kunye .address{width:970px; display:inline-block; text-align:center; font:normal 14px Arial; color:#333; margin-top:30px;}
+/* künye sayfası kodları */
+
+/* Sitene kod ekle */
+.siteneEkle{display:inline-block;}
+.siteneEkle .text{width:650px; display:inline-block; font:normal 12px Arial; margin-bottom:20px;}
+.siteneEkle .text p{width:650px; display:inline-block; font:bold 12px Arial; margin-bottom:8px;}
+.siteneEkle .text b{display:inline-block; font:bold 12px Arial;}
+.siteneEkle .insertCode{width:650px; display:inline-block;}
+.siteneEkle .insertCode b{width:650px; display:inline-block; font:bold 12px Arial; color:#333; margin-bottom:5px;}
+.siteneEkle .insertCode textarea{width:600px; display:inline-block; font:normal 12px Arial; color:#666; outline:none; border:1px solid #d2d2d2;}
+/* Sitene kod ekle */
+
+/* CHART BUTTONS TAB */
+.chartTabContent{width:598px; height:28px; display:inline-block; margin:10px 0 0 10px; z-index:300; border-bottom:1px solid #d5d5d5;}
+.chartTabContent .chartButton{background: url("/Content/images/chartbtn.jpg") repeat-x scroll center center transparent; border:1px solid #437b88; color:#fff; cursor:pointer; display:inline-block; font:normal 11px Tahoma; height:28px; padding-bottom:2px; text-align:center; width:60px; margin:0 3px 0 0; border-bottom:none; -webkit-border-radius:5px 5px 0px 0px; -moz-border-radius:5px 5px 0px 0px; border-radius:5px 5px 0px 0px;}
+.chartTabContent .selectedChartButton{background-color:#fafafa; color:#333; cursor:pointer; display:inline-block; font:normal 11px Arial; height:29px; padding-bottom:3px; text-align:center; width:60px; border:1px solid #d5d5d5; margin:0 3px 0 0; border-bottom:1px solid #fafafa; -webkit-border-radius:5px 5px 0px 0px; -moz-border-radius:5px 5px 0px 0px; border-radius:5px 5px 0px 0px;}
+
+/* Hisse Detay Kap Haberi*/
+.hisseDetayKap{width:645px;margin-bottom:3px;height:49px}
+.hisseDetayKap a{text-decoration:none;color:#000;font:bold 12px Arial;display:inline-block;padding:8px}
+.hisseDetayKap a:hover{text-decoration:underline;color:#F68B25}
+
+.KapAllNews{width:650px; text-align:right; margin-bottom:10px;}
+.KapAllNews a{font:bold 12px Arial;text-decoration:none;color:#000;padding-right:3px}
+.KapAllNews a:hover{text-decoration:underline}
+
+/* New Login */
+#bPWhite {width:1000px; height:100%; margin:0 auto; background-color:#fff; border-left:1px solid #e5e5e5; border-right:1px solid #e5e5e5; overflow:hidden; box-shadow:0px 0px 10px #ccc;}
+.content{width:970px; margin:20px auto;}    
+.content .logo{width:970px; display:inline-block; margin-bottom:10px;}
+.content .logo span{width:185px; height:51px; display:inline-block; margin-right:130px; float:left; background: transparent url(/Content/Images/bigpara_spriteV4.png) no-repeat 0 0;}
+.content .wellcomeMsg{width:970px; display:inline-block; margin:20px 0;}
+.content .wellcomeMsg span{width:970px; display:inline-block; font:bold 22px Arial; color:#5c5c5c;}
+.content .wellcomeMsg small{width:970px; display:inline-block; font:bold 12px Arial; color:#777;}
+.content .fastFree{width:920px; display:inline-block; margin:10px 0 10px 50px;}
+.content .fastFree span{width:920px; display:inline-block; font:bold 14px Arial; color:#898989; margin-bottom:5px;}
+.content .fastFree span small{display:inline-block; color:#f68b25; float:left; margin-right:5px;}
+
+.loginContent{width:1000px; display:inline-block; background-color:#f3f3f3;}
+.loginContent .boxes{width:260px; height:70px; display:inline-block; padding:20px 119px;}
+.loginContent .boxes span{width:260px; height:35px; display:inline-block; margin-bottom:5px;}
+.loginContent .boxes.left{border-right:1px solid #d6d6d6;}
+.loginContent .boxes.right{border-left:2px solid #fff;}
+.loginContent .boxes .bttn{width:258px; height:28px; display:table-cell; font:bold 14px/28px Arial; text-align:center; vertical-align:middle;}
+.loginContent .boxes .signup{color:#fff; border:1px solid #fba04a; background-position:0 -432px;}
+.loginContent .boxes .login{color:#f68b25; border:1px solid #dfdfdf; background-position:0 -318px;}
+
+.textContent{width:860px; display:inline-block; margin:30px 70px;}
+.textContent h3{width:860px; display:inline-block; color:#898989; font:bold 17px Arial;}
+.textContent span{width:860px; display:inline-block; color:#5c5c5c; font:bold 14px Arial; margin:20px 0 5px;}
+.textContent p{width:860px; display:inline-block; color:#898989; font:normal 14px Arial;;}
+/* New Login */
+
+/* Temel Analiz Elliot */
+.elliotContent{width:970px; display:inline-block; margin:20px 0;}
+.elliotContent .elliotChart{width:950px; height:750px; margin-bottom:30px; padding:9px; border:1px solid #d2d2d2; overflow:hidden;}
+.elliotContent .elliotChart img{width:950px; display:block;}
+
+/* SAĞ KOLON PARİTELER WIDGET */
+.pariteR{width:300px; display:inline-block;}
+.pariteR .widgetRui{width:298px; overflow:hidden; background-color:#FAFAFA;}
+.pariteR .widgetRui .tabs{width:298px; height:25px; overflow:hidden; background-color:#fafafa;}
+.pariteR .widgetRui .tabs span{width:128px; display:inline-block; overflow:hidden; padding:10px; float:left; text-align:center; font:bold 13px Arial;}
+.pariteR .widgetRui .tabs span.tab{background-color: white; color:#333; border-bottom: 1px solid #D2D2D2;}
+.pariteR .widgetRui .tabs span.selected{width:276px; padding-bottom:0; border: 1px solid #D2D2D2; color:#F68B25;  border-bottom: none; background-color:#fafafa;}
+.pariteR .widgetRui .capRow{width: 296px; display:inline-block; border-left: 1px solid #D2D2D2; border-right: 1px solid #D2D2D2;}
+.pariteR .widgetRui .capRow .innerTabs{width:296px; display:inline-block; margin-top:10px; padding:0; border-top:1px solid #d2d2d2; background-color:#EAF2F3;}
+.pariteR .widgetRui .capRow .innerTabs span{display:inline-block; padding:5px 10px; font:normal 12px Arial; float:left;}
+.pariteR .widgetRui .capRow .innerTabs span.sembol{width:80px;}
+.pariteR .widgetRui .capRow .innerTabs span.yuzdedegisim{width:80px; border-left:1px solid #d2d2d2; text-align:right;}
+.pariteR .widgetRui .capRow .innerTabs span.parite{width:74px; border-left:1px solid #d2d2d2; text-align:right;}
+.pariteR .widgetRui .pariteContent{width:276px; display:inline-block; padding:9px 10px; border:1px solid #d2d2d2; background-color:#fafafa;}
+.pariteR .widgetRui .pariteContent .boxContainer p.s_x{background-position:0px -128px; display:block; height:17px; font:bold 10pt arial; color:#fff; padding:5px 10px; cursor:pointer; border:solid 1px #d8710e; position:relative;z-index:1; margin-top:10px;}
+.pariteR .widgetRui .pariteContent .boxContainer p.s_x span.s{display:inline-block;width:17px; height:10px;background-position:0px -125px; position:absolute; right:5px; top:9px;}
+.pariteR .widgetRui .pariteContent .boxContainer p.s_x:hover{background-position:-1px -155px;}
+.pariteR .widgetRui .pariteContent .boxContainer p.s_x.selected{background-position:-1px -155px;}
+.pariteR .widgetRui .pariteContent .boxContainer p.s_x.selected span.s{background-position:-2px -138px;width:10px; height:16px;top:6px;}
+.pariteR .widgetRui .pariteContent .boxContainer{display:inline-block;}
+.pariteR .widgetRui .pariteContent .boxContainer ul > li{display:block; width:100%; overflow:hidden; border-bottom:dotted 1px #dedede;}
+.pariteR .widgetRui .pariteContent .boxContainer ul > li ol{display:inline-block; width:100%; list-style:none;}
+.pariteR .widgetRui .pariteContent .boxContainer ul > li ol li.yDegisim{width:80px; text-align:right;}
+.pariteR .widgetRui .pariteContent .boxContainer ul > li ol li.colorful{width:85px; text-align:right;}
+.pariteR .widgetRui .pariteContent .boxContainer ul > li.up ol li{color:#4caa00;}
+.pariteR .widgetRui .pariteContent .boxContainer ul > li.down ol li{color:#ab0000;}
+.pariteR .widgetRui .pariteContent .boxContainer ul > li.static ol li{color:blue;}
+.pariteR .widgetRui .pariteContent .boxContainer ul li ol li{float:left; padding:8px 0 7px 10px; width:45px; font:normal 9pt arial;}
+.pariteR .widgetRui .pariteContent .boxContainer ul li ol li a{display:inline-block; color:#000}
+.pariteR .widgetRui .pariteContent .boxContainer ul li ol li:first-child{width:80px; padding-left:0px; padding-right:10px;}
+.pariteR .widgetRui .pariteContent .boxContainer ul li ol li:second-child{width:80px; padding-left:0px; padding-right:10px;}
+.pariteR .widgetRui .pariteContent .boxContainer ul li ol li b{color:#4caa00; font-weight:normal;}
+.pariteR .widgetRui .pariteContent .tabContent{display:inline-block;}
+/* SAĞ KOLON PARİTELER WIDGET */
+
+/* SAĞ KOLON VADELİ MEVDUAT HESAPLAMA */
+.sagVadeliMevduat{width:300px; overflow:hidden;}
+.sagVadeliMevduat .vmContent{width:268px; display:inline-block; padding:20px 15px; background-color:#fafafa; box-shadow:inset 1px 1px 5px #ccc; border:1px solid #ccc}
+.sagVadeliMevduat .vmContent .row{width:269px; display:inline-block;margin:0 0 10px 10px}
+.sagVadeliMevduat .vmContent .row small{height:20px; float:left; padding:5px; font:bold 17px Arial; color:#ed1f24}
+.sagVadeliMevduat .vmContent .row input[type="text"]{width:230px; height:20px; float:left; border:1px solid #D2D2D2; padding:5px; font:normal 12px Arial; color:#838383}
+.sagVadeliMevduat .vmContent .row .inputRequired{border:1px solid red !important}
+.sagVadeliMevduat .vmContent .row input[type="text"].half{width:115px}
+.sagVadeliMevduat .vmContent .row select{width:242px; height:32px; display:inline-block; float:left; border:1px solid #d2d2d2; padding:5px; font:normal 12px Arial; color:#838383; float:left}
+.sagVadeliMevduat .vmContent .row select.half{width:88px; margin-left:10px}
+.sagVadeliMevduat .vmContent .row .required{width:100px; height:20px; float:left; padding:5px; font:normal 11px Arial; color:#ed1f24}
+.sagVadeliMevduat .vmContent .row a{width:100px; height:28px; display:inline-block; float:right; background-position:0px -128px; border:solid 1px #d6d6d6; font:bold 9pt arial; color:#000; text-shadow:1px 1px 0px #fff; text-decoration:none; cursor:pointer} 
+.sagVadeliMevduat .vmContent .row a span{text-align:center;padding-top:6px;width:100px;float:left}
+.sagVadeliMevduat .vmContent .row a:hover{background-position:0px -320px}
+.sagVadeliMevduat .vmContent .seperator{width:268px; height:1px; overflow:hidden; background-color:#dadada; margin:7px 0 -5px}
+.sagVadeliMevduat .vmContent .adv{width:268px;font:normal 10px Arial; text-align:center}
+.sagVadeliMevduat .vmContent .lastRow a{width:268px; display:inline-block; margin-top:20px; font:normal 13px Arial; color:#353535;text-decoration:none}
+.sagVadeliMevduat .vmContent .lastRow b{color:#000; margin-left:3px; font-style:italic}
+.ie7 .sagVadeliMevduat .vmContent .row select{margin-top:6px; height:20px}
+/* SAĞ KOLON VADELİ MEVDUAT HESAPLAMA */
+
+/* KOBİ SAYFASI SLIDER VE LİSTELEME KODLARI */
+.kobiNews{width:650px; overflow:hidden; margin-bottom:20px;}
+.kobiNews a.kobiBox{width:210px; height:290px; display:block; overflow:hidden; float:left; border-bottom:1px solid #e6e6e6; margin:0 0 40px 10px;}
+.kobiNews a.kobiBox img{width:210px; height:150px; overflow:hidden; margin-bottom:15px;}
+.kobiNews a.kobiBox span{width:210px; max-height:101px; display:block; overflow:hidden; color:#333; font:bold 14px/20px Arial;}
+.kobiNews a.kobiBox small{width:210px; display:inline-block; color:#999; font:normal 13px/18px Arial; margin-top:5px;}
+.kobiNews a.kobiBox:hover span{text-decoration:underline;}
+.kobiNews a.kobiBox:hover small{text-decoration:underline;}
+
+/* ALTIN TEXT AREA */
+.goldTextArea{width:650px; overflow:hidden;}
+.goldTextArea .head{width:650px; height:34px; display:inline-block; background-color:#deeaef;}
+.goldTextArea .head span{height:34px; display:inline-block; float:left;}
+.goldTextArea .head span.icon{width:31px; background-position:-324px -261px;}
+.goldTextArea .head span.caption{padding:0 15px; color:#333; font:bold 12px/34px Arial;}
+.goldTextArea .goldContent{width:630px; display:inline-block; padding:15px 10px 0; color:#262626; font:normal 12px/18px Arial;}

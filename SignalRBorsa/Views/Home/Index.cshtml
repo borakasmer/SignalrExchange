@@ -1,0 +1,79 @@
+﻿@model List<SignalRBorsa.Controllers.Model>
+@{        
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script type="text/javascript">    
+    var messagehub = $.connection.borsa;
+
+    messagehub.client.addData = function (data) {      
+        //$("#Ul" + data.Name).css("background-color", "red");
+        $("#Ul" + data.Name).slideUp(300).css("background-color", "red").fadeIn(2000);
+
+        window.setTimeout(function () {
+            $("#Ul" + data.Name).hide().css("background-color", "").fadeIn(2000);
+        }, 5000);
+
+        $("#Son" + data.Name).text(data.Son);
+        $("#Dun" + data.Name).text(data.Dun);
+        $("#Yuzde" + data.Name).text(data.Yuzde);
+        $("#Yuksek" + data.Name).text(data.Yuksek);
+        $("#Dusuk" + data.Name).text(data.Dusuk);
+        $("#Ort" + data.Name).text(data.Ort);
+        $("#HacimLot" + data.Name).text(data.HacimLot);
+        $("#HacimTl" + data.Name).text(data.HacimTl);
+    }
+
+    messagehub.client.changeBG = function (ID) {
+        if (ID == 1)
+        {
+            $("body").css({ "backgroundImage": "url('/content/bg5.jpg')" });            
+        }
+        else if (ID == 2)
+        {
+            $("body").css({ "backgroundImage": "url('/content/bg2.jpg')" });
+        }
+    }
+    $.connection.hub.start();
+</script>
+<div style="width:800px; margin:0 auto;">
+    <div class="oranlar">        
+        <ul class="width648px">
+            <li class="hBig">Hisse</li>
+            <li class="hNarrow">Son</li>
+            <li class="hNarrow">Dün</li>
+            <li class="hNarrow">%</li>
+            <li class="hNarrow">Yüksek</li>
+            <li class="hNarrow">Düşük</li>
+            <li class="hNarrow">Ağ. Ort.</li>
+            <li class="hWide">Hacim(LOT)</li>
+            <li class="hWide">Hacim(TL)</li>
+        </ul>
+        <div class="dataList">
+
+            @foreach(var item in Model)
+            {
+            <ul style="" id="Ul@(item.Name)">
+                <li class="hBig Arrow" id="Name@(item.Name)"><a href="/borsa/hisse-detay-bilgileri/@item.Name/">@item.Name</a> <span class="s up"></span></li>
+
+                <li class="hNarrow" id="Son@(item.Name)">@item.Son</li>
+
+                <li class="hNarrow" id="Dun@(item.Name)">@item.Dun</li>
+
+                <li class="hNarrow" id="Yuzde@(item.Name)">@item.Yuzde</li>
+
+                <li class="hNarrow" id="Yuksek@(item.Name)">@item.Yuksek</li>
+
+                <li class="hNarrow" id="Dusuk@(item.Name)">@item.Dusuk</li>
+
+                <li class="hNarrow" id="Ort@(item.Name)">@item.Ort</li>
+
+                <li class="hWide" id="HacimLot@(item.Name)">@item.HacimLot</li>
+
+                <li class="hWide" id="HacimTl@(item.Name)">@item.HacimTl</li>
+
+            </ul>
+            }                 
+        </div>
+    </div>
+</div>

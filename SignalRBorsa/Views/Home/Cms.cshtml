@@ -1,0 +1,121 @@
+﻿@model List<SignalRBorsa.Controllers.Model>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Cms Borsa</title>
+    <h2>Cms Borsa</h2>
+    <script src="@Url.Content("~/Scripts/jquery-1.8.2.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/jquery.signalR-1.1.2.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/signalr/hubs")"></script>
+    @Styles.Render("~/Content/css")
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#reklam").change(function(){
+                var ID=$(this).val();
+                messagehub.server.changeBG(ID);
+            });
+        });
+        var messagehub = $.connection.borsa;
+
+        function BorsaData() {
+            this.Name;
+            this.Son;
+            this.Dun;
+            this.Yuzde;
+            this.Yuksek;
+            this.Dusuk;
+            this.Ort;
+            this.HacimLot;
+            this.HacimTl;
+        };
+        function upData(rowCount)
+        {                     
+            var Data = new BorsaData();            
+            Data.Name = $("#Name"+rowCount).val();
+            var value=$("#Son"+rowCount).val();
+            Data.Son = value.replace(",", ".");
+            value=$("#Dun"+rowCount).val();
+            Data.Dun = value.replace(",", ".");
+            value=$("#Yuzde"+rowCount).val();
+            Data.Yuzde = value.replace(",", ".");
+            value=$("#Yuksek"+rowCount).val();
+            Data.Yuksek = value.replace(",", ".");
+            value=$("#Dusuk"+rowCount).val();
+            Data.Dusuk = value.replace(",", ".");
+            value=$("#Ort"+rowCount).val();
+            Data.Ort = value.replace(",", ".");
+            value=$("#HacimLot"+rowCount).val();
+            Data.HacimLot = value.replace(",", ".");
+            value=$("#HacimTl"+rowCount).val();
+            Data.HacimTl = value.replace(",", ".");
+            messagehub.server.updateData(Data);            
+        }
+
+        $.connection.hub.start();      
+    </script>
+</head>
+<body>
+    <div style="width: 800px; margin: 0 auto;">
+        @Html.DropDownList("reklam", new SelectList(
+       new List<Object>{
+           new {value=1,text="Reklam1"},
+           new {value=2,text="Reklam2"},
+           },
+           "value",
+           "text",
+           2))
+        <br />
+        <div class="oranlar">
+            <ul class="width648px">
+                <li class="hBig">Hisse</li>
+                <li class="hNarrow">Son</li>
+                <li class="hNarrow">Dün</li>
+                <li class="hNarrow">%</li>
+                <li class="hNarrow">Yüksek</li>
+                <li class="hNarrow">Düşük</li>
+                <li class="hNarrow">Ağ. Ort.</li>
+                <li class="hWide">Hacim(LOT)</li>
+                <li class="hWide">Hacim(TL)</li>
+            </ul>
+            <div class="dataList">
+                @{
+                    int rowCount = 0;
+                }
+                @foreach (var item in Model)
+                {
+                    rowCount++;
+                    <ul style="">
+                        <li class="hBig Arrow" id="Name@(item.Name)"><a href="/borsa/hisse-detay-bilgileri/@item.Name/">@Html.TextBox("Name" + rowCount, item.Name, new { size = "4" })</a> <span class="s up"></span></li>
+
+                        <li class="hNarrow" id="Son@(item.Name)">@Html.TextBox("Son" + rowCount, item.Son, new { size = "3" })</li>
+
+                        <li class="hNarrow" id="Dun@(item.Name)">@Html.TextBox("Dun" + rowCount, item.Dun, new { size = "3" })</li>
+
+                        <li class="hNarrow" id="Yuzde@(item.Name)">@Html.TextBox("Yuzde" + rowCount, item.Yuzde, new { size = "3" })</li>
+
+                        <li class="hNarrow" id="Yuksek@(item.Name)">@Html.TextBox("Yuksek" + rowCount, item.Yuksek, new { size = "3" })</li>
+
+                        <li class="hNarrow" id="Dusuk@(item.Name)">@Html.TextBox("Dusuk" + rowCount, item.Dusuk, new { size = "3" })</li>
+
+                        <li class="hNarrow" id="Ort@(item.Name)">@Html.TextBox("Ort" + rowCount, item.Ort, new { size = "3" })</li>
+
+                        <li class="hWide" id="HacimLot@(item.Name)">@Html.TextBox("HacimLot" + rowCount, item.HacimLot, new { size = "3" })</li>
+
+                        <li class="hWide" id="HacimTl@(item.Name)">@Html.TextBox("HacimTl" + rowCount, item.HacimTl, new { size = "3" })</li>
+
+                        <li class="hWide" id="Submit@(item.Name)">
+                            <input type="button" value="Güncelle" onclick="upData('@rowCount    ')"/></li>
+
+                    </ul>
+                }
+            </div>
+        </div>
+    </div>
+</body>
+</html>
