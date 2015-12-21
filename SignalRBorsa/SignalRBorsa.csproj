@@ -26,6 +26,7 @@
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
     <OldToolsVersion>4.0</OldToolsVersion>
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -215,17 +216,6 @@
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <None Include="Properties\PublishProfiles\borsasignalr - FTP %282%29.pubxml" />
-    <None Include="Properties\PublishProfiles\borsasignalr - FTP %283%29.pubxml" />
-    <None Include="Properties\PublishProfiles\BorsaSignalR - FTP.pubxml" />
-    <None Include="Properties\PublishProfiles\borsasignalr - Web Deploy %282%29.pubxml" />
-    <None Include="Properties\PublishProfiles\borsasignalr - Web Deploy %283%29.pubxml" />
-    <None Include="Properties\PublishProfiles\BorsaSignalR - Web Deploy.pubxml" />
-    <None Include="Properties\PublishProfiles\borsasignalr2 - FTP.pubxml" />
-    <None Include="Properties\PublishProfiles\borsasignalr2 - Web Deploy.pubxml" />
-    <None Include="Properties\PublishProfiles\borsasignalrs - FTP.pubxml" />
-    <None Include="Properties\PublishProfiles\borsasignalrs - Web Deploy.pubxml" />
-    <None Include="Properties\PublishProfiles\borsasignalrs.pubxml" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.8.2.js" />
     <Content Include="Scripts\jquery-1.8.2.min.js" />
@@ -261,6 +251,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="Properties\PublishProfiles\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
